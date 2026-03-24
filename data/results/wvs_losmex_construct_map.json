@@ -1,0 +1,4204 @@
+{
+  "version": "v1",
+  "n_wvs_constructs": 56,
+  "n_losmex_constructs": 93,
+  "quality_summary": {
+    "weak": 33,
+    "moderate": 19,
+    "strong": 4
+  },
+  "domain_correspondence": {
+    "WVS_A": [
+      "IDE",
+      "FAM",
+      "VAL"
+    ],
+    "WVS_B": [
+      "MED"
+    ],
+    "WVS_C": [
+      "ECO",
+      "LAB"
+    ],
+    "WVS_D": [
+      "FAM",
+      "GEN"
+    ],
+    "WVS_E": [
+      "POL",
+      "DEM",
+      "FED",
+      "PAR",
+      "GOB"
+    ],
+    "WVS_F": [
+      "REL",
+      "VAL"
+    ],
+    "WVS_G": [
+      "IDE",
+      "MIG"
+    ],
+    "WVS_H": [
+      "SEG",
+      "VIC"
+    ],
+    "WVS_I": [
+      "CIE",
+      "EDU"
+    ]
+  },
+  "mappings": [
+    {
+      "wvs_key": "WVS_A|importance_of_life_domains",
+      "wvs_col": "wvs_agg_importance_of_life_domains",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Perceived importance of major life domains including family, friends, leisure, politics, work, and religion. Items tap conceptually distinct domains rather than a single latent trait.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_A|child_qualities_autonomy_self_expression",
+      "wvs_col": "wvs_agg_child_qualities_autonomy_self_expression",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Emphasis on child qualities reflecting autonomy, creativity, and self-direction such as independence, imagination, and tolerance.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_A|child_qualities_conformity_tradition",
+      "wvs_col": "wvs_agg_child_qualities_conformity_tradition",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Emphasis on child qualities reflecting conformity, obedience, religious faith, and good manners.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_A|child_qualities_prosocial_diligence",
+      "wvs_col": "wvs_agg_child_qualities_prosocial_diligence",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Emphasis on child qualities reflecting thrift, perseverance, and unselfishness.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_A|social_intolerance_outgroups",
+      "wvs_col": "wvs_agg_social_intolerance_outgroups",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Unwillingness to have various social outgroups (e.g., immigrants, people of different race/religion, homosexuals) as neighbors, reflecting prejudice and social distance.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "POB__social_policy_preferences",
+          "losmex_col": "agg_social_policy_preferences",
+          "losmex_domain": "POB",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.0203,
+            -0.0164,
+            -0.0134,
+            -0.0275
+          ],
+          "losmex_ses_magnitude": 0.0201
+        },
+        {
+          "losmex_id": "SOC__perceived_media_social_impact",
+          "losmex_col": "agg_perceived_media_social_impact",
+          "losmex_domain": "SOC",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.0159,
+            0.019,
+            0.0533,
+            0.1203
+          ],
+          "losmex_ses_magnitude": 0.0669
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__tolerance_social_diversity",
+        "losmex_col": "agg_tolerance_social_diversity",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.2,
+        "domain_match": true,
+        "score": 0.35,
+        "losmex_fingerprint": [
+          -0.1455,
+          0.0825,
+          -0.0126,
+          0.1539
+        ],
+        "losmex_ses_magnitude": 0.1138
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_A|social_intolerance_deviant_behavior",
+      "wvs_col": "wvs_agg_social_intolerance_deviant_behavior",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Unwillingness to have neighbors who engage in stigmatized behaviors such as drug use or heavy drinking.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "POB__social_policy_preferences",
+          "losmex_col": "agg_social_policy_preferences",
+          "losmex_domain": "POB",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.0203,
+            -0.0164,
+            -0.0134,
+            -0.0275
+          ],
+          "losmex_ses_magnitude": 0.0201
+        },
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__tolerance_social_diversity",
+        "losmex_col": "agg_tolerance_social_diversity",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.167,
+        "domain_match": true,
+        "score": 0.317,
+        "losmex_fingerprint": [
+          -0.1455,
+          0.0825,
+          -0.0126,
+          0.1539
+        ],
+        "losmex_ses_magnitude": 0.1138
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_A|subjective_wellbeing",
+      "wvs_col": "wvs_agg_subjective_wellbeing",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Self-reported happiness, life satisfaction, and perceived freedom of choice/control over one's life.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SAL__subjective_wellbeing",
+          "losmex_col": "agg_subjective_wellbeing",
+          "losmex_domain": "SAL",
+          "name_similarity": 1.0,
+          "domain_match": false,
+          "score": 1.0,
+          "losmex_fingerprint": [
+            0.0174,
+            -0.0003,
+            0.0169,
+            -0.1866
+          ],
+          "losmex_ses_magnitude": 0.0941
+        },
+        {
+          "losmex_id": "POB__subjective_economic_wellbeing_and_agency",
+          "losmex_col": "agg_subjective_economic_wellbeing_and_agency",
+          "losmex_domain": "POB",
+          "name_similarity": 0.4,
+          "domain_match": false,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            -0.02,
+            -0.1275,
+            0.0047,
+            -0.047
+          ],
+          "losmex_ses_magnitude": 0.0687
+        },
+        {
+          "losmex_id": "ECO__economic_wellbeing_perception",
+          "losmex_col": "agg_economic_wellbeing_perception",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.1178,
+            0.0101,
+            0.0284,
+            0.0473
+          ],
+          "losmex_ses_magnitude": 0.0652
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SAL__subjective_wellbeing",
+        "losmex_col": "agg_subjective_wellbeing",
+        "losmex_domain": "SAL",
+        "name_similarity": 1.0,
+        "domain_match": false,
+        "score": 1.0,
+        "losmex_fingerprint": [
+          0.0174,
+          -0.0003,
+          0.0169,
+          -0.1866
+        ],
+        "losmex_ses_magnitude": 0.0941
+      },
+      "match_quality": "strong"
+    },
+    {
+      "wvs_key": "WVS_A|voluntary_association_active_membership",
+      "wvs_col": "wvs_agg_voluntary_association_active_membership",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Count of active memberships or participation across various voluntary organizations, reflecting civic engagement and social capital.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_A|voluntary_association_belonging",
+      "wvs_col": "wvs_agg_voluntary_association_belonging",
+      "wvs_domain": "WVS_A",
+      "wvs_description": "Count of voluntary organizations to which the respondent reports belonging (binary membership indicator), reflecting associational social capital breadth.",
+      "candidate_domains": [
+        "IDE",
+        "FAM",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_C|job_scarcity_gender_discrimination",
+      "wvs_col": "wvs_agg_job_scarcity_gender_discrimination",
+      "wvs_domain": "WVS_C",
+      "wvs_description": "Endorsement of prioritizing men over women in employment when jobs are scarce, reflecting gender-based labor market attitudes.",
+      "candidate_domains": [
+        "ECO",
+        "LAB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "ECO__job_search_and_employment_precarity",
+          "losmex_col": "agg_job_search_and_employment_precarity",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.125,
+          "domain_match": true,
+          "score": 0.275,
+          "losmex_fingerprint": [
+            -0.0709,
+            0.056,
+            0.3142,
+            0.1624
+          ],
+          "losmex_ses_magnitude": 0.1825
+        },
+        {
+          "losmex_id": "IND__perceived_indigenous_discrimination",
+          "losmex_col": "agg_perceived_indigenous_discrimination",
+          "losmex_domain": "IND",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.0169,
+            -0.011,
+            0.0245,
+            0.0177
+          ],
+          "losmex_ses_magnitude": 0.0182
+        },
+        {
+          "losmex_id": "ECO__economic_wellbeing_perception",
+          "losmex_col": "agg_economic_wellbeing_perception",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1178,
+            0.0101,
+            0.0284,
+            0.0473
+          ],
+          "losmex_ses_magnitude": 0.0652
+        }
+      ],
+      "best_match": {
+        "losmex_id": "ECO__job_search_and_employment_precarity",
+        "losmex_col": "agg_job_search_and_employment_precarity",
+        "losmex_domain": "ECO",
+        "name_similarity": 0.125,
+        "domain_match": true,
+        "score": 0.275,
+        "losmex_fingerprint": [
+          -0.0709,
+          0.056,
+          0.3142,
+          0.1624
+        ],
+        "losmex_ses_magnitude": 0.1825
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_C|job_scarcity_nativist_preference",
+      "wvs_col": "wvs_agg_job_scarcity_nativist_preference",
+      "wvs_domain": "WVS_C",
+      "wvs_description": "Endorsement of prioritizing nationals over immigrants in employment when jobs are scarce, reflecting ethnocentric labor market attitudes.",
+      "candidate_domains": [
+        "ECO",
+        "LAB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "ECO__job_search_and_employment_precarity",
+          "losmex_col": "agg_job_search_and_employment_precarity",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.125,
+          "domain_match": true,
+          "score": 0.275,
+          "losmex_fingerprint": [
+            -0.0709,
+            0.056,
+            0.3142,
+            0.1624
+          ],
+          "losmex_ses_magnitude": 0.1825
+        },
+        {
+          "losmex_id": "FED__legal_uniformity_preference",
+          "losmex_col": "agg_legal_uniformity_preference",
+          "losmex_domain": "FED",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.1382,
+            0.0625,
+            0.031,
+            0.0389
+          ],
+          "losmex_ses_magnitude": 0.0798
+        },
+        {
+          "losmex_id": "ECO__economic_wellbeing_perception",
+          "losmex_col": "agg_economic_wellbeing_perception",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1178,
+            0.0101,
+            0.0284,
+            0.0473
+          ],
+          "losmex_ses_magnitude": 0.0652
+        }
+      ],
+      "best_match": {
+        "losmex_id": "ECO__job_search_and_employment_precarity",
+        "losmex_col": "agg_job_search_and_employment_precarity",
+        "losmex_domain": "ECO",
+        "name_similarity": 0.125,
+        "domain_match": true,
+        "score": 0.275,
+        "losmex_fingerprint": [
+          -0.0709,
+          0.056,
+          0.3142,
+          0.1624
+        ],
+        "losmex_ses_magnitude": 0.1825
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_C|work_ethic",
+      "wvs_col": "wvs_agg_work_ethic",
+      "wvs_domain": "WVS_C",
+      "wvs_description": "Belief in the moral and social importance of work, including viewing idleness negatively, work as a societal duty, and prioritizing work over leisure.",
+      "candidate_domains": [
+        "ECO",
+        "LAB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "ECO__economic_wellbeing_perception",
+          "losmex_col": "agg_economic_wellbeing_perception",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1178,
+            0.0101,
+            0.0284,
+            0.0473
+          ],
+          "losmex_ses_magnitude": 0.0652
+        },
+        {
+          "losmex_id": "ECO__job_search_and_employment_precarity",
+          "losmex_col": "agg_job_search_and_employment_precarity",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0709,
+            0.056,
+            0.3142,
+            0.1624
+          ],
+          "losmex_ses_magnitude": 0.1825
+        },
+        {
+          "losmex_id": "ECO__labor_union_attitudes",
+          "losmex_col": "agg_labor_union_attitudes",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0482,
+            -0.0259,
+            -0.0159,
+            -0.0041
+          ],
+          "losmex_ses_magnitude": 0.0286
+        }
+      ],
+      "best_match": {
+        "losmex_id": "ECO__economic_wellbeing_perception",
+        "losmex_col": "agg_economic_wellbeing_perception",
+        "losmex_domain": "ECO",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          -0.1178,
+          0.0101,
+          0.0284,
+          0.0473
+        ],
+        "losmex_ses_magnitude": 0.0652
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_D|gender_role_traditionalism",
+      "wvs_col": "wvs_agg_gender_role_traditionalism",
+      "wvs_domain": "WVS_D",
+      "wvs_description": "Belief that men are superior to women in public roles (politics, business, education) and that women's employment harms children, reflecting traditional gender ideology.",
+      "candidate_domains": [
+        "FAM",
+        "GEN"
+      ],
+      "matches": [
+        {
+          "losmex_id": "GEN__traditional_gender_role_attitudes",
+          "losmex_col": "agg_traditional_gender_role_attitudes",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.4,
+          "domain_match": true,
+          "score": 0.55,
+          "losmex_fingerprint": [
+            0.1773,
+            -0.0962,
+            0.1564,
+            -0.113
+          ],
+          "losmex_ses_magnitude": 0.1396
+        },
+        {
+          "losmex_id": "GEN__tolerance_of_gender_based_violence",
+          "losmex_col": "agg_tolerance_of_gender_based_violence",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.143,
+          "domain_match": true,
+          "score": 0.293,
+          "losmex_fingerprint": [
+            -0.0643,
+            -0.0275,
+            -0.0293,
+            0.0183
+          ],
+          "losmex_ses_magnitude": 0.039
+        },
+        {
+          "losmex_id": "GEN__sexual_and_reproductive_attitudes",
+          "losmex_col": "agg_sexual_and_reproductive_attitudes",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.1171,
+            -0.1123,
+            0.0369,
+            -0.0387
+          ],
+          "losmex_ses_magnitude": 0.0854
+        }
+      ],
+      "best_match": {
+        "losmex_id": "GEN__traditional_gender_role_attitudes",
+        "losmex_col": "agg_traditional_gender_role_attitudes",
+        "losmex_domain": "GEN",
+        "name_similarity": 0.4,
+        "domain_match": true,
+        "score": 0.55,
+        "losmex_fingerprint": [
+          0.1773,
+          -0.0962,
+          0.1564,
+          -0.113
+        ],
+        "losmex_ses_magnitude": 0.1396
+      },
+      "match_quality": "strong"
+    },
+    {
+      "wvs_key": "WVS_D|female_income_threat_to_marriage",
+      "wvs_col": "wvs_agg_female_income_threat_to_marriage",
+      "wvs_domain": "WVS_D",
+      "wvs_description": "Perception that a wife earning more than her husband causes relational problems, reflecting traditional gender-economic norms.",
+      "candidate_domains": [
+        "FAM",
+        "GEN"
+      ],
+      "matches": [
+        {
+          "losmex_id": "GEN__traditional_gender_role_attitudes",
+          "losmex_col": "agg_traditional_gender_role_attitudes",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.1773,
+            -0.0962,
+            0.1564,
+            -0.113
+          ],
+          "losmex_ses_magnitude": 0.1396
+        },
+        {
+          "losmex_id": "GEN__tolerance_of_gender_based_violence",
+          "losmex_col": "agg_tolerance_of_gender_based_violence",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0643,
+            -0.0275,
+            -0.0293,
+            0.0183
+          ],
+          "losmex_ses_magnitude": 0.039
+        },
+        {
+          "losmex_id": "GEN__sexual_and_reproductive_attitudes",
+          "losmex_col": "agg_sexual_and_reproductive_attitudes",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.1171,
+            -0.1123,
+            0.0369,
+            -0.0387
+          ],
+          "losmex_ses_magnitude": 0.0854
+        }
+      ],
+      "best_match": {
+        "losmex_id": "GEN__traditional_gender_role_attitudes",
+        "losmex_col": "agg_traditional_gender_role_attitudes",
+        "losmex_domain": "GEN",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.1773,
+          -0.0962,
+          0.1564,
+          -0.113
+        ],
+        "losmex_ses_magnitude": 0.1396
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_D|familial_duty_obligations",
+      "wvs_col": "wvs_agg_familial_duty_obligations",
+      "wvs_domain": "WVS_D",
+      "wvs_description": "Normative beliefs about obligations within the family, including the duty to have children and to care for aging parents.",
+      "candidate_domains": [
+        "FAM",
+        "GEN"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FAM__intergenerational_obligations",
+          "losmex_col": "agg_intergenerational_obligations",
+          "losmex_domain": "FAM",
+          "name_similarity": 0.25,
+          "domain_match": true,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            0.0191,
+            0.0178,
+            -0.0154,
+            -0.0952
+          ],
+          "losmex_ses_magnitude": 0.05
+        },
+        {
+          "losmex_id": "GEN__traditional_gender_role_attitudes",
+          "losmex_col": "agg_traditional_gender_role_attitudes",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.1773,
+            -0.0962,
+            0.1564,
+            -0.113
+          ],
+          "losmex_ses_magnitude": 0.1396
+        },
+        {
+          "losmex_id": "GEN__tolerance_of_gender_based_violence",
+          "losmex_col": "agg_tolerance_of_gender_based_violence",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0643,
+            -0.0275,
+            -0.0293,
+            0.0183
+          ],
+          "losmex_ses_magnitude": 0.039
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FAM__intergenerational_obligations",
+        "losmex_col": "agg_intergenerational_obligations",
+        "losmex_domain": "FAM",
+        "name_similarity": 0.25,
+        "domain_match": true,
+        "score": 0.4,
+        "losmex_fingerprint": [
+          0.0191,
+          0.0178,
+          -0.0154,
+          -0.0952
+        ],
+        "losmex_ses_magnitude": 0.05
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_E|confidence_in_domestic_institutions",
+      "wvs_col": "wvs_agg_confidence_in_domestic_institutions",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Degree of confidence in key domestic governmental, political, and public institutions in Mexico.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        },
+        {
+          "losmex_id": "FED__legal_uniformity_preference",
+          "losmex_col": "agg_legal_uniformity_preference",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1382,
+            0.0625,
+            0.031,
+            0.0389
+          ],
+          "losmex_ses_magnitude": 0.0798
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__perceived_representativeness",
+        "losmex_col": "agg_perceived_representativeness",
+        "losmex_domain": "FED",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0285,
+          -0.0758,
+          -0.0061,
+          -0.0863
+        ],
+        "losmex_ses_magnitude": 0.0593
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|confidence_in_civil_society_organizations",
+      "wvs_col": "wvs_agg_confidence_in_civil_society_organizations",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Degree of confidence in non-governmental, charitable, and women's organizations.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        },
+        {
+          "losmex_id": "FED__legal_uniformity_preference",
+          "losmex_col": "agg_legal_uniformity_preference",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1382,
+            0.0625,
+            0.031,
+            0.0389
+          ],
+          "losmex_ses_magnitude": 0.0798
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__perceived_representativeness",
+        "losmex_col": "agg_perceived_representativeness",
+        "losmex_domain": "FED",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0285,
+          -0.0758,
+          -0.0061,
+          -0.0863
+        ],
+        "losmex_ses_magnitude": 0.0593
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|confidence_in_international_organizations",
+      "wvs_col": "wvs_agg_confidence_in_international_organizations",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Degree of confidence in international and supranational organizations such as the UN, IMF, World Bank, WHO, WTO, NATO, and ICC.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "GLO__international_institutional_engagement",
+          "losmex_col": "agg_international_institutional_engagement",
+          "losmex_domain": "GLO",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.1411,
+            0.0263,
+            0.0577,
+            0.0756
+          ],
+          "losmex_ses_magnitude": 0.0861
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        }
+      ],
+      "best_match": {
+        "losmex_id": "GLO__international_institutional_engagement",
+        "losmex_col": "agg_international_institutional_engagement",
+        "losmex_domain": "GLO",
+        "name_similarity": 0.167,
+        "domain_match": false,
+        "score": 0.167,
+        "losmex_fingerprint": [
+          -0.1411,
+          0.0263,
+          0.0577,
+          0.0756
+        ],
+        "losmex_ses_magnitude": 0.0861
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|perceived_corruption",
+      "wvs_col": "wvs_agg_perceived_corruption",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Perceptions of the extent and actors involved in corruption, including bribery and gift-giving to obtain public services.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.333,
+          "domain_match": true,
+          "score": 0.483,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "COR__corruption_perception",
+          "losmex_col": "agg_corruption_perception",
+          "losmex_domain": "COR",
+          "name_similarity": 0.333,
+          "domain_match": false,
+          "score": 0.333,
+          "losmex_fingerprint": [
+            -0.0048,
+            0.0327,
+            0.0172,
+            0.0257
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__perceived_representativeness",
+        "losmex_col": "agg_perceived_representativeness",
+        "losmex_domain": "FED",
+        "name_similarity": 0.333,
+        "domain_match": true,
+        "score": 0.483,
+        "losmex_fingerprint": [
+          0.0285,
+          -0.0758,
+          -0.0061,
+          -0.0863
+        ],
+        "losmex_ses_magnitude": 0.0593
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_E|electoral_integrity",
+      "wvs_col": "wvs_agg_electoral_integrity",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Perceptions of the fairness, cleanliness, and integrity of the electoral process.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "CUL__institutional_trust_and_electoral_confidence",
+          "losmex_col": "agg_institutional_trust_and_electoral_confidence",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            0.081,
+            -0.0452,
+            0.0015,
+            -0.0461
+          ],
+          "losmex_ses_magnitude": 0.0518
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        }
+      ],
+      "best_match": {
+        "losmex_id": "CUL__institutional_trust_and_electoral_confidence",
+        "losmex_col": "agg_institutional_trust_and_electoral_confidence",
+        "losmex_domain": "CUL",
+        "name_similarity": 0.167,
+        "domain_match": false,
+        "score": 0.167,
+        "losmex_fingerprint": [
+          0.081,
+          -0.0452,
+          0.0015,
+          -0.0461
+        ],
+        "losmex_ses_magnitude": 0.0518
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|postmaterialist_values",
+      "wvs_col": "wvs_agg_postmaterialist_values",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Inglehart's materialist vs. post-materialist value priorities measured through paired forced-choice items.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        },
+        {
+          "losmex_id": "FED__legal_uniformity_preference",
+          "losmex_col": "agg_legal_uniformity_preference",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1382,
+            0.0625,
+            0.031,
+            0.0389
+          ],
+          "losmex_ses_magnitude": 0.0798
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__perceived_representativeness",
+        "losmex_col": "agg_perceived_representativeness",
+        "losmex_domain": "FED",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0285,
+          -0.0758,
+          -0.0061,
+          -0.0863
+        ],
+        "losmex_ses_magnitude": 0.0593
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|autocracy_support",
+      "wvs_col": "wvs_agg_autocracy_support",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Preference for non-democratic forms of governance including strongman rule, technocracy, military rule, and theocracy.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "CUL__democratic_legitimacy_support",
+          "losmex_col": "agg_democratic_legitimacy_support",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            0.0382,
+            -0.0926,
+            -0.0148,
+            -0.0471
+          ],
+          "losmex_ses_magnitude": 0.0558
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        }
+      ],
+      "best_match": {
+        "losmex_id": "CUL__democratic_legitimacy_support",
+        "losmex_col": "agg_democratic_legitimacy_support",
+        "losmex_domain": "CUL",
+        "name_similarity": 0.25,
+        "domain_match": false,
+        "score": 0.25,
+        "losmex_fingerprint": [
+          0.0382,
+          -0.0926,
+          -0.0148,
+          -0.0471
+        ],
+        "losmex_ses_magnitude": 0.0558
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|democratic_values_importance",
+      "wvs_col": "wvs_agg_democratic_values_importance",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Ratings of how essential various democratic features are for a country's governance.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "CUL__democratic_legitimacy_support",
+          "losmex_col": "agg_democratic_legitimacy_support",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0382,
+            -0.0926,
+            -0.0148,
+            -0.0471
+          ],
+          "losmex_ses_magnitude": 0.0558
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        }
+      ],
+      "best_match": {
+        "losmex_id": "CUL__democratic_legitimacy_support",
+        "losmex_col": "agg_democratic_legitimacy_support",
+        "losmex_domain": "CUL",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          0.0382,
+          -0.0926,
+          -0.0148,
+          -0.0471
+        ],
+        "losmex_ses_magnitude": 0.0558
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|democratic_system_evaluation",
+      "wvs_col": "wvs_agg_democratic_system_evaluation",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Evaluations of the desirability of democracy, its importance, and the current democratic performance in Mexico.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "CUL__democratic_legitimacy_support",
+          "losmex_col": "agg_democratic_legitimacy_support",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0382,
+            -0.0926,
+            -0.0148,
+            -0.0471
+          ],
+          "losmex_ses_magnitude": 0.0558
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        }
+      ],
+      "best_match": {
+        "losmex_id": "CUL__democratic_legitimacy_support",
+        "losmex_col": "agg_democratic_legitimacy_support",
+        "losmex_domain": "CUL",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          0.0382,
+          -0.0926,
+          -0.0148,
+          -0.0471
+        ],
+        "losmex_ses_magnitude": 0.0558
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|offline_political_participation",
+      "wvs_col": "wvs_agg_offline_political_participation",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Engagement in conventional and unconventional offline political actions such as petitions, boycotts, demonstrations, strikes, and donations.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__political_interest_and_engagement",
+          "losmex_col": "agg_political_interest_and_engagement",
+          "losmex_domain": "FED",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            0.2301,
+            -0.2112,
+            -0.0463,
+            -0.0255
+          ],
+          "losmex_ses_magnitude": 0.1584
+        },
+        {
+          "losmex_id": "CUL__political_efficacy_and_engagement",
+          "losmex_col": "agg_political_efficacy_and_engagement",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.071,
+            -0.0871,
+            0.0229,
+            0.0344
+          ],
+          "losmex_ses_magnitude": 0.0599
+        },
+        {
+          "losmex_id": "NIN__youth_participation_and_voice",
+          "losmex_col": "agg_youth_participation_and_voice",
+          "losmex_domain": "NIN",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.1331,
+            0.1199,
+            -0.0027,
+            0.0536
+          ],
+          "losmex_ses_magnitude": 0.0935
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__political_interest_and_engagement",
+        "losmex_col": "agg_political_interest_and_engagement",
+        "losmex_domain": "FED",
+        "name_similarity": 0.167,
+        "domain_match": true,
+        "score": 0.317,
+        "losmex_fingerprint": [
+          0.2301,
+          -0.2112,
+          -0.0463,
+          -0.0255
+        ],
+        "losmex_ses_magnitude": 0.1584
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_E|online_political_participation",
+      "wvs_col": "wvs_agg_online_political_participation",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Engagement in political activities conducted through digital means including searching for political information, e-petitions, and organizing online.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__political_interest_and_engagement",
+          "losmex_col": "agg_political_interest_and_engagement",
+          "losmex_domain": "FED",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            0.2301,
+            -0.2112,
+            -0.0463,
+            -0.0255
+          ],
+          "losmex_ses_magnitude": 0.1584
+        },
+        {
+          "losmex_id": "CUL__political_efficacy_and_engagement",
+          "losmex_col": "agg_political_efficacy_and_engagement",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.071,
+            -0.0871,
+            0.0229,
+            0.0344
+          ],
+          "losmex_ses_magnitude": 0.0599
+        },
+        {
+          "losmex_id": "NIN__youth_participation_and_voice",
+          "losmex_col": "agg_youth_participation_and_voice",
+          "losmex_domain": "NIN",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.1331,
+            0.1199,
+            -0.0027,
+            0.0536
+          ],
+          "losmex_ses_magnitude": 0.0935
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__political_interest_and_engagement",
+        "losmex_col": "agg_political_interest_and_engagement",
+        "losmex_domain": "FED",
+        "name_similarity": 0.167,
+        "domain_match": true,
+        "score": 0.317,
+        "losmex_fingerprint": [
+          0.2301,
+          -0.2112,
+          -0.0463,
+          -0.0255
+        ],
+        "losmex_ses_magnitude": 0.1584
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_E|political_information_sources",
+      "wvs_col": "wvs_agg_political_information_sources",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Frequency of using various media sources to obtain political information.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__political_interest_and_engagement",
+          "losmex_col": "agg_political_interest_and_engagement",
+          "losmex_domain": "FED",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            0.2301,
+            -0.2112,
+            -0.0463,
+            -0.0255
+          ],
+          "losmex_ses_magnitude": 0.1584
+        },
+        {
+          "losmex_id": "CUL__political_efficacy_and_engagement",
+          "losmex_col": "agg_political_efficacy_and_engagement",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            -0.071,
+            -0.0871,
+            0.0229,
+            0.0344
+          ],
+          "losmex_ses_magnitude": 0.0599
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__political_interest_and_engagement",
+        "losmex_col": "agg_political_interest_and_engagement",
+        "losmex_domain": "FED",
+        "name_similarity": 0.167,
+        "domain_match": true,
+        "score": 0.317,
+        "losmex_fingerprint": [
+          0.2301,
+          -0.2112,
+          -0.0463,
+          -0.0255
+        ],
+        "losmex_ses_magnitude": 0.1584
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_E|voting_participation",
+      "wvs_col": "wvs_agg_voting_participation",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Self-reported frequency of voting at local and national levels.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "NIN__youth_participation_and_voice",
+          "losmex_col": "agg_youth_participation_and_voice",
+          "losmex_domain": "NIN",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.1331,
+            0.1199,
+            -0.0027,
+            0.0536
+          ],
+          "losmex_ses_magnitude": 0.0935
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        },
+        {
+          "losmex_id": "FED__fiscal_and_service_federalism_preferences",
+          "losmex_col": "agg_fiscal_and_service_federalism_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0777,
+            0.0966,
+            0.0248,
+            0.0077
+          ],
+          "losmex_ses_magnitude": 0.0633
+        }
+      ],
+      "best_match": {
+        "losmex_id": "NIN__youth_participation_and_voice",
+        "losmex_col": "agg_youth_participation_and_voice",
+        "losmex_domain": "NIN",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          -0.1331,
+          0.1199,
+          -0.0027,
+          0.0536
+        ],
+        "losmex_ses_magnitude": 0.0935
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|science_technology_optimism",
+      "wvs_col": "wvs_agg_science_technology_optimism",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Beliefs about whether science and technology improve life, create opportunities, and make the world better.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "CIE__science_technology_self_efficacy",
+          "losmex_col": "agg_science_technology_self_efficacy",
+          "losmex_domain": "CIE",
+          "name_similarity": 0.4,
+          "domain_match": false,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            0.379,
+            -0.1178,
+            -0.0527,
+            -0.2714
+          ],
+          "losmex_ses_magnitude": 0.2418
+        },
+        {
+          "losmex_id": "CIE__science_technology_interest_engagement",
+          "losmex_col": "agg_science_technology_interest_engagement",
+          "losmex_domain": "CIE",
+          "name_similarity": 0.4,
+          "domain_match": false,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            0.4205,
+            -0.1128,
+            -0.1057,
+            -0.3538
+          ],
+          "losmex_ses_magnitude": 0.2854
+        },
+        {
+          "losmex_id": "CIE__perceived_societal_value_of_science_technology",
+          "losmex_col": "agg_perceived_societal_value_of_science_technology",
+          "losmex_domain": "CIE",
+          "name_similarity": 0.286,
+          "domain_match": false,
+          "score": 0.286,
+          "losmex_fingerprint": [
+            -0.3045,
+            0.0892,
+            0.0572,
+            0.213
+          ],
+          "losmex_ses_magnitude": 0.1932
+        }
+      ],
+      "best_match": {
+        "losmex_id": "CIE__science_technology_self_efficacy",
+        "losmex_col": "agg_science_technology_self_efficacy",
+        "losmex_domain": "CIE",
+        "name_similarity": 0.4,
+        "domain_match": false,
+        "score": 0.4,
+        "losmex_fingerprint": [
+          0.379,
+          -0.1178,
+          -0.0527,
+          -0.2714
+        ],
+        "losmex_ses_magnitude": 0.2418
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_E|economic_ideology",
+      "wvs_col": "wvs_agg_economic_ideology",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Preferences along the economic left-right spectrum including income equality, state vs. private ownership, government responsibility, and competition.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IND__national_economic_outlook",
+          "losmex_col": "agg_national_economic_outlook",
+          "losmex_domain": "IND",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            0.0235,
+            0.0277,
+            0.0157,
+            -0.0684
+          ],
+          "losmex_ses_magnitude": 0.0395
+        },
+        {
+          "losmex_id": "GLO__economic_globalization_attitudes",
+          "losmex_col": "agg_economic_globalization_attitudes",
+          "losmex_domain": "GLO",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.1484,
+            -0.0194,
+            0.101,
+            0.097
+          ],
+          "losmex_ses_magnitude": 0.1025
+        },
+        {
+          "losmex_id": "ECO__economic_wellbeing_perception",
+          "losmex_col": "agg_economic_wellbeing_perception",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.1178,
+            0.0101,
+            0.0284,
+            0.0473
+          ],
+          "losmex_ses_magnitude": 0.0652
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IND__national_economic_outlook",
+        "losmex_col": "agg_national_economic_outlook",
+        "losmex_domain": "IND",
+        "name_similarity": 0.25,
+        "domain_match": false,
+        "score": 0.25,
+        "losmex_fingerprint": [
+          0.0235,
+          0.0277,
+          0.0157,
+          -0.0684
+        ],
+        "losmex_ses_magnitude": 0.0395
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|societal_change_attitudes",
+      "wvs_col": "wvs_agg_societal_change_attitudes",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Attitudes toward broad societal changes including less emphasis on work and greater emphasis on technology.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "GLO__economic_globalization_attitudes",
+          "losmex_col": "agg_economic_globalization_attitudes",
+          "losmex_domain": "GLO",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.1484,
+            -0.0194,
+            0.101,
+            0.097
+          ],
+          "losmex_ses_magnitude": 0.1025
+        },
+        {
+          "losmex_id": "ECO__labor_union_attitudes",
+          "losmex_col": "agg_labor_union_attitudes",
+          "losmex_domain": "ECO",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0482,
+            -0.0259,
+            -0.0159,
+            -0.0041
+          ],
+          "losmex_ses_magnitude": 0.0286
+        },
+        {
+          "losmex_id": "FAM__conjugal_union_attitudes",
+          "losmex_col": "agg_conjugal_union_attitudes",
+          "losmex_domain": "FAM",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0908,
+            -0.0878,
+            -0.0208,
+            -0.0957
+          ],
+          "losmex_ses_magnitude": 0.0799
+        }
+      ],
+      "best_match": {
+        "losmex_id": "GLO__economic_globalization_attitudes",
+        "losmex_col": "agg_economic_globalization_attitudes",
+        "losmex_domain": "GLO",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          -0.1484,
+          -0.0194,
+          0.101,
+          0.097
+        ],
+        "losmex_ses_magnitude": 0.1025
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|international_organization_knowledge",
+      "wvs_col": "wvs_agg_international_organization_knowledge",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Factual knowledge questions about international organizations (UN Security Council, IMF headquarters, WHO mandate).",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "GLO__international_institutional_engagement",
+          "losmex_col": "agg_international_institutional_engagement",
+          "losmex_domain": "GLO",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.1411,
+            0.0263,
+            0.0577,
+            0.0756
+          ],
+          "losmex_ses_magnitude": 0.0861
+        },
+        {
+          "losmex_id": "MED__environmental_knowledge_self_efficacy",
+          "losmex_col": "agg_environmental_knowledge_self_efficacy",
+          "losmex_domain": "MED",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            0.1161,
+            -0.0566,
+            -0.0446,
+            -0.0225
+          ],
+          "losmex_ses_magnitude": 0.0692
+        },
+        {
+          "losmex_id": "FED__perceived_representativeness",
+          "losmex_col": "agg_perceived_representativeness",
+          "losmex_domain": "FED",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0285,
+            -0.0758,
+            -0.0061,
+            -0.0863
+          ],
+          "losmex_ses_magnitude": 0.0593
+        }
+      ],
+      "best_match": {
+        "losmex_id": "GLO__international_institutional_engagement",
+        "losmex_col": "agg_international_institutional_engagement",
+        "losmex_domain": "GLO",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          -0.1411,
+          0.0263,
+          0.0577,
+          0.0756
+        ],
+        "losmex_ses_magnitude": 0.0861
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_E|authoritarian_governance_tolerance",
+      "wvs_col": "wvs_agg_authoritarian_governance_tolerance",
+      "wvs_domain": "WVS_E",
+      "wvs_description": "Acceptance of authoritarian measures such as military takeover and religious law interpretation in governance.",
+      "candidate_domains": [
+        "POL",
+        "DEM",
+        "FED",
+        "PAR",
+        "GOB"
+      ],
+      "matches": [
+        {
+          "losmex_id": "FED__security_governance_preferences",
+          "losmex_col": "agg_security_governance_preferences",
+          "losmex_domain": "FED",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            -0.0877,
+            -0.0085,
+            0.0324,
+            0.0052
+          ],
+          "losmex_ses_magnitude": 0.047
+        },
+        {
+          "losmex_id": "CUL__authoritarian_predisposition",
+          "losmex_col": "agg_authoritarian_predisposition",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            0.0181,
+            -0.1033,
+            0.0597,
+            0.0131
+          ],
+          "losmex_ses_magnitude": 0.0607
+        },
+        {
+          "losmex_id": "REL__religious_tolerance",
+          "losmex_col": "agg_religious_tolerance",
+          "losmex_domain": "REL",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            0.062,
+            -0.0805,
+            -0.0478,
+            -0.0026
+          ],
+          "losmex_ses_magnitude": 0.0562
+        }
+      ],
+      "best_match": {
+        "losmex_id": "FED__security_governance_preferences",
+        "losmex_col": "agg_security_governance_preferences",
+        "losmex_domain": "FED",
+        "name_similarity": 0.2,
+        "domain_match": true,
+        "score": 0.35,
+        "losmex_fingerprint": [
+          -0.0877,
+          -0.0085,
+          0.0324,
+          0.0052
+        ],
+        "losmex_ses_magnitude": 0.047
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_F|religious_belief",
+      "wvs_col": "wvs_agg_religious_belief",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Latent dimension capturing core supernatural and religious beliefs including belief in God, afterlife, heaven, and hell.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__religious_socialization",
+          "losmex_col": "agg_religious_socialization",
+          "losmex_domain": "REL",
+          "name_similarity": 0.333,
+          "domain_match": true,
+          "score": 0.483,
+          "losmex_fingerprint": [
+            0.1972,
+            -0.0975,
+            -0.1604,
+            -0.1276
+          ],
+          "losmex_ses_magnitude": 0.1503
+        },
+        {
+          "losmex_id": "REL__religious_tolerance",
+          "losmex_col": "agg_religious_tolerance",
+          "losmex_domain": "REL",
+          "name_similarity": 0.333,
+          "domain_match": true,
+          "score": 0.483,
+          "losmex_fingerprint": [
+            0.062,
+            -0.0805,
+            -0.0478,
+            -0.0026
+          ],
+          "losmex_ses_magnitude": 0.0562
+        },
+        {
+          "losmex_id": "EDU__educational_returns_belief",
+          "losmex_col": "agg_educational_returns_belief",
+          "losmex_domain": "EDU",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            0.1552,
+            -0.0653,
+            0.011,
+            -0.0812
+          ],
+          "losmex_ses_magnitude": 0.0936
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__religious_socialization",
+        "losmex_col": "agg_religious_socialization",
+        "losmex_domain": "REL",
+        "name_similarity": 0.333,
+        "domain_match": true,
+        "score": 0.483,
+        "losmex_fingerprint": [
+          0.1972,
+          -0.0975,
+          -0.1604,
+          -0.1276
+        ],
+        "losmex_ses_magnitude": 0.1503
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_F|religious_practice_and_self_identification",
+      "wvs_col": "wvs_agg_religious_practice_and_self_identification",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Behavioral and self-identified religiosity including service attendance, self-described religiousness, and religious affiliation.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__religious_socialization",
+          "losmex_col": "agg_religious_socialization",
+          "losmex_domain": "REL",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            0.1972,
+            -0.0975,
+            -0.1604,
+            -0.1276
+          ],
+          "losmex_ses_magnitude": 0.1503
+        },
+        {
+          "losmex_id": "REL__religious_tolerance",
+          "losmex_col": "agg_religious_tolerance",
+          "losmex_domain": "REL",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            0.062,
+            -0.0805,
+            -0.0478,
+            -0.0026
+          ],
+          "losmex_ses_magnitude": 0.0562
+        },
+        {
+          "losmex_id": "REL__supernatural_beliefs",
+          "losmex_col": "agg_supernatural_beliefs",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1923,
+            0.099,
+            0.1075,
+            0.0958
+          ],
+          "losmex_ses_magnitude": 0.1299
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__religious_socialization",
+        "losmex_col": "agg_religious_socialization",
+        "losmex_domain": "REL",
+        "name_similarity": 0.167,
+        "domain_match": true,
+        "score": 0.317,
+        "losmex_fingerprint": [
+          0.1972,
+          -0.0975,
+          -0.1604,
+          -0.1276
+        ],
+        "losmex_ses_magnitude": 0.1503
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_F|religious_exclusivism",
+      "wvs_col": "wvs_agg_religious_exclusivism",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Degree to which individuals privilege their own religion and religious authority over science and other worldviews.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__religious_socialization",
+          "losmex_col": "agg_religious_socialization",
+          "losmex_domain": "REL",
+          "name_similarity": 0.333,
+          "domain_match": true,
+          "score": 0.483,
+          "losmex_fingerprint": [
+            0.1972,
+            -0.0975,
+            -0.1604,
+            -0.1276
+          ],
+          "losmex_ses_magnitude": 0.1503
+        },
+        {
+          "losmex_id": "REL__religious_tolerance",
+          "losmex_col": "agg_religious_tolerance",
+          "losmex_domain": "REL",
+          "name_similarity": 0.333,
+          "domain_match": true,
+          "score": 0.483,
+          "losmex_fingerprint": [
+            0.062,
+            -0.0805,
+            -0.0478,
+            -0.0026
+          ],
+          "losmex_ses_magnitude": 0.0562
+        },
+        {
+          "losmex_id": "REL__supernatural_beliefs",
+          "losmex_col": "agg_supernatural_beliefs",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1923,
+            0.099,
+            0.1075,
+            0.0958
+          ],
+          "losmex_ses_magnitude": 0.1299
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__religious_socialization",
+        "losmex_col": "agg_religious_socialization",
+        "losmex_domain": "REL",
+        "name_similarity": 0.333,
+        "domain_match": true,
+        "score": 0.483,
+        "losmex_fingerprint": [
+          0.1972,
+          -0.0975,
+          -0.1604,
+          -0.1276
+        ],
+        "losmex_ses_magnitude": 0.1503
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_F|civic_dishonesty_tolerance",
+      "wvs_col": "wvs_agg_civic_dishonesty_tolerance",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Moral permissiveness toward dishonest civic and economic behaviors such as claiming undeserved benefits, fare evasion, tax evasion, stealing, and bribery.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__religious_tolerance",
+          "losmex_col": "agg_religious_tolerance",
+          "losmex_domain": "REL",
+          "name_similarity": 0.25,
+          "domain_match": true,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            0.062,
+            -0.0805,
+            -0.0478,
+            -0.0026
+          ],
+          "losmex_ses_magnitude": 0.0562
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "COR__civic_enforcement_norms",
+          "losmex_col": "agg_civic_enforcement_norms",
+          "losmex_domain": "COR",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0215,
+            -0.0949,
+            0.0205,
+            0.0357
+          ],
+          "losmex_ses_magnitude": 0.0528
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__religious_tolerance",
+        "losmex_col": "agg_religious_tolerance",
+        "losmex_domain": "REL",
+        "name_similarity": 0.25,
+        "domain_match": true,
+        "score": 0.4,
+        "losmex_fingerprint": [
+          0.062,
+          -0.0805,
+          -0.0478,
+          -0.0026
+        ],
+        "losmex_ses_magnitude": 0.0562
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "wvs_col": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Tolerance toward behaviors related to sexuality and reproduction including homosexuality, prostitution, abortion, premarital sex, and casual sex.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "GEN__sexual_and_reproductive_attitudes",
+          "losmex_col": "agg_sexual_and_reproductive_attitudes",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.5,
+          "domain_match": false,
+          "score": 0.5,
+          "losmex_fingerprint": [
+            0.1171,
+            -0.1123,
+            0.0369,
+            -0.0387
+          ],
+          "losmex_ses_magnitude": 0.0854
+        },
+        {
+          "losmex_id": "REL__supernatural_beliefs",
+          "losmex_col": "agg_supernatural_beliefs",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1923,
+            0.099,
+            0.1075,
+            0.0958
+          ],
+          "losmex_ses_magnitude": 0.1299
+        },
+        {
+          "losmex_id": "REL__personal_religiosity",
+          "losmex_col": "agg_personal_religiosity",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.2039,
+            0.2143,
+            0.1148,
+            0.17
+          ],
+          "losmex_ses_magnitude": 0.18
+        }
+      ],
+      "best_match": {
+        "losmex_id": "GEN__sexual_and_reproductive_attitudes",
+        "losmex_col": "agg_sexual_and_reproductive_attitudes",
+        "losmex_domain": "GEN",
+        "name_similarity": 0.5,
+        "domain_match": false,
+        "score": 0.5,
+        "losmex_fingerprint": [
+          0.1171,
+          -0.1123,
+          0.0369,
+          -0.0387
+        ],
+        "losmex_ses_magnitude": 0.0854
+      },
+      "match_quality": "strong"
+    },
+    {
+      "wvs_key": "WVS_F|life_autonomy_morality_permissiveness",
+      "wvs_col": "wvs_agg_life_autonomy_morality_permissiveness",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Moral permissiveness toward personal life-course decisions including divorce, suicide, and euthanasia.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__supernatural_beliefs",
+          "losmex_col": "agg_supernatural_beliefs",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1923,
+            0.099,
+            0.1075,
+            0.0958
+          ],
+          "losmex_ses_magnitude": 0.1299
+        },
+        {
+          "losmex_id": "REL__personal_religiosity",
+          "losmex_col": "agg_personal_religiosity",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.2039,
+            0.2143,
+            0.1148,
+            0.17
+          ],
+          "losmex_ses_magnitude": 0.18
+        },
+        {
+          "losmex_id": "REL__religious_socialization",
+          "losmex_col": "agg_religious_socialization",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.1972,
+            -0.0975,
+            -0.1604,
+            -0.1276
+          ],
+          "losmex_ses_magnitude": 0.1503
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__supernatural_beliefs",
+        "losmex_col": "agg_supernatural_beliefs",
+        "losmex_domain": "REL",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          -0.1923,
+          0.099,
+          0.1075,
+          0.0958
+        ],
+        "losmex_ses_magnitude": 0.1299
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_F|violence_tolerance",
+      "wvs_col": "wvs_agg_violence_tolerance",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Degree of moral justifiability attributed to various forms of interpersonal and political violence.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__religious_tolerance",
+          "losmex_col": "agg_religious_tolerance",
+          "losmex_domain": "REL",
+          "name_similarity": 0.333,
+          "domain_match": true,
+          "score": 0.483,
+          "losmex_fingerprint": [
+            0.062,
+            -0.0805,
+            -0.0478,
+            -0.0026
+          ],
+          "losmex_ses_magnitude": 0.0562
+        },
+        {
+          "losmex_id": "GEN__tolerance_of_gender_based_violence",
+          "losmex_col": "agg_tolerance_of_gender_based_violence",
+          "losmex_domain": "GEN",
+          "name_similarity": 0.4,
+          "domain_match": false,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            -0.0643,
+            -0.0275,
+            -0.0293,
+            0.0183
+          ],
+          "losmex_ses_magnitude": 0.039
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__religious_tolerance",
+        "losmex_col": "agg_religious_tolerance",
+        "losmex_domain": "REL",
+        "name_similarity": 0.333,
+        "domain_match": true,
+        "score": 0.483,
+        "losmex_fingerprint": [
+          0.062,
+          -0.0805,
+          -0.0478,
+          -0.0026
+        ],
+        "losmex_ses_magnitude": 0.0562
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_F|religion_versus_secularism_orientation",
+      "wvs_col": "wvs_agg_religion_versus_secularism_orientation",
+      "wvs_domain": "WVS_F",
+      "wvs_description": "Orientation on whether religion or secular reasoning should guide personal and social life, capturing the religion-science and faith-reason tension.",
+      "candidate_domains": [
+        "REL",
+        "VAL"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__supernatural_beliefs",
+          "losmex_col": "agg_supernatural_beliefs",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1923,
+            0.099,
+            0.1075,
+            0.0958
+          ],
+          "losmex_ses_magnitude": 0.1299
+        },
+        {
+          "losmex_id": "REL__personal_religiosity",
+          "losmex_col": "agg_personal_religiosity",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.2039,
+            0.2143,
+            0.1148,
+            0.17
+          ],
+          "losmex_ses_magnitude": 0.18
+        },
+        {
+          "losmex_id": "REL__religious_socialization",
+          "losmex_col": "agg_religious_socialization",
+          "losmex_domain": "REL",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.1972,
+            -0.0975,
+            -0.1604,
+            -0.1276
+          ],
+          "losmex_ses_magnitude": 0.1503
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__supernatural_beliefs",
+        "losmex_col": "agg_supernatural_beliefs",
+        "losmex_domain": "REL",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          -0.1923,
+          0.099,
+          0.1075,
+          0.0958
+        ],
+        "losmex_ses_magnitude": 0.1299
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_G|outgroup_trust",
+      "wvs_col": "wvs_agg_outgroup_trust",
+      "wvs_domain": "WVS_G",
+      "wvs_description": "Degree of generalized trust toward people outside one's immediate social circle, including strangers and those of different religions or nationalities.",
+      "candidate_domains": [
+        "IDE",
+        "MIG"
+      ],
+      "matches": [
+        {
+          "losmex_id": "DER__institutional_trust_justice",
+          "losmex_col": "agg_institutional_trust_justice",
+          "losmex_domain": "DER",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.0604,
+            -0.0197,
+            -0.023,
+            0.0591
+          ],
+          "losmex_ses_magnitude": 0.0449
+        },
+        {
+          "losmex_id": "JUS__judicial_institutional_trust",
+          "losmex_col": "agg_judicial_institutional_trust",
+          "losmex_domain": "JUS",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.0536,
+            0.0549,
+            0.0489,
+            0.0117
+          ],
+          "losmex_ses_magnitude": 0.0459
+        },
+        {
+          "losmex_id": "JUS__police_trust_and_legitimacy",
+          "losmex_col": "agg_police_trust_and_legitimacy",
+          "losmex_domain": "JUS",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.055,
+            -0.0276,
+            -0.0227,
+            -0.037
+          ],
+          "losmex_ses_magnitude": 0.0377
+        }
+      ],
+      "best_match": {
+        "losmex_id": "DER__institutional_trust_justice",
+        "losmex_col": "agg_institutional_trust_justice",
+        "losmex_domain": "DER",
+        "name_similarity": 0.25,
+        "domain_match": false,
+        "score": 0.25,
+        "losmex_fingerprint": [
+          -0.0604,
+          -0.0197,
+          -0.023,
+          0.0591
+        ],
+        "losmex_ses_magnitude": 0.0449
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_G|perceived_positive_effects_of_immigration",
+      "wvs_col": "wvs_agg_perceived_positive_effects_of_immigration",
+      "wvs_domain": "WVS_G",
+      "wvs_description": "Belief that immigration brings beneficial outcomes such as filling jobs, strengthening cultural diversity, providing refuge, and improving lives of people from poorer countries.",
+      "candidate_domains": [
+        "IDE",
+        "MIG"
+      ],
+      "matches": [
+        {
+          "losmex_id": "MIG__perceived_opportunity_structure",
+          "losmex_col": "agg_perceived_opportunity_structure",
+          "losmex_domain": "MIG",
+          "name_similarity": 0.143,
+          "domain_match": true,
+          "score": 0.293,
+          "losmex_fingerprint": [
+            0.2601,
+            -0.1917,
+            -0.0116,
+            -0.1179
+          ],
+          "losmex_ses_magnitude": 0.1721
+        },
+        {
+          "losmex_id": "CUL__perceived_political_influence_of_actors",
+          "losmex_col": "agg_perceived_political_influence_of_actors",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.007,
+            -0.0341,
+            -0.017,
+            0.067
+          ],
+          "losmex_ses_magnitude": 0.0387
+        },
+        {
+          "losmex_id": "NIN__perceived_situation_of_children_and_youth",
+          "losmex_col": "agg_perceived_situation_of_children_and_youth",
+          "losmex_domain": "NIN",
+          "name_similarity": 0.222,
+          "domain_match": false,
+          "score": 0.222,
+          "losmex_fingerprint": [
+            0.0366,
+            -0.0545,
+            0.0249,
+            0.0303
+          ],
+          "losmex_ses_magnitude": 0.0382
+        }
+      ],
+      "best_match": {
+        "losmex_id": "MIG__perceived_opportunity_structure",
+        "losmex_col": "agg_perceived_opportunity_structure",
+        "losmex_domain": "MIG",
+        "name_similarity": 0.143,
+        "domain_match": true,
+        "score": 0.293,
+        "losmex_fingerprint": [
+          0.2601,
+          -0.1917,
+          -0.0116,
+          -0.1179
+        ],
+        "losmex_ses_magnitude": 0.1721
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_G|perceived_negative_effects_of_immigration",
+      "wvs_col": "wvs_agg_perceived_negative_effects_of_immigration",
+      "wvs_domain": "WVS_G",
+      "wvs_description": "Belief that immigration produces harmful consequences including increased crime, terrorism, unemployment, and social conflict.",
+      "candidate_domains": [
+        "IDE",
+        "MIG"
+      ],
+      "matches": [
+        {
+          "losmex_id": "MIG__perceived_opportunity_structure",
+          "losmex_col": "agg_perceived_opportunity_structure",
+          "losmex_domain": "MIG",
+          "name_similarity": 0.143,
+          "domain_match": true,
+          "score": 0.293,
+          "losmex_fingerprint": [
+            0.2601,
+            -0.1917,
+            -0.0116,
+            -0.1179
+          ],
+          "losmex_ses_magnitude": 0.1721
+        },
+        {
+          "losmex_id": "CUL__perceived_political_influence_of_actors",
+          "losmex_col": "agg_perceived_political_influence_of_actors",
+          "losmex_domain": "CUL",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.007,
+            -0.0341,
+            -0.017,
+            0.067
+          ],
+          "losmex_ses_magnitude": 0.0387
+        },
+        {
+          "losmex_id": "NIN__perceived_situation_of_children_and_youth",
+          "losmex_col": "agg_perceived_situation_of_children_and_youth",
+          "losmex_domain": "NIN",
+          "name_similarity": 0.222,
+          "domain_match": false,
+          "score": 0.222,
+          "losmex_fingerprint": [
+            0.0366,
+            -0.0545,
+            0.0249,
+            0.0303
+          ],
+          "losmex_ses_magnitude": 0.0382
+        }
+      ],
+      "best_match": {
+        "losmex_id": "MIG__perceived_opportunity_structure",
+        "losmex_col": "agg_perceived_opportunity_structure",
+        "losmex_domain": "MIG",
+        "name_similarity": 0.143,
+        "domain_match": true,
+        "score": 0.293,
+        "losmex_fingerprint": [
+          0.2601,
+          -0.1917,
+          -0.0116,
+          -0.1179
+        ],
+        "losmex_ses_magnitude": 0.1721
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_G|multilevel_place_attachment",
+      "wvs_col": "wvs_agg_multilevel_place_attachment",
+      "wvs_domain": "WVS_G",
+      "wvs_description": "Sense of belonging and emotional attachment across nested geographic levels from local community to the world.",
+      "candidate_domains": [
+        "IDE",
+        "MIG"
+      ],
+      "matches": [
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        },
+        {
+          "losmex_id": "IDE__personal_optimism_efficacy",
+          "losmex_col": "agg_personal_optimism_efficacy",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1786,
+            0.0389,
+            -0.0076,
+            -0.0068
+          ],
+          "losmex_ses_magnitude": 0.0915
+        }
+      ],
+      "best_match": {
+        "losmex_id": "IDE__national_identity_pride",
+        "losmex_col": "agg_national_identity_pride",
+        "losmex_domain": "IDE",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          0.0253,
+          -0.0301,
+          -0.0002,
+          -0.0224
+        ],
+        "losmex_ses_magnitude": 0.0226
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_G|immigrant_origin_status",
+      "wvs_col": "wvs_agg_immigrant_origin_status",
+      "wvs_domain": "WVS_G",
+      "wvs_description": "Objective migration background of the respondent and their parents, indicating whether they or their parents were born in the country or are immigrants.",
+      "candidate_domains": [
+        "IDE",
+        "MIG"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SAL__functional_health_status",
+          "losmex_col": "agg_functional_health_status",
+          "losmex_domain": "SAL",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.0113,
+            -0.0345,
+            0.0506,
+            0.3362
+          ],
+          "losmex_ses_magnitude": 0.171
+        },
+        {
+          "losmex_id": "IDE__national_identity_pride",
+          "losmex_col": "agg_national_identity_pride",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            0.0253,
+            -0.0301,
+            -0.0002,
+            -0.0224
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "IDE__tolerance_social_diversity",
+          "losmex_col": "agg_tolerance_social_diversity",
+          "losmex_domain": "IDE",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.1455,
+            0.0825,
+            -0.0126,
+            0.1539
+          ],
+          "losmex_ses_magnitude": 0.1138
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SAL__functional_health_status",
+        "losmex_col": "agg_functional_health_status",
+        "losmex_domain": "SAL",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          -0.0113,
+          -0.0345,
+          0.0506,
+          0.3362
+        ],
+        "losmex_ses_magnitude": 0.171
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_H|basic_needs_deprivation",
+      "wvs_col": "wvs_agg_basic_needs_deprivation",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Frequency of experiencing deprivation of basic human needs such as food, shelter, income, and medical care.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "HAB__basic_services_access",
+          "losmex_col": "agg_basic_services_access",
+          "losmex_domain": "HAB",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.238,
+            0.2417,
+            0.0672,
+            0.0332
+          ],
+          "losmex_ses_magnitude": 0.1737
+        },
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "SEG__police_institutional_legitimacy",
+          "losmex_col": "agg_police_institutional_legitimacy",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0443,
+            -0.002,
+            -0.063,
+            -0.0317
+          ],
+          "losmex_ses_magnitude": 0.0417
+        }
+      ],
+      "best_match": {
+        "losmex_id": "HAB__basic_services_access",
+        "losmex_col": "agg_basic_services_access",
+        "losmex_domain": "HAB",
+        "name_similarity": 0.2,
+        "domain_match": false,
+        "score": 0.2,
+        "losmex_fingerprint": [
+          -0.238,
+          0.2417,
+          0.0672,
+          0.0332
+        ],
+        "losmex_ses_magnitude": 0.1737
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_H|neighborhood_disorder_and_crime",
+      "wvs_col": "wvs_agg_neighborhood_disorder_and_crime",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Perceived frequency of crime, substance abuse, drug dealing, violence, and other antisocial behaviors in one's neighborhood.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SEG__crime_victimization_exposure",
+          "losmex_col": "agg_crime_victimization_exposure",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            -0.0902,
+            0.1029,
+            0.0299,
+            0.034
+          ],
+          "losmex_ses_magnitude": 0.0721
+        },
+        {
+          "losmex_id": "SEG__fear_and_risk_avoidance",
+          "losmex_col": "agg_fear_and_risk_avoidance",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.143,
+          "domain_match": true,
+          "score": 0.293,
+          "losmex_fingerprint": [
+            -0.054,
+            0.112,
+            -0.0266,
+            0.0221
+          ],
+          "losmex_ses_magnitude": 0.0645
+        },
+        {
+          "losmex_id": "SEG__punitive_and_vigilante_attitudes",
+          "losmex_col": "agg_punitive_and_vigilante_attitudes",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.143,
+          "domain_match": true,
+          "score": 0.293,
+          "losmex_fingerprint": [
+            -0.0021,
+            0.0084,
+            0.0928,
+            0.0156
+          ],
+          "losmex_ses_magnitude": 0.0472
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SEG__crime_victimization_exposure",
+        "losmex_col": "agg_crime_victimization_exposure",
+        "losmex_domain": "SEG",
+        "name_similarity": 0.167,
+        "domain_match": true,
+        "score": 0.317,
+        "losmex_fingerprint": [
+          -0.0902,
+          0.1029,
+          0.0299,
+          0.034
+        ],
+        "losmex_ses_magnitude": 0.0721
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_H|crime_victimization",
+      "wvs_col": "wvs_agg_crime_victimization",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Extent to which the respondent or close family members have been victims of crime in the past year.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SEG__crime_victimization_exposure",
+          "losmex_col": "agg_crime_victimization_exposure",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.667,
+          "domain_match": true,
+          "score": 0.817,
+          "losmex_fingerprint": [
+            -0.0902,
+            0.1029,
+            0.0299,
+            0.034
+          ],
+          "losmex_ses_magnitude": 0.0721
+        },
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "SEG__police_institutional_legitimacy",
+          "losmex_col": "agg_police_institutional_legitimacy",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0443,
+            -0.002,
+            -0.063,
+            -0.0317
+          ],
+          "losmex_ses_magnitude": 0.0417
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SEG__crime_victimization_exposure",
+        "losmex_col": "agg_crime_victimization_exposure",
+        "losmex_domain": "SEG",
+        "name_similarity": 0.667,
+        "domain_match": true,
+        "score": 0.817,
+        "losmex_fingerprint": [
+          -0.0902,
+          0.1029,
+          0.0299,
+          0.034
+        ],
+        "losmex_ses_magnitude": 0.0721
+      },
+      "match_quality": "strong"
+    },
+    {
+      "wvs_key": "WVS_H|precautionary_security_behaviors",
+      "wvs_col": "wvs_agg_precautionary_security_behaviors",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Extent to which people in the respondent's environment adopt protective behaviors against crime such as not carrying cash, avoiding going out at night, or carrying weapons.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "SAL__health_risk_behaviors",
+          "losmex_col": "agg_health_risk_behaviors",
+          "losmex_domain": "SAL",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0493,
+            0.115,
+            0.3113,
+            0.1082
+          ],
+          "losmex_ses_magnitude": 0.1763
+        },
+        {
+          "losmex_id": "DER__authoritarian_security_tradeoff",
+          "losmex_col": "agg_authoritarian_security_tradeoff",
+          "losmex_domain": "DER",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            0.0404,
+            -0.0031,
+            0.0469,
+            0.0247
+          ],
+          "losmex_ses_magnitude": 0.0334
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SEG__perceived_security_trajectory",
+        "losmex_col": "agg_perceived_security_trajectory",
+        "losmex_domain": "SEG",
+        "name_similarity": 0.2,
+        "domain_match": true,
+        "score": 0.35,
+        "losmex_fingerprint": [
+          -0.0223,
+          -0.006,
+          -0.0122,
+          0.036
+        ],
+        "losmex_ses_magnitude": 0.0222
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_H|socioeconomic_insecurity_worry",
+      "wvs_col": "wvs_agg_socioeconomic_insecurity_worry",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Degree of worry about losing employment or being unable to provide children with a good education.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "SEG__police_institutional_legitimacy",
+          "losmex_col": "agg_police_institutional_legitimacy",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0443,
+            -0.002,
+            -0.063,
+            -0.0317
+          ],
+          "losmex_ses_magnitude": 0.0417
+        },
+        {
+          "losmex_id": "SEG__crime_victimization_exposure",
+          "losmex_col": "agg_crime_victimization_exposure",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0902,
+            0.1029,
+            0.0299,
+            0.034
+          ],
+          "losmex_ses_magnitude": 0.0721
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SEG__perceived_security_trajectory",
+        "losmex_col": "agg_perceived_security_trajectory",
+        "losmex_domain": "SEG",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          -0.0223,
+          -0.006,
+          -0.0122,
+          0.036
+        ],
+        "losmex_ses_magnitude": 0.0222
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_H|existential_threat_worry",
+      "wvs_col": "wvs_agg_existential_threat_worry",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Degree of worry about large-scale violent threats including war, terrorism, and civil conflict.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "SEG__police_institutional_legitimacy",
+          "losmex_col": "agg_police_institutional_legitimacy",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0443,
+            -0.002,
+            -0.063,
+            -0.0317
+          ],
+          "losmex_ses_magnitude": 0.0417
+        },
+        {
+          "losmex_id": "SEG__crime_victimization_exposure",
+          "losmex_col": "agg_crime_victimization_exposure",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0902,
+            0.1029,
+            0.0299,
+            0.034
+          ],
+          "losmex_ses_magnitude": 0.0721
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SEG__perceived_security_trajectory",
+        "losmex_col": "agg_perceived_security_trajectory",
+        "losmex_domain": "SEG",
+        "name_similarity": 0.0,
+        "domain_match": true,
+        "score": 0.15,
+        "losmex_fingerprint": [
+          -0.0223,
+          -0.006,
+          -0.0122,
+          0.036
+        ],
+        "losmex_ses_magnitude": 0.0222
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_H|acceptance_of_state_surveillance",
+      "wvs_col": "wvs_agg_acceptance_of_state_surveillance",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Degree of agreement with government surveillance measures including video monitoring, email monitoring, and data collection on residents.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "REL__church_state_separation",
+          "losmex_col": "agg_church_state_separation",
+          "losmex_domain": "REL",
+          "name_similarity": 0.167,
+          "domain_match": false,
+          "score": 0.167,
+          "losmex_fingerprint": [
+            0.1817,
+            -0.1123,
+            -0.0639,
+            -0.0936
+          ],
+          "losmex_ses_magnitude": 0.1209
+        },
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "SEG__police_institutional_legitimacy",
+          "losmex_col": "agg_police_institutional_legitimacy",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.0,
+          "domain_match": true,
+          "score": 0.15,
+          "losmex_fingerprint": [
+            -0.0443,
+            -0.002,
+            -0.063,
+            -0.0317
+          ],
+          "losmex_ses_magnitude": 0.0417
+        }
+      ],
+      "best_match": {
+        "losmex_id": "REL__church_state_separation",
+        "losmex_col": "agg_church_state_separation",
+        "losmex_domain": "REL",
+        "name_similarity": 0.167,
+        "domain_match": false,
+        "score": 0.167,
+        "losmex_fingerprint": [
+          0.1817,
+          -0.1123,
+          -0.0639,
+          -0.0936
+        ],
+        "losmex_ses_magnitude": 0.1209
+      },
+      "match_quality": "weak"
+    },
+    {
+      "wvs_key": "WVS_H|freedom_security_tradeoff_perception",
+      "wvs_col": "wvs_agg_freedom_security_tradeoff_perception",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Perceptions about whether most people view freedom and security as complementary or as competing values.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "DER__authoritarian_security_tradeoff",
+          "losmex_col": "agg_authoritarian_security_tradeoff",
+          "losmex_domain": "DER",
+          "name_similarity": 0.4,
+          "domain_match": false,
+          "score": 0.4,
+          "losmex_fingerprint": [
+            0.0404,
+            -0.0031,
+            0.0469,
+            0.0247
+          ],
+          "losmex_ses_magnitude": 0.0334
+        },
+        {
+          "losmex_id": "SEG__perceived_security_trajectory",
+          "losmex_col": "agg_perceived_security_trajectory",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.167,
+          "domain_match": true,
+          "score": 0.317,
+          "losmex_fingerprint": [
+            -0.0223,
+            -0.006,
+            -0.0122,
+            0.036
+          ],
+          "losmex_ses_magnitude": 0.0222
+        },
+        {
+          "losmex_id": "COR__corruption_perception",
+          "losmex_col": "agg_corruption_perception",
+          "losmex_domain": "COR",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.0048,
+            0.0327,
+            0.0172,
+            0.0257
+          ],
+          "losmex_ses_magnitude": 0.0226
+        }
+      ],
+      "best_match": {
+        "losmex_id": "DER__authoritarian_security_tradeoff",
+        "losmex_col": "agg_authoritarian_security_tradeoff",
+        "losmex_domain": "DER",
+        "name_similarity": 0.4,
+        "domain_match": false,
+        "score": 0.4,
+        "losmex_fingerprint": [
+          0.0404,
+          -0.0031,
+          0.0469,
+          0.0247
+        ],
+        "losmex_ses_magnitude": 0.0334
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_H|institutional_threat_perception",
+      "wvs_col": "wvs_agg_institutional_threat_perception",
+      "wvs_domain": "WVS_H",
+      "wvs_description": "Perceived frequency of police/military intrusion into private life and racist conduct as threats to personal security.",
+      "candidate_domains": [
+        "SEG",
+        "VIC"
+      ],
+      "matches": [
+        {
+          "losmex_id": "SEG__police_institutional_legitimacy",
+          "losmex_col": "agg_police_institutional_legitimacy",
+          "losmex_domain": "SEG",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            -0.0443,
+            -0.002,
+            -0.063,
+            -0.0317
+          ],
+          "losmex_ses_magnitude": 0.0417
+        },
+        {
+          "losmex_id": "COR__corruption_perception",
+          "losmex_col": "agg_corruption_perception",
+          "losmex_domain": "COR",
+          "name_similarity": 0.25,
+          "domain_match": false,
+          "score": 0.25,
+          "losmex_fingerprint": [
+            -0.0048,
+            0.0327,
+            0.0172,
+            0.0257
+          ],
+          "losmex_ses_magnitude": 0.0226
+        },
+        {
+          "losmex_id": "POB__intergenerational_mobility_perception",
+          "losmex_col": "agg_intergenerational_mobility_perception",
+          "losmex_domain": "POB",
+          "name_similarity": 0.2,
+          "domain_match": false,
+          "score": 0.2,
+          "losmex_fingerprint": [
+            -0.0548,
+            0.0363,
+            -0.0335,
+            0.0346
+          ],
+          "losmex_ses_magnitude": 0.0407
+        }
+      ],
+      "best_match": {
+        "losmex_id": "SEG__police_institutional_legitimacy",
+        "losmex_col": "agg_police_institutional_legitimacy",
+        "losmex_domain": "SEG",
+        "name_similarity": 0.2,
+        "domain_match": true,
+        "score": 0.35,
+        "losmex_fingerprint": [
+          -0.0443,
+          -0.002,
+          -0.063,
+          -0.0317
+        ],
+        "losmex_ses_magnitude": 0.0417
+      },
+      "match_quality": "moderate"
+    },
+    {
+      "wvs_key": "WVS_I|science_skepticism",
+      "wvs_col": "wvs_agg_science_skepticism",
+      "wvs_domain": "WVS_I",
+      "wvs_description": "Latent disposition reflecting negative or dismissive attitudes toward science and its relevance in everyday life.",
+      "candidate_domains": [
+        "CIE",
+        "EDU"
+      ],
+      "matches": [
+        {
+          "losmex_id": "CIE__science_technology_self_efficacy",
+          "losmex_col": "agg_science_technology_self_efficacy",
+          "losmex_domain": "CIE",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            0.379,
+            -0.1178,
+            -0.0527,
+            -0.2714
+          ],
+          "losmex_ses_magnitude": 0.2418
+        },
+        {
+          "losmex_id": "CIE__science_technology_interest_engagement",
+          "losmex_col": "agg_science_technology_interest_engagement",
+          "losmex_domain": "CIE",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            0.4205,
+            -0.1128,
+            -0.1057,
+            -0.3538
+          ],
+          "losmex_ses_magnitude": 0.2854
+        },
+        {
+          "losmex_id": "CIE__institutional_trust_in_science",
+          "losmex_col": "agg_institutional_trust_in_science",
+          "losmex_domain": "CIE",
+          "name_similarity": 0.2,
+          "domain_match": true,
+          "score": 0.35,
+          "losmex_fingerprint": [
+            0.1351,
+            -0.062,
+            -0.0602,
+            -0.1493
+          ],
+          "losmex_ses_magnitude": 0.1096
+        }
+      ],
+      "best_match": {
+        "losmex_id": "CIE__science_technology_self_efficacy",
+        "losmex_col": "agg_science_technology_self_efficacy",
+        "losmex_domain": "CIE",
+        "name_similarity": 0.2,
+        "domain_match": true,
+        "score": 0.35,
+        "losmex_fingerprint": [
+          0.379,
+          -0.1178,
+          -0.0527,
+          -0.2714
+        ],
+        "losmex_ses_magnitude": 0.2418
+      },
+      "match_quality": "moderate"
+    }
+  ]
+}

@@ -1,0 +1,5898 @@
+{
+  "WVS_W1_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1837,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "A029",
+        "A034",
+        "A035"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1837,
+      "n_items": 4,
+      "items": [
+        "Q7",
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "A027",
+        "A032",
+        "A040",
+        "A042"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1837,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "A038",
+        "A039",
+        "A041"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "tier3_caveat",
+      "alpha": -0.0,
+      "n_valid": 1837,
+      "n_items": 2,
+      "items": [
+        "Q19",
+        "Q21"
+      ],
+      "resolved_cols": [
+        "A124_02",
+        "A124_06"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1837,
+      "n_items": 1,
+      "items": [
+        "Q24"
+      ],
+      "resolved_cols": [
+        "A124_03"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.0851,
+      "n_valid": 1836,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "A008",
+        "A173",
+        "A170"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": "wvs_agg_voluntary_association_active_membership",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1837,
+      "n_items": 7,
+      "items": [
+        "Q94",
+        "Q96",
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100",
+        "Q101"
+      ],
+      "resolved_cols": [
+        "A098",
+        "A100",
+        "A101",
+        "A102",
+        "A103",
+        "A104",
+        "A105"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "good",
+      "alpha": 0.877,
+      "n_valid": 1837,
+      "n_items": 9,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q73",
+        "Q74",
+        "Q77"
+      ],
+      "resolved_cols": [
+        "E069_01",
+        "E069_02",
+        "E069_04",
+        "E069_05",
+        "E069_06",
+        "E069_17",
+        "E069_07",
+        "E069_08",
+        "E069_13"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1727,
+      "n_items": 2,
+      "items": [
+        "Q154",
+        "Q155"
+      ],
+      "resolved_cols": [
+        "E003",
+        "E004"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1670,
+      "n_items": 4,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212"
+      ],
+      "resolved_cols": [
+        "E025",
+        "E026",
+        "E027",
+        "E028"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1837,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "tier3_caveat",
+      "alpha": 0.4485,
+      "n_valid": 1835,
+      "n_items": 5,
+      "items": [
+        "Q164",
+        "Q165",
+        "Q166",
+        "Q167",
+        "Q168"
+      ],
+      "resolved_cols": [
+        "F063",
+        "F050",
+        "F051",
+        "F053",
+        "F054"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "tier3_caveat",
+      "alpha": 0.1137,
+      "n_valid": 1804,
+      "n_items": 2,
+      "items": [
+        "Q171",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "F028",
+        "F034"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "good",
+      "alpha": 0.7093,
+      "n_valid": 1837,
+      "n_items": 4,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "F114A",
+        "F115",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.8339,
+      "n_valid": 1837,
+      "n_items": 3,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184"
+      ],
+      "resolved_cols": [
+        "F118",
+        "F119",
+        "F120"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.6172,
+      "n_valid": 1837,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "F121",
+        "F123",
+        "F122"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    }
+  ],
+  "WVS_W2_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": "wvs_agg_importance_of_life_domains",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1529,
+      "n_items": 5,
+      "items": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "resolved_cols": [
+        "A001",
+        "A002",
+        "A003",
+        "A005",
+        "A006"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1531,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "A029",
+        "A034",
+        "A035"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1531,
+      "n_items": 4,
+      "items": [
+        "Q7",
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "A027",
+        "A032",
+        "A040",
+        "A042"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1531,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "A038",
+        "A039",
+        "A041"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "tier3_caveat",
+      "alpha": 0.4463,
+      "n_valid": 1531,
+      "n_items": 4,
+      "items": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22"
+      ],
+      "resolved_cols": [
+        "A124_02",
+        "A124_07",
+        "A124_06",
+        "A124_09"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1531,
+      "n_items": 1,
+      "items": [
+        "Q18",
+        "Q24"
+      ],
+      "resolved_cols": [
+        "A124_08",
+        "A124_03"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.2654,
+      "n_valid": 1531,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "A008",
+        "A173",
+        "A170"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": "wvs_agg_voluntary_association_belonging",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1531,
+      "n_items": 8,
+      "items": [
+        "Q94R",
+        "Q95R",
+        "Q96R",
+        "Q97R",
+        "Q98R",
+        "Q100R",
+        "Q104R",
+        "Q105R"
+      ],
+      "resolved_cols": [
+        "A065",
+        "A074",
+        "A066",
+        "A067",
+        "A068",
+        "A072",
+        "A075",
+        "A079"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": "wvs_agg_job_scarcity_gender_discrimination",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1502,
+      "n_items": 1,
+      "items": [
+        "Q33_3"
+      ],
+      "resolved_cols": [
+        "C001"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": "wvs_agg_job_scarcity_nativist_preference",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1491,
+      "n_items": 1,
+      "items": [
+        "Q34_3"
+      ],
+      "resolved_cols": [
+        "C002"
+      ]
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": "wvs_agg_gender_role_traditionalism",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1499,
+      "n_items": 1,
+      "items": [
+        "Q28"
+      ],
+      "resolved_cols": [
+        "D061"
+      ]
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "tier3_caveat",
+      "alpha": null,
+      "n_valid": 1530,
+      "n_items": 12,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q77"
+      ],
+      "resolved_cols": [
+        "E069_01",
+        "E069_02",
+        "E069_04",
+        "E069_10",
+        "E069_05",
+        "E069_06",
+        "E069_17",
+        "E069_11",
+        "E069_12",
+        "E069_07",
+        "E069_08",
+        "E069_13"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": "wvs_agg_confidence_in_international_organizations",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1504,
+      "n_items": 1,
+      "items": [
+        "Q86"
+      ],
+      "resolved_cols": [
+        "E069_19"
+      ]
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1501,
+      "n_items": 6,
+      "items": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ],
+      "resolved_cols": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1483,
+      "n_items": 4,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212"
+      ],
+      "resolved_cols": [
+        "E025",
+        "E026",
+        "E027",
+        "E028"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": "wvs_agg_economic_ideology",
+      "type": "tier3_caveat",
+      "alpha": 0.4416,
+      "n_valid": 1516,
+      "n_items": 4,
+      "items": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ],
+      "resolved_cols": [
+        "E035",
+        "E036",
+        "E037",
+        "E039"
+      ]
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1507,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "tier3_caveat",
+      "alpha": 0.4854,
+      "n_valid": 1529,
+      "n_items": 5,
+      "items": [
+        "Q164",
+        "Q165",
+        "Q166",
+        "Q167",
+        "Q168"
+      ],
+      "resolved_cols": [
+        "F063",
+        "F050",
+        "F051",
+        "F053",
+        "F054"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "tier3_caveat",
+      "alpha": 0.3168,
+      "n_valid": 1529,
+      "n_items": 2,
+      "items": [
+        "Q171",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "F028",
+        "F034"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "questionable",
+      "alpha": 0.6307,
+      "n_valid": 1528,
+      "n_items": 4,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "F114A",
+        "F115",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.8053,
+      "n_valid": 1521,
+      "n_items": 3,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184"
+      ],
+      "resolved_cols": [
+        "F118",
+        "F119",
+        "F120"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.6496,
+      "n_valid": 1523,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "F121",
+        "F123",
+        "F122"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    }
+  ],
+  "WVS_W3_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": "wvs_agg_importance_of_life_domains",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1508,
+      "n_items": 5,
+      "items": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "resolved_cols": [
+        "A001",
+        "A002",
+        "A003",
+        "A005",
+        "A006"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "A029",
+        "A034",
+        "A035"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 4,
+      "items": [
+        "Q7",
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "A027",
+        "A032",
+        "A040",
+        "A042"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "A038",
+        "A039",
+        "A041"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "tier3_caveat",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 5,
+      "items": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23"
+      ],
+      "resolved_cols": [
+        "A124_02",
+        "A124_07",
+        "A124_06",
+        "A124_09",
+        "A124_12"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 1,
+      "items": [
+        "Q18",
+        "Q24"
+      ],
+      "resolved_cols": [
+        "A124_08",
+        "A124_03"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.2194,
+      "n_valid": 1509,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "A008",
+        "A173",
+        "A170"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": "wvs_agg_voluntary_association_active_membership",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 9,
+      "items": [
+        "Q94",
+        "Q95",
+        "Q96",
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100",
+        "Q101",
+        "Q105"
+      ],
+      "resolved_cols": [
+        "A098",
+        "A099",
+        "A100",
+        "A101",
+        "A102",
+        "A103",
+        "A104",
+        "A105",
+        "A106"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": "wvs_agg_job_scarcity_gender_discrimination",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1464,
+      "n_items": 1,
+      "items": [
+        "Q33_3"
+      ],
+      "resolved_cols": [
+        "C001"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": "wvs_agg_job_scarcity_nativist_preference",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1432,
+      "n_items": 1,
+      "items": [
+        "Q34_3"
+      ],
+      "resolved_cols": [
+        "C002"
+      ]
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": "wvs_agg_gender_role_traditionalism",
+      "type": "tier3_caveat",
+      "alpha": 0.4601,
+      "n_valid": 1474,
+      "n_items": 2,
+      "items": [
+        "Q29",
+        "Q30"
+      ],
+      "resolved_cols": [
+        "D059",
+        "D060"
+      ]
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "good",
+      "alpha": 0.8902,
+      "n_valid": 1504,
+      "n_items": 12,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q77"
+      ],
+      "resolved_cols": [
+        "E069_01",
+        "E069_02",
+        "E069_04",
+        "E069_10",
+        "E069_05",
+        "E069_06",
+        "E069_17",
+        "E069_11",
+        "E069_12",
+        "E069_07",
+        "E069_08",
+        "E069_13"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": "wvs_agg_confidence_in_civil_society_organizations",
+      "type": "good",
+      "alpha": 0.7167,
+      "n_valid": 1496,
+      "n_items": 2,
+      "items": [
+        "Q79",
+        "Q80"
+      ],
+      "resolved_cols": [
+        "E069_14",
+        "E069_15"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": "wvs_agg_confidence_in_international_organizations",
+      "type": "good",
+      "alpha": 0.7698,
+      "n_valid": 1493,
+      "n_items": 2,
+      "items": [
+        "Q82",
+        "Q83"
+      ],
+      "resolved_cols": [
+        "E069_18A",
+        "E069_20"
+      ]
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1499,
+      "n_items": 6,
+      "items": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ],
+      "resolved_cols": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": "wvs_agg_autocracy_support",
+      "type": "tier3_caveat",
+      "alpha": 0.4845,
+      "n_valid": 1399,
+      "n_items": 3,
+      "items": [
+        "Q235",
+        "Q236",
+        "Q237"
+      ],
+      "resolved_cols": [
+        "E114",
+        "E115",
+        "E116"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": "wvs_agg_democratic_system_evaluation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1329,
+      "n_items": 2,
+      "items": [
+        "Q238",
+        "Q253"
+      ],
+      "resolved_cols": [
+        "E117",
+        "E124"
+      ]
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1451,
+      "n_items": 4,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212"
+      ],
+      "resolved_cols": [
+        "E025",
+        "E026",
+        "E027",
+        "E028"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": "wvs_agg_economic_ideology",
+      "type": "tier3_caveat",
+      "alpha": -0.2628,
+      "n_valid": 1486,
+      "n_items": 4,
+      "items": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ],
+      "resolved_cols": [
+        "E035",
+        "E036",
+        "E037",
+        "E039"
+      ]
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1482,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "tier3_caveat",
+      "alpha": 0.4627,
+      "n_valid": 1504,
+      "n_items": 5,
+      "items": [
+        "Q164",
+        "Q165",
+        "Q166",
+        "Q167",
+        "Q168"
+      ],
+      "resolved_cols": [
+        "F063",
+        "F050",
+        "F051",
+        "F053",
+        "F054"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "tier3_caveat",
+      "alpha": 0.3175,
+      "n_valid": 1507,
+      "n_items": 2,
+      "items": [
+        "Q171",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "F028",
+        "F034"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "good",
+      "alpha": 0.7702,
+      "n_valid": 1484,
+      "n_items": 4,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "F114A",
+        "F115",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.777,
+      "n_valid": 1489,
+      "n_items": 3,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184"
+      ],
+      "resolved_cols": [
+        "F118",
+        "F119",
+        "F120"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.5849,
+      "n_valid": 1476,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "F121",
+        "F123",
+        "F122"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    }
+  ],
+  "WVS_W4_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": "wvs_agg_importance_of_life_domains",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 5,
+      "items": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "resolved_cols": [
+        "A001",
+        "A002",
+        "A003",
+        "A005",
+        "A006"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "A029",
+        "A034",
+        "A035"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 4,
+      "items": [
+        "Q7",
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "A027",
+        "A032",
+        "A040",
+        "A042"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "A038",
+        "A039",
+        "A041"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "tier3_caveat",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 5,
+      "items": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23"
+      ],
+      "resolved_cols": [
+        "A124_02",
+        "A124_07",
+        "A124_06",
+        "A124_09",
+        "A124_12"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 1,
+      "items": [
+        "Q18",
+        "Q24"
+      ],
+      "resolved_cols": [
+        "A124_08",
+        "A124_03"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.3399,
+      "n_valid": 1535,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "A008",
+        "A173",
+        "A170"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": "wvs_agg_voluntary_association_belonging",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1535,
+      "n_items": 9,
+      "items": [
+        "Q94R",
+        "Q95R",
+        "Q96R",
+        "Q97R",
+        "Q98R",
+        "Q99R",
+        "Q100R",
+        "Q104R",
+        "Q105R"
+      ],
+      "resolved_cols": [
+        "A065",
+        "A074",
+        "A066",
+        "A067",
+        "A068",
+        "A071",
+        "A072",
+        "A075",
+        "A079"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": "wvs_agg_job_scarcity_gender_discrimination",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1506,
+      "n_items": 1,
+      "items": [
+        "Q33_3"
+      ],
+      "resolved_cols": [
+        "C001"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": "wvs_agg_job_scarcity_nativist_preference",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1505,
+      "n_items": 1,
+      "items": [
+        "Q34_3"
+      ],
+      "resolved_cols": [
+        "C002"
+      ]
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": "wvs_agg_work_ethic",
+      "type": "questionable",
+      "alpha": 0.5159,
+      "n_valid": 1514,
+      "n_items": 3,
+      "items": [
+        "Q39",
+        "Q40",
+        "Q41"
+      ],
+      "resolved_cols": [
+        "C038",
+        "C039",
+        "C041"
+      ]
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": "wvs_agg_gender_role_traditionalism",
+      "type": "good",
+      "alpha": 0.7172,
+      "n_valid": 1496,
+      "n_items": 2,
+      "items": [
+        "Q29",
+        "Q30"
+      ],
+      "resolved_cols": [
+        "D059",
+        "D060"
+      ]
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "good",
+      "alpha": 0.884,
+      "n_valid": 1528,
+      "n_items": 11,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q77"
+      ],
+      "resolved_cols": [
+        "E069_01",
+        "E069_02",
+        "E069_04",
+        "E069_10",
+        "E069_05",
+        "E069_06",
+        "E069_11",
+        "E069_12",
+        "E069_07",
+        "E069_08",
+        "E069_13"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": "wvs_agg_confidence_in_civil_society_organizations",
+      "type": "good",
+      "alpha": 0.7202,
+      "n_valid": 1394,
+      "n_items": 2,
+      "items": [
+        "Q79",
+        "Q80"
+      ],
+      "resolved_cols": [
+        "E069_14",
+        "E069_15"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": "wvs_agg_confidence_in_international_organizations",
+      "type": "good",
+      "alpha": 0.8864,
+      "n_valid": 1305,
+      "n_items": 3,
+      "items": [
+        "Q82",
+        "Q83",
+        "Q86"
+      ],
+      "resolved_cols": [
+        "E069_18A",
+        "E069_20",
+        "E069_19"
+      ]
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1489,
+      "n_items": 6,
+      "items": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ],
+      "resolved_cols": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": "wvs_agg_autocracy_support",
+      "type": "questionable",
+      "alpha": 0.5413,
+      "n_valid": 1362,
+      "n_items": 3,
+      "items": [
+        "Q235",
+        "Q236",
+        "Q237"
+      ],
+      "resolved_cols": [
+        "E114",
+        "E115",
+        "E116"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": "wvs_agg_democratic_system_evaluation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1503,
+      "n_items": 2,
+      "items": [
+        "Q238",
+        "Q253"
+      ],
+      "resolved_cols": [
+        "E117",
+        "E124"
+      ]
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1439,
+      "n_items": 4,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212"
+      ],
+      "resolved_cols": [
+        "E025",
+        "E026",
+        "E027",
+        "E028"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": "wvs_agg_economic_ideology",
+      "type": "tier3_caveat",
+      "alpha": -0.038,
+      "n_valid": 1457,
+      "n_items": 4,
+      "items": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ],
+      "resolved_cols": [
+        "E035",
+        "E036",
+        "E037",
+        "E039"
+      ]
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1398,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "tier3_caveat",
+      "alpha": 0.4069,
+      "n_valid": 1535,
+      "n_items": 5,
+      "items": [
+        "Q164",
+        "Q165",
+        "Q166",
+        "Q167",
+        "Q168"
+      ],
+      "resolved_cols": [
+        "F063",
+        "F050",
+        "F051",
+        "F053",
+        "F054"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "tier3_caveat",
+      "alpha": 0.2348,
+      "n_valid": 1534,
+      "n_items": 2,
+      "items": [
+        "Q171",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "F028",
+        "F034"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "questionable",
+      "alpha": 0.601,
+      "n_valid": 1502,
+      "n_items": 4,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "F114A",
+        "F115",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.7646,
+      "n_valid": 1512,
+      "n_items": 3,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184"
+      ],
+      "resolved_cols": [
+        "F118",
+        "F119",
+        "F120"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.6174,
+      "n_valid": 1512,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "F121",
+        "F123",
+        "F122"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    }
+  ],
+  "WVS_W5_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": "wvs_agg_importance_of_life_domains",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1559,
+      "n_items": 5,
+      "items": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "resolved_cols": [
+        "A001",
+        "A002",
+        "A003",
+        "A005",
+        "A006"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1560,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "A029",
+        "A034",
+        "A035"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1560,
+      "n_items": 3,
+      "items": [
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "A032",
+        "A040",
+        "A042"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1560,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "A038",
+        "A039",
+        "A041"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "good",
+      "alpha": 0.7679,
+      "n_valid": 1560,
+      "n_items": 7,
+      "items": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q25",
+        "Q26"
+      ],
+      "resolved_cols": [
+        "A124_02",
+        "A124_07",
+        "A124_06",
+        "A124_09",
+        "A124_12",
+        "A124_42",
+        "A124_43"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1560,
+      "n_items": 1,
+      "items": [
+        "Q18",
+        "Q24"
+      ],
+      "resolved_cols": [
+        "A124_08",
+        "A124_03"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.1708,
+      "n_valid": 1559,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "A008",
+        "A173",
+        "A170"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": "wvs_agg_voluntary_association_active_membership",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1559,
+      "n_items": 9,
+      "items": [
+        "Q94",
+        "Q95",
+        "Q96",
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100",
+        "Q101",
+        "Q105"
+      ],
+      "resolved_cols": [
+        "A098",
+        "A099",
+        "A100",
+        "A101",
+        "A102",
+        "A103",
+        "A104",
+        "A105",
+        "A106"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": "wvs_agg_job_scarcity_gender_discrimination",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1547,
+      "n_items": 1,
+      "items": [
+        "Q33_3"
+      ],
+      "resolved_cols": [
+        "C001"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": "wvs_agg_job_scarcity_nativist_preference",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1529,
+      "n_items": 1,
+      "items": [
+        "Q34_3"
+      ],
+      "resolved_cols": [
+        "C002"
+      ]
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": "wvs_agg_work_ethic",
+      "type": "tier3_caveat",
+      "alpha": 0.4877,
+      "n_valid": 1553,
+      "n_items": 3,
+      "items": [
+        "Q39",
+        "Q40",
+        "Q41"
+      ],
+      "resolved_cols": [
+        "C038",
+        "C039",
+        "C041"
+      ]
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": "wvs_agg_gender_role_traditionalism",
+      "type": "good",
+      "alpha": 0.793,
+      "n_valid": 1545,
+      "n_items": 3,
+      "items": [
+        "Q29",
+        "Q30",
+        "Q31"
+      ],
+      "resolved_cols": [
+        "D059",
+        "D060",
+        "D078"
+      ]
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "tier3_caveat",
+      "alpha": null,
+      "n_valid": 1557,
+      "n_items": 13,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q77",
+        "Q78"
+      ],
+      "resolved_cols": [
+        "E069_01",
+        "E069_02",
+        "E069_04",
+        "E069_10",
+        "E069_05",
+        "E069_06",
+        "E069_17",
+        "E069_11",
+        "E069_12",
+        "E069_07",
+        "E069_08",
+        "E069_13",
+        "E069_41"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": "wvs_agg_confidence_in_civil_society_organizations",
+      "type": "good",
+      "alpha": 0.8127,
+      "n_valid": 1543,
+      "n_items": 3,
+      "items": [
+        "Q79",
+        "Q80",
+        "Q81"
+      ],
+      "resolved_cols": [
+        "E069_14",
+        "E069_15",
+        "E069_40"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": "wvs_agg_confidence_in_international_organizations",
+      "type": "tier3_caveat",
+      "alpha": null,
+      "n_valid": 1514,
+      "n_items": 4,
+      "items": [
+        "Q82",
+        "Q83",
+        "Q84",
+        "Q86"
+      ],
+      "resolved_cols": [
+        "E069_18A",
+        "E069_20",
+        "E069_45",
+        "E069_19"
+      ]
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1550,
+      "n_items": 6,
+      "items": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ],
+      "resolved_cols": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": "wvs_agg_autocracy_support",
+      "type": "tier3_caveat",
+      "alpha": 0.4765,
+      "n_valid": 1499,
+      "n_items": 3,
+      "items": [
+        "Q235",
+        "Q236",
+        "Q237"
+      ],
+      "resolved_cols": [
+        "E114",
+        "E115",
+        "E116"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": "wvs_agg_democratic_values_importance",
+      "type": "questionable",
+      "alpha": 0.5625,
+      "n_valid": 1492,
+      "n_items": 4,
+      "items": [
+        "Q241",
+        "Q244",
+        "Q246",
+        "Q249"
+      ],
+      "resolved_cols": [
+        "E224",
+        "E227",
+        "E229",
+        "E233"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": "wvs_agg_democratic_system_evaluation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1555,
+      "n_items": 4,
+      "items": [
+        "Q238",
+        "Q250",
+        "Q251",
+        "Q253"
+      ],
+      "resolved_cols": [
+        "E117",
+        "E235",
+        "E236",
+        "E124"
+      ]
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1523,
+      "n_items": 3,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211"
+      ],
+      "resolved_cols": [
+        "E025",
+        "E026",
+        "E027"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": "wvs_agg_science_technology_optimism",
+      "type": "questionable",
+      "alpha": 0.5606,
+      "n_valid": 1536,
+      "n_items": 3,
+      "items": [
+        "Q158",
+        "Q159",
+        "Q163"
+      ],
+      "resolved_cols": [
+        "E217",
+        "E218",
+        "E234"
+      ]
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": "wvs_agg_economic_ideology",
+      "type": "tier3_caveat",
+      "alpha": -0.1091,
+      "n_valid": 1527,
+      "n_items": 4,
+      "items": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ],
+      "resolved_cols": [
+        "E035",
+        "E036",
+        "E037",
+        "E039"
+      ]
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1522,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": "wvs_agg_authoritarian_governance_tolerance",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1422,
+      "n_items": 1,
+      "items": [
+        "Q242"
+      ],
+      "resolved_cols": [
+        "E225"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1549,
+      "n_items": 1,
+      "items": [
+        "Q164"
+      ],
+      "resolved_cols": [
+        "F063"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "tier3_caveat",
+      "alpha": 0.2216,
+      "n_valid": 1559,
+      "n_items": 2,
+      "items": [
+        "Q171",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "F028",
+        "F034"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "questionable",
+      "alpha": 0.6551,
+      "n_valid": 1523,
+      "n_items": 4,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "F114A",
+        "F115",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.7714,
+      "n_valid": 1489,
+      "n_items": 3,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184"
+      ],
+      "resolved_cols": [
+        "F118",
+        "F119",
+        "F120"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.6213,
+      "n_valid": 1508,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "F121",
+        "F123",
+        "F122"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": "wvs_agg_violence_tolerance",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1510,
+      "n_items": 1,
+      "items": [
+        "Q189"
+      ],
+      "resolved_cols": [
+        "F199"
+      ]
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": "wvs_agg_outgroup_trust",
+      "type": "good",
+      "alpha": 0.7643,
+      "n_valid": 1556,
+      "n_items": 4,
+      "items": [
+        "Q60",
+        "Q61",
+        "Q62",
+        "Q63"
+      ],
+      "resolved_cols": [
+        "G007_33_B",
+        "G007_34_B",
+        "G007_35_B",
+        "G007_36_B"
+      ]
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": "wvs_agg_immigrant_origin_status",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1553,
+      "n_items": 2,
+      "items": [
+        "Q264",
+        "Q265"
+      ],
+      "resolved_cols": [
+        "G026",
+        "G027"
+      ]
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    }
+  ],
+  "WVS_W6_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": "wvs_agg_importance_of_life_domains",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 5,
+      "items": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "resolved_cols": [
+        "A001",
+        "A002",
+        "A003",
+        "A005",
+        "A006"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "A029",
+        "A034",
+        "A035"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "A032",
+        "A040",
+        "A042"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "A038",
+        "A039",
+        "A041"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "good",
+      "alpha": 0.8297,
+      "n_valid": 2000,
+      "n_items": 7,
+      "items": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q25",
+        "Q26"
+      ],
+      "resolved_cols": [
+        "A124_02",
+        "A124_07",
+        "A124_06",
+        "A124_09",
+        "A124_12",
+        "A124_42",
+        "A124_43"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 1,
+      "items": [
+        "Q18",
+        "Q24"
+      ],
+      "resolved_cols": [
+        "A124_08",
+        "A124_03"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.0976,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "A008",
+        "A173",
+        "A170"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": "wvs_agg_voluntary_association_active_membership",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 11,
+      "items": [
+        "Q94",
+        "Q95",
+        "Q96",
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100",
+        "Q101",
+        "Q102",
+        "Q103",
+        "Q105"
+      ],
+      "resolved_cols": [
+        "A098",
+        "A099",
+        "A100",
+        "A101",
+        "A102",
+        "A103",
+        "A104",
+        "A105",
+        "A106B",
+        "A106C",
+        "A106"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": "wvs_agg_job_scarcity_gender_discrimination",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1996,
+      "n_items": 1,
+      "items": [
+        "Q33_3"
+      ],
+      "resolved_cols": [
+        "C001"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": "wvs_agg_job_scarcity_nativist_preference",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1992,
+      "n_items": 1,
+      "items": [
+        "Q34_3"
+      ],
+      "resolved_cols": [
+        "C002"
+      ]
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": "wvs_agg_gender_role_traditionalism",
+      "type": "questionable",
+      "alpha": 0.6548,
+      "n_valid": 2000,
+      "n_items": 4,
+      "items": [
+        "Q28",
+        "Q29",
+        "Q30",
+        "Q31"
+      ],
+      "resolved_cols": [
+        "D061",
+        "D059",
+        "D060",
+        "D078"
+      ]
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": "wvs_agg_female_income_threat_to_marriage",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1989,
+      "n_items": 1,
+      "items": [
+        "Q35_3"
+      ],
+      "resolved_cols": [
+        "D066_B"
+      ]
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "good",
+      "alpha": 0.8642,
+      "n_valid": 2000,
+      "n_items": 14,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q75",
+        "Q77",
+        "Q78"
+      ],
+      "resolved_cols": [
+        "E069_01",
+        "E069_02",
+        "E069_04",
+        "E069_10",
+        "E069_05",
+        "E069_06",
+        "E069_17",
+        "E069_11",
+        "E069_12",
+        "E069_07",
+        "E069_08",
+        "E069_54",
+        "E069_13",
+        "E069_41"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": "wvs_agg_confidence_in_civil_society_organizations",
+      "type": "good",
+      "alpha": 0.8149,
+      "n_valid": 1994,
+      "n_items": 3,
+      "items": [
+        "Q79",
+        "Q80",
+        "Q81"
+      ],
+      "resolved_cols": [
+        "E069_14",
+        "E069_15",
+        "E069_40"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": "wvs_agg_confidence_in_international_organizations",
+      "type": "questionable",
+      "alpha": 0.6832,
+      "n_valid": 1966,
+      "n_items": 2,
+      "items": [
+        "Q82",
+        "Q83"
+      ],
+      "resolved_cols": [
+        "E069_18A",
+        "E069_20"
+      ]
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": "wvs_agg_electoral_integrity",
+      "type": "tier3_caveat",
+      "alpha": 0.4959,
+      "n_valid": 1991,
+      "n_items": 9,
+      "items": [
+        "Q224",
+        "Q225",
+        "Q226",
+        "Q227",
+        "Q228",
+        "Q229",
+        "Q230",
+        "Q231",
+        "Q232"
+      ],
+      "resolved_cols": [
+        "E265_01",
+        "E265_02",
+        "E265_03",
+        "E265_04",
+        "E265_05",
+        "E265_06",
+        "E265_07",
+        "E265_08",
+        "E265_09"
+      ]
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1997,
+      "n_items": 6,
+      "items": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ],
+      "resolved_cols": [
+        "E001",
+        "E002",
+        "E003",
+        "E004",
+        "E005",
+        "E006"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": "wvs_agg_autocracy_support",
+      "type": "tier3_caveat",
+      "alpha": 0.4638,
+      "n_valid": 1992,
+      "n_items": 3,
+      "items": [
+        "Q235",
+        "Q236",
+        "Q237"
+      ],
+      "resolved_cols": [
+        "E114",
+        "E115",
+        "E116"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": "wvs_agg_democratic_values_importance",
+      "type": "questionable",
+      "alpha": 0.6159,
+      "n_valid": 1988,
+      "n_items": 5,
+      "items": [
+        "Q241",
+        "Q244",
+        "Q246",
+        "Q247",
+        "Q249"
+      ],
+      "resolved_cols": [
+        "E224",
+        "E227",
+        "E229",
+        "E233A",
+        "E233"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": "wvs_agg_democratic_system_evaluation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 4,
+      "items": [
+        "Q238",
+        "Q250",
+        "Q251",
+        "Q253"
+      ],
+      "resolved_cols": [
+        "E117",
+        "E235",
+        "E236",
+        "E124"
+      ]
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 4,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212"
+      ],
+      "resolved_cols": [
+        "E025",
+        "E026",
+        "E027",
+        "E028"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": "wvs_agg_political_information_sources",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 7,
+      "items": [
+        "Q201",
+        "Q202",
+        "Q203",
+        "Q204",
+        "Q205",
+        "Q206",
+        "Q208"
+      ],
+      "resolved_cols": [
+        "E248B",
+        "E258B",
+        "E259B",
+        "E260B",
+        "E261B",
+        "E262B",
+        "E254B"
+      ]
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": "wvs_agg_voting_participation",
+      "type": "good",
+      "alpha": 0.9155,
+      "n_valid": 1989,
+      "n_items": 2,
+      "items": [
+        "Q221",
+        "Q222"
+      ],
+      "resolved_cols": [
+        "E263",
+        "E264"
+      ]
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": "wvs_agg_science_technology_optimism",
+      "type": "questionable",
+      "alpha": 0.5609,
+      "n_valid": 1998,
+      "n_items": 3,
+      "items": [
+        "Q158",
+        "Q159",
+        "Q163"
+      ],
+      "resolved_cols": [
+        "E217",
+        "E218",
+        "E234"
+      ]
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": "wvs_agg_economic_ideology",
+      "type": "tier3_caveat",
+      "alpha": -0.0411,
+      "n_valid": 1997,
+      "n_items": 4,
+      "items": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ],
+      "resolved_cols": [
+        "E035",
+        "E036",
+        "E037",
+        "E039"
+      ]
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1993,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "E015",
+        "E016"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": "wvs_agg_authoritarian_governance_tolerance",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1951,
+      "n_items": 1,
+      "items": [
+        "Q242",
+        "Q248"
+      ],
+      "resolved_cols": [
+        "E225",
+        "E233B"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "tier3_caveat",
+      "alpha": 0.3046,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q164",
+        "Q165",
+        "Q167"
+      ],
+      "resolved_cols": [
+        "F063",
+        "F050",
+        "F053"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "questionable",
+      "alpha": 0.5967,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q171",
+        "Q172",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "F028",
+        "F028B",
+        "F034"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": "wvs_agg_religious_exclusivism",
+      "type": "questionable",
+      "alpha": 0.579,
+      "n_valid": 1997,
+      "n_items": 2,
+      "items": [
+        "Q169",
+        "Q170"
+      ],
+      "resolved_cols": [
+        "F202",
+        "F203"
+      ]
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "questionable",
+      "alpha": 0.6365,
+      "n_valid": 2000,
+      "n_items": 5,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q179",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "F114A",
+        "F115",
+        "F114B",
+        "F116",
+        "F117"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.7241,
+      "n_valid": 1997,
+      "n_items": 4,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184",
+        "Q186"
+      ],
+      "resolved_cols": [
+        "F118",
+        "F119",
+        "F120",
+        "F135A"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.6211,
+      "n_valid": 1998,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "F121",
+        "F123",
+        "F122"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": "wvs_agg_violence_tolerance",
+      "type": "good",
+      "alpha": 0.8569,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q189",
+        "Q190",
+        "Q191"
+      ],
+      "resolved_cols": [
+        "F199",
+        "F114C",
+        "F114D"
+      ]
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": "wvs_agg_religion_versus_secularism_orientation",
+      "type": "tier3_caveat",
+      "alpha": 0.2939,
+      "n_valid": 1994,
+      "n_items": 2,
+      "items": [
+        "Q174",
+        "Q175"
+      ],
+      "resolved_cols": [
+        "F200",
+        "F201"
+      ]
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": "wvs_agg_outgroup_trust",
+      "type": "good",
+      "alpha": 0.738,
+      "n_valid": 2000,
+      "n_items": 4,
+      "items": [
+        "Q60",
+        "Q61",
+        "Q62",
+        "Q63"
+      ],
+      "resolved_cols": [
+        "G007_33_B",
+        "G007_34_B",
+        "G007_35_B",
+        "G007_36_B"
+      ]
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": "wvs_agg_immigrant_origin_status",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q263",
+        "Q264",
+        "Q265"
+      ],
+      "resolved_cols": [
+        "G027A",
+        "G026",
+        "G027"
+      ]
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": "wvs_agg_basic_needs_deprivation",
+      "type": "questionable",
+      "alpha": 0.6563,
+      "n_valid": 2000,
+      "n_items": 2,
+      "items": [
+        "Q51",
+        "Q54"
+      ],
+      "resolved_cols": [
+        "H008_01",
+        "H008_04"
+      ]
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": "wvs_agg_neighborhood_disorder_and_crime",
+      "type": "questionable",
+      "alpha": 0.6533,
+      "n_valid": 1999,
+      "n_items": 3,
+      "items": [
+        "Q132",
+        "Q133",
+        "Q136"
+      ],
+      "resolved_cols": [
+        "H002_01",
+        "H002_02",
+        "H002_05"
+      ]
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": "wvs_agg_crime_victimization",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 2,
+      "items": [
+        "Q144",
+        "Q145"
+      ],
+      "resolved_cols": [
+        "H004",
+        "H005"
+      ]
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": "wvs_agg_precautionary_security_behaviors",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 2000,
+      "n_items": 3,
+      "items": [
+        "Q139",
+        "Q140",
+        "Q141"
+      ],
+      "resolved_cols": [
+        "H003_01",
+        "H003_02",
+        "H003_03"
+      ]
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": "wvs_agg_socioeconomic_insecurity_worry",
+      "type": "tier3_caveat",
+      "alpha": 0.3948,
+      "n_valid": 1999,
+      "n_items": 2,
+      "items": [
+        "Q142",
+        "Q143"
+      ],
+      "resolved_cols": [
+        "H006_01",
+        "H006_02"
+      ]
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": "wvs_agg_existential_threat_worry",
+      "type": "good",
+      "alpha": 0.873,
+      "n_valid": 1999,
+      "n_items": 3,
+      "items": [
+        "Q146",
+        "Q147",
+        "Q148"
+      ],
+      "resolved_cols": [
+        "H006_03",
+        "H006_04",
+        "H006_05"
+      ]
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": null,
+      "type": "missing_items",
+      "alpha": null,
+      "n_valid": 0,
+      "n_items": 0,
+      "items": []
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": "wvs_agg_institutional_threat_perception",
+      "type": "questionable",
+      "alpha": 0.5465,
+      "n_valid": 2000,
+      "n_items": 2,
+      "items": [
+        "Q134",
+        "Q135"
+      ],
+      "resolved_cols": [
+        "H002_03",
+        "H002_04"
+      ]
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": "wvs_agg_science_skepticism",
+      "type": "tier3_caveat",
+      "alpha": 0.3248,
+      "n_valid": 1991,
+      "n_items": 2,
+      "items": [
+        "Q161",
+        "Q162"
+      ],
+      "resolved_cols": [
+        "I001",
+        "I002"
+      ]
+    }
+  ],
+  "WVS_W7_MEX": [
+    {
+      "key": "WVS_A|importance_of_life_domains",
+      "column": "wvs_agg_importance_of_life_domains",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 5,
+      "items": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ],
+      "resolved_cols": [
+        "Q1",
+        "Q2",
+        "Q3",
+        "Q5",
+        "Q6"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_autonomy_self_expression",
+      "column": "wvs_agg_child_qualities_autonomy_self_expression",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 3,
+      "items": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ],
+      "resolved_cols": [
+        "Q8",
+        "Q11",
+        "Q12"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_conformity_tradition",
+      "column": "wvs_agg_child_qualities_conformity_tradition",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 4,
+      "items": [
+        "Q7",
+        "Q10",
+        "Q15",
+        "Q17"
+      ],
+      "resolved_cols": [
+        "Q7",
+        "Q10",
+        "Q15",
+        "Q17"
+      ]
+    },
+    {
+      "key": "WVS_A|child_qualities_prosocial_diligence",
+      "column": "wvs_agg_child_qualities_prosocial_diligence",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 3,
+      "items": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ],
+      "resolved_cols": [
+        "Q13",
+        "Q14",
+        "Q16"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_outgroups",
+      "column": "wvs_agg_social_intolerance_outgroups",
+      "type": "good",
+      "alpha": 0.8118,
+      "n_valid": 1741,
+      "n_items": 7,
+      "items": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q25",
+        "Q26"
+      ],
+      "resolved_cols": [
+        "Q19",
+        "Q20",
+        "Q21",
+        "Q22",
+        "Q23",
+        "Q25",
+        "Q26"
+      ]
+    },
+    {
+      "key": "WVS_A|social_intolerance_deviant_behavior",
+      "column": "wvs_agg_social_intolerance_deviant_behavior",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1739,
+      "n_items": 1,
+      "items": [
+        "Q18",
+        "Q24"
+      ],
+      "resolved_cols": [
+        "Q18",
+        "Q24"
+      ]
+    },
+    {
+      "key": "WVS_A|subjective_wellbeing",
+      "column": "wvs_agg_subjective_wellbeing",
+      "type": "tier3_caveat",
+      "alpha": 0.2899,
+      "n_valid": 1741,
+      "n_items": 3,
+      "items": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ],
+      "resolved_cols": [
+        "Q46",
+        "Q48",
+        "Q49"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_active_membership",
+      "column": "wvs_agg_voluntary_association_active_membership",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1740,
+      "n_items": 12,
+      "items": [
+        "Q94",
+        "Q95",
+        "Q96",
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100",
+        "Q101",
+        "Q102",
+        "Q103",
+        "Q104",
+        "Q105"
+      ],
+      "resolved_cols": [
+        "Q94",
+        "Q95",
+        "Q96",
+        "Q97",
+        "Q98",
+        "Q99",
+        "Q100",
+        "Q101",
+        "Q102",
+        "Q103",
+        "Q104",
+        "Q105"
+      ]
+    },
+    {
+      "key": "WVS_A|voluntary_association_belonging",
+      "column": "wvs_agg_voluntary_association_belonging",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1740,
+      "n_items": 12,
+      "items": [
+        "Q94R",
+        "Q95R",
+        "Q96R",
+        "Q97R",
+        "Q98R",
+        "Q99R",
+        "Q100R",
+        "Q101R",
+        "Q102R",
+        "Q103R",
+        "Q104R",
+        "Q105R"
+      ],
+      "resolved_cols": [
+        "Q94R",
+        "Q95R",
+        "Q96R",
+        "Q97R",
+        "Q98R",
+        "Q99R",
+        "Q100R",
+        "Q101R",
+        "Q102R",
+        "Q103R",
+        "Q104R",
+        "Q105R"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_gender_discrimination",
+      "column": "wvs_agg_job_scarcity_gender_discrimination",
+      "type": "questionable",
+      "alpha": 0.5529,
+      "n_valid": 1736,
+      "n_items": 2,
+      "items": [
+        "Q33",
+        "Q33_3"
+      ],
+      "resolved_cols": [
+        "Q33",
+        "Q33_3"
+      ]
+    },
+    {
+      "key": "WVS_C|job_scarcity_nativist_preference",
+      "column": "wvs_agg_job_scarcity_nativist_preference",
+      "type": "good",
+      "alpha": 0.7355,
+      "n_valid": 1727,
+      "n_items": 2,
+      "items": [
+        "Q34",
+        "Q34_3"
+      ],
+      "resolved_cols": [
+        "Q34",
+        "Q34_3"
+      ]
+    },
+    {
+      "key": "WVS_C|work_ethic",
+      "column": "wvs_agg_work_ethic",
+      "type": "questionable",
+      "alpha": 0.6195,
+      "n_valid": 1740,
+      "n_items": 3,
+      "items": [
+        "Q39",
+        "Q40",
+        "Q41"
+      ],
+      "resolved_cols": [
+        "Q39",
+        "Q40",
+        "Q41"
+      ]
+    },
+    {
+      "key": "WVS_D|gender_role_traditionalism",
+      "column": "wvs_agg_gender_role_traditionalism",
+      "type": "good",
+      "alpha": 0.7044,
+      "n_valid": 1741,
+      "n_items": 4,
+      "items": [
+        "Q28",
+        "Q29",
+        "Q30",
+        "Q31"
+      ],
+      "resolved_cols": [
+        "Q28",
+        "Q29",
+        "Q30",
+        "Q31"
+      ]
+    },
+    {
+      "key": "WVS_D|female_income_threat_to_marriage",
+      "column": "wvs_agg_female_income_threat_to_marriage",
+      "type": "good",
+      "alpha": 0.7427,
+      "n_valid": 1725,
+      "n_items": 2,
+      "items": [
+        "Q35",
+        "Q35_3"
+      ],
+      "resolved_cols": [
+        "Q35",
+        "Q35_3"
+      ]
+    },
+    {
+      "key": "WVS_D|familial_duty_obligations",
+      "column": "wvs_agg_familial_duty_obligations",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1731,
+      "n_items": 1,
+      "items": [
+        "Q38"
+      ],
+      "resolved_cols": [
+        "Q38"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_domestic_institutions",
+      "column": "wvs_agg_confidence_in_domestic_institutions",
+      "type": "good",
+      "alpha": 0.8905,
+      "n_valid": 1741,
+      "n_items": 15,
+      "items": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q75",
+        "Q76",
+        "Q77",
+        "Q78"
+      ],
+      "resolved_cols": [
+        "Q64",
+        "Q65",
+        "Q66",
+        "Q67",
+        "Q68",
+        "Q69",
+        "Q70",
+        "Q71",
+        "Q72",
+        "Q73",
+        "Q74",
+        "Q75",
+        "Q76",
+        "Q77",
+        "Q78"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_civil_society_organizations",
+      "column": "wvs_agg_confidence_in_civil_society_organizations",
+      "type": "good",
+      "alpha": 0.7696,
+      "n_valid": 1735,
+      "n_items": 3,
+      "items": [
+        "Q79",
+        "Q80",
+        "Q81"
+      ],
+      "resolved_cols": [
+        "Q79",
+        "Q80",
+        "Q81"
+      ]
+    },
+    {
+      "key": "WVS_E|confidence_in_international_organizations",
+      "column": "wvs_agg_confidence_in_international_organizations",
+      "type": "good",
+      "alpha": 0.9119,
+      "n_valid": 1701,
+      "n_items": 8,
+      "items": [
+        "Q82",
+        "Q83",
+        "Q84",
+        "Q85",
+        "Q86",
+        "Q87",
+        "Q88",
+        "Q89"
+      ],
+      "resolved_cols": [
+        "Q82",
+        "Q83",
+        "Q84",
+        "Q85",
+        "Q86",
+        "Q87",
+        "Q88",
+        "Q89"
+      ]
+    },
+    {
+      "key": "WVS_E|perceived_corruption",
+      "column": "wvs_agg_perceived_corruption",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1740,
+      "n_items": 8,
+      "items": [
+        "Q112",
+        "Q113",
+        "Q114",
+        "Q115",
+        "Q116",
+        "Q117",
+        "Q118",
+        "Q120"
+      ],
+      "resolved_cols": [
+        "Q112",
+        "Q113",
+        "Q114",
+        "Q115",
+        "Q116",
+        "Q117",
+        "Q118",
+        "Q120"
+      ]
+    },
+    {
+      "key": "WVS_E|electoral_integrity",
+      "column": "wvs_agg_electoral_integrity",
+      "type": "tier3_caveat",
+      "alpha": 0.3483,
+      "n_valid": 1729,
+      "n_items": 10,
+      "items": [
+        "Q224",
+        "Q225",
+        "Q226",
+        "Q227",
+        "Q228",
+        "Q229",
+        "Q230",
+        "Q231",
+        "Q232",
+        "Q233"
+      ],
+      "resolved_cols": [
+        "Q224",
+        "Q225",
+        "Q226",
+        "Q227",
+        "Q228",
+        "Q229",
+        "Q230",
+        "Q231",
+        "Q232",
+        "Q233"
+      ]
+    },
+    {
+      "key": "WVS_E|postmaterialist_values",
+      "column": "wvs_agg_postmaterialist_values",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1739,
+      "n_items": 6,
+      "items": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ],
+      "resolved_cols": [
+        "Q152",
+        "Q153",
+        "Q154",
+        "Q155",
+        "Q156",
+        "Q157"
+      ]
+    },
+    {
+      "key": "WVS_E|autocracy_support",
+      "column": "wvs_agg_autocracy_support",
+      "type": "tier3_caveat",
+      "alpha": 0.4995,
+      "n_valid": 1736,
+      "n_items": 4,
+      "items": [
+        "Q235",
+        "Q236",
+        "Q237",
+        "Q239"
+      ],
+      "resolved_cols": [
+        "Q235",
+        "Q236",
+        "Q237",
+        "Q239"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_values_importance",
+      "column": "wvs_agg_democratic_values_importance",
+      "type": "questionable",
+      "alpha": 0.6698,
+      "n_valid": 1727,
+      "n_items": 5,
+      "items": [
+        "Q241",
+        "Q244",
+        "Q246",
+        "Q247",
+        "Q249"
+      ],
+      "resolved_cols": [
+        "Q241",
+        "Q244",
+        "Q246",
+        "Q247",
+        "Q249"
+      ]
+    },
+    {
+      "key": "WVS_E|democratic_system_evaluation",
+      "column": "wvs_agg_democratic_system_evaluation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1739,
+      "n_items": 5,
+      "items": [
+        "Q238",
+        "Q250",
+        "Q251",
+        "Q252",
+        "Q253"
+      ],
+      "resolved_cols": [
+        "Q238",
+        "Q250",
+        "Q251",
+        "Q252",
+        "Q253"
+      ]
+    },
+    {
+      "key": "WVS_E|offline_political_participation",
+      "column": "wvs_agg_offline_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1738,
+      "n_items": 8,
+      "items": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212",
+        "Q213",
+        "Q214",
+        "Q215",
+        "Q216"
+      ],
+      "resolved_cols": [
+        "Q209",
+        "Q210",
+        "Q211",
+        "Q212",
+        "Q213",
+        "Q214",
+        "Q215",
+        "Q216"
+      ]
+    },
+    {
+      "key": "WVS_E|online_political_participation",
+      "column": "wvs_agg_online_political_participation",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1665,
+      "n_items": 4,
+      "items": [
+        "Q217",
+        "Q218",
+        "Q219",
+        "Q220"
+      ],
+      "resolved_cols": [
+        "Q217",
+        "Q218",
+        "Q219",
+        "Q220"
+      ]
+    },
+    {
+      "key": "WVS_E|political_information_sources",
+      "column": "wvs_agg_political_information_sources",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 8,
+      "items": [
+        "Q201",
+        "Q202",
+        "Q203",
+        "Q204",
+        "Q205",
+        "Q206",
+        "Q207",
+        "Q208"
+      ],
+      "resolved_cols": [
+        "Q201",
+        "Q202",
+        "Q203",
+        "Q204",
+        "Q205",
+        "Q206",
+        "Q207",
+        "Q208"
+      ]
+    },
+    {
+      "key": "WVS_E|voting_participation",
+      "column": "wvs_agg_voting_participation",
+      "type": "good",
+      "alpha": 0.8693,
+      "n_valid": 1737,
+      "n_items": 2,
+      "items": [
+        "Q221",
+        "Q222"
+      ],
+      "resolved_cols": [
+        "Q221",
+        "Q222"
+      ]
+    },
+    {
+      "key": "WVS_E|science_technology_optimism",
+      "column": "wvs_agg_science_technology_optimism",
+      "type": "questionable",
+      "alpha": 0.5983,
+      "n_valid": 1737,
+      "n_items": 3,
+      "items": [
+        "Q158",
+        "Q159",
+        "Q163"
+      ],
+      "resolved_cols": [
+        "Q158",
+        "Q159",
+        "Q163"
+      ]
+    },
+    {
+      "key": "WVS_E|economic_ideology",
+      "column": "wvs_agg_economic_ideology",
+      "type": "tier3_caveat",
+      "alpha": 0.4284,
+      "n_valid": 1734,
+      "n_items": 4,
+      "items": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ],
+      "resolved_cols": [
+        "Q106",
+        "Q107",
+        "Q108",
+        "Q109"
+      ]
+    },
+    {
+      "key": "WVS_E|societal_change_attitudes",
+      "column": "wvs_agg_societal_change_attitudes",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1734,
+      "n_items": 1,
+      "items": [
+        "Q43",
+        "Q44"
+      ],
+      "resolved_cols": [
+        "Q43",
+        "Q44"
+      ]
+    },
+    {
+      "key": "WVS_E|international_organization_knowledge",
+      "column": "wvs_agg_international_organization_knowledge",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1163,
+      "n_items": 3,
+      "items": [
+        "Q91",
+        "Q92",
+        "Q93"
+      ],
+      "resolved_cols": [
+        "Q91",
+        "Q92",
+        "Q93"
+      ]
+    },
+    {
+      "key": "WVS_E|authoritarian_governance_tolerance",
+      "column": "wvs_agg_authoritarian_governance_tolerance",
+      "type": "single_item_tier2",
+      "alpha": null,
+      "n_valid": 1691,
+      "n_items": 1,
+      "items": [
+        "Q242",
+        "Q248"
+      ],
+      "resolved_cols": [
+        "Q242",
+        "Q248"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_belief",
+      "column": "wvs_agg_religious_belief",
+      "type": "tier3_caveat",
+      "alpha": -0.2496,
+      "n_valid": 1741,
+      "n_items": 5,
+      "items": [
+        "Q164",
+        "Q165",
+        "Q166",
+        "Q167",
+        "Q168"
+      ],
+      "resolved_cols": [
+        "Q164",
+        "Q165",
+        "Q166",
+        "Q167",
+        "Q168"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_practice_and_self_identification",
+      "column": "wvs_agg_religious_practice_and_self_identification",
+      "type": "questionable",
+      "alpha": 0.6079,
+      "n_valid": 1740,
+      "n_items": 3,
+      "items": [
+        "Q171",
+        "Q172",
+        "Q173"
+      ],
+      "resolved_cols": [
+        "Q171",
+        "Q172",
+        "Q173"
+      ]
+    },
+    {
+      "key": "WVS_F|religious_exclusivism",
+      "column": "wvs_agg_religious_exclusivism",
+      "type": "questionable",
+      "alpha": 0.6911,
+      "n_valid": 1725,
+      "n_items": 2,
+      "items": [
+        "Q169",
+        "Q170"
+      ],
+      "resolved_cols": [
+        "Q169",
+        "Q170"
+      ]
+    },
+    {
+      "key": "WVS_F|civic_dishonesty_tolerance",
+      "column": "wvs_agg_civic_dishonesty_tolerance",
+      "type": "questionable",
+      "alpha": 0.6526,
+      "n_valid": 1738,
+      "n_items": 5,
+      "items": [
+        "Q177",
+        "Q178",
+        "Q179",
+        "Q180",
+        "Q181"
+      ],
+      "resolved_cols": [
+        "Q177",
+        "Q178",
+        "Q179",
+        "Q180",
+        "Q181"
+      ]
+    },
+    {
+      "key": "WVS_F|sexual_and_reproductive_morality_permissiveness",
+      "column": "wvs_agg_sexual_and_reproductive_morality_permissiveness",
+      "type": "good",
+      "alpha": 0.7514,
+      "n_valid": 1735,
+      "n_items": 5,
+      "items": [
+        "Q182",
+        "Q183",
+        "Q184",
+        "Q186",
+        "Q193"
+      ],
+      "resolved_cols": [
+        "Q182",
+        "Q183",
+        "Q184",
+        "Q186",
+        "Q193"
+      ]
+    },
+    {
+      "key": "WVS_F|life_autonomy_morality_permissiveness",
+      "column": "wvs_agg_life_autonomy_morality_permissiveness",
+      "type": "questionable",
+      "alpha": 0.5799,
+      "n_valid": 1732,
+      "n_items": 3,
+      "items": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ],
+      "resolved_cols": [
+        "Q185",
+        "Q187",
+        "Q188"
+      ]
+    },
+    {
+      "key": "WVS_F|violence_tolerance",
+      "column": "wvs_agg_violence_tolerance",
+      "type": "good",
+      "alpha": 0.7706,
+      "n_valid": 1734,
+      "n_items": 4,
+      "items": [
+        "Q189",
+        "Q190",
+        "Q191",
+        "Q192"
+      ],
+      "resolved_cols": [
+        "Q189",
+        "Q190",
+        "Q191",
+        "Q192"
+      ]
+    },
+    {
+      "key": "WVS_F|religion_versus_secularism_orientation",
+      "column": "wvs_agg_religion_versus_secularism_orientation",
+      "type": "tier3_caveat",
+      "alpha": 0.3612,
+      "n_valid": 1736,
+      "n_items": 2,
+      "items": [
+        "Q174",
+        "Q175"
+      ],
+      "resolved_cols": [
+        "Q174",
+        "Q175"
+      ]
+    },
+    {
+      "key": "WVS_G|outgroup_trust",
+      "column": "wvs_agg_outgroup_trust",
+      "type": "good",
+      "alpha": 0.7686,
+      "n_valid": 1741,
+      "n_items": 4,
+      "items": [
+        "Q60",
+        "Q61",
+        "Q62",
+        "Q63"
+      ],
+      "resolved_cols": [
+        "Q60",
+        "Q61",
+        "Q62",
+        "Q63"
+      ]
+    },
+    {
+      "key": "WVS_G|perceived_positive_effects_of_immigration",
+      "column": "wvs_agg_perceived_positive_effects_of_immigration",
+      "type": "questionable",
+      "alpha": 0.5177,
+      "n_valid": 1732,
+      "n_items": 4,
+      "items": [
+        "Q122",
+        "Q123",
+        "Q125",
+        "Q127"
+      ],
+      "resolved_cols": [
+        "Q122",
+        "Q123",
+        "Q125",
+        "Q127"
+      ]
+    },
+    {
+      "key": "WVS_G|perceived_negative_effects_of_immigration",
+      "column": "wvs_agg_perceived_negative_effects_of_immigration",
+      "type": "good",
+      "alpha": 0.7441,
+      "n_valid": 1729,
+      "n_items": 4,
+      "items": [
+        "Q124",
+        "Q126",
+        "Q128",
+        "Q129"
+      ],
+      "resolved_cols": [
+        "Q124",
+        "Q126",
+        "Q128",
+        "Q129"
+      ]
+    },
+    {
+      "key": "WVS_G|multilevel_place_attachment",
+      "column": "wvs_agg_multilevel_place_attachment",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1739,
+      "n_items": 5,
+      "items": [
+        "Q255",
+        "Q256",
+        "Q257",
+        "Q258",
+        "Q259"
+      ],
+      "resolved_cols": [
+        "Q255",
+        "Q256",
+        "Q257",
+        "Q258",
+        "Q259"
+      ]
+    },
+    {
+      "key": "WVS_G|immigrant_origin_status",
+      "column": "wvs_agg_immigrant_origin_status",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 3,
+      "items": [
+        "Q263",
+        "Q264",
+        "Q265"
+      ],
+      "resolved_cols": [
+        "Q263",
+        "Q264",
+        "Q265"
+      ]
+    },
+    {
+      "key": "WVS_H|basic_needs_deprivation",
+      "column": "wvs_agg_basic_needs_deprivation",
+      "type": "questionable",
+      "alpha": 0.6257,
+      "n_valid": 1741,
+      "n_items": 3,
+      "items": [
+        "Q51",
+        "Q54",
+        "Q55"
+      ],
+      "resolved_cols": [
+        "Q51",
+        "Q54",
+        "Q55"
+      ]
+    },
+    {
+      "key": "WVS_H|neighborhood_disorder_and_crime",
+      "column": "wvs_agg_neighborhood_disorder_and_crime",
+      "type": "good",
+      "alpha": 0.8267,
+      "n_valid": 1741,
+      "n_items": 5,
+      "items": [
+        "Q132",
+        "Q133",
+        "Q136",
+        "Q137",
+        "Q138"
+      ],
+      "resolved_cols": [
+        "Q132",
+        "Q133",
+        "Q136",
+        "Q137",
+        "Q138"
+      ]
+    },
+    {
+      "key": "WVS_H|crime_victimization",
+      "column": "wvs_agg_crime_victimization",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 2,
+      "items": [
+        "Q144",
+        "Q145"
+      ],
+      "resolved_cols": [
+        "Q144",
+        "Q145"
+      ]
+    },
+    {
+      "key": "WVS_H|precautionary_security_behaviors",
+      "column": "wvs_agg_precautionary_security_behaviors",
+      "type": "formative_index",
+      "alpha": null,
+      "n_valid": 1741,
+      "n_items": 3,
+      "items": [
+        "Q139",
+        "Q140",
+        "Q141"
+      ],
+      "resolved_cols": [
+        "Q139",
+        "Q140",
+        "Q141"
+      ]
+    },
+    {
+      "key": "WVS_H|socioeconomic_insecurity_worry",
+      "column": "wvs_agg_socioeconomic_insecurity_worry",
+      "type": "questionable",
+      "alpha": 0.6829,
+      "n_valid": 1739,
+      "n_items": 2,
+      "items": [
+        "Q142",
+        "Q143"
+      ],
+      "resolved_cols": [
+        "Q142",
+        "Q143"
+      ]
+    },
+    {
+      "key": "WVS_H|existential_threat_worry",
+      "column": "wvs_agg_existential_threat_worry",
+      "type": "good",
+      "alpha": 0.9092,
+      "n_valid": 1739,
+      "n_items": 3,
+      "items": [
+        "Q146",
+        "Q147",
+        "Q148"
+      ],
+      "resolved_cols": [
+        "Q146",
+        "Q147",
+        "Q148"
+      ]
+    },
+    {
+      "key": "WVS_H|acceptance_of_state_surveillance",
+      "column": "wvs_agg_acceptance_of_state_surveillance",
+      "type": "good",
+      "alpha": 0.7072,
+      "n_valid": 1738,
+      "n_items": 3,
+      "items": [
+        "Q196",
+        "Q197",
+        "Q198"
+      ],
+      "resolved_cols": [
+        "Q196",
+        "Q197",
+        "Q198"
+      ]
+    },
+    {
+      "key": "WVS_H|freedom_security_tradeoff_perception",
+      "column": "wvs_agg_freedom_security_tradeoff_perception",
+      "type": "tier3_caveat",
+      "alpha": 0.1895,
+      "n_valid": 1739,
+      "n_items": 2,
+      "items": [
+        "Q149",
+        "Q150"
+      ],
+      "resolved_cols": [
+        "Q149",
+        "Q150"
+      ]
+    },
+    {
+      "key": "WVS_H|institutional_threat_perception",
+      "column": "wvs_agg_institutional_threat_perception",
+      "type": "questionable",
+      "alpha": 0.6626,
+      "n_valid": 1735,
+      "n_items": 2,
+      "items": [
+        "Q134",
+        "Q135"
+      ],
+      "resolved_cols": [
+        "Q134",
+        "Q135"
+      ]
+    },
+    {
+      "key": "WVS_I|science_skepticism",
+      "column": "wvs_agg_science_skepticism",
+      "type": "tier3_caveat",
+      "alpha": 0.3333,
+      "n_valid": 1735,
+      "n_items": 2,
+      "items": [
+        "Q161",
+        "Q162"
+      ],
+      "resolved_cols": [
+        "Q161",
+        "Q162"
+      ]
+    }
+  ]
+}

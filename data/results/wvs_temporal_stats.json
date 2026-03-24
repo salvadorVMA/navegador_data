@@ -1,0 +1,82 @@
+{
+  "wave_stats": {
+    "3": {
+      "n_pairs": 193,
+      "n_significant": 50,
+      "pct_significant": 25.9,
+      "median_abs_gamma": 0.0073,
+      "mean_abs_gamma": 0.0112,
+      "median_ci_width": 0.0296,
+      "year": 1996,
+      "label": "Wave 3 (1995\u20131998)"
+    },
+    "4": {
+      "n_pairs": 212,
+      "n_significant": 87,
+      "pct_significant": 41.0,
+      "median_abs_gamma": 0.0158,
+      "mean_abs_gamma": 0.024,
+      "median_ci_width": 0.0406,
+      "year": 2001,
+      "label": "Wave 4 (1999\u20132004)"
+    },
+    "5": {
+      "n_pairs": 287,
+      "n_significant": 156,
+      "pct_significant": 54.4,
+      "median_abs_gamma": 0.022,
+      "mean_abs_gamma": 0.0316,
+      "median_ci_width": 0.0407,
+      "year": 2007,
+      "label": "Wave 5 (2005\u20132009)"
+    },
+    "6": {
+      "n_pairs": 660,
+      "n_significant": 280,
+      "pct_significant": 42.4,
+      "median_abs_gamma": 0.0109,
+      "mean_abs_gamma": 0.0176,
+      "median_ci_width": 0.0284,
+      "year": 2012,
+      "label": "Wave 6 (2010\u20132014)"
+    },
+    "7": {
+      "n_pairs": 982,
+      "n_significant": 395,
+      "pct_significant": 40.2,
+      "median_abs_gamma": 0.008,
+      "mean_abs_gamma": 0.0114,
+      "median_ci_width": 0.0221,
+      "year": 2018,
+      "label": "Wave 7 (2017\u20132022)"
+    }
+  },
+  "n_trends": 288,
+  "n_rank_correlations": 4,
+  "rank_correlations": [
+    {
+      "wave_pair": "W3\u2192W4",
+      "n_shared": 177,
+      "spearman_rho": 0.72,
+      "p_value": 0.0
+    },
+    {
+      "wave_pair": "W4\u2192W5",
+      "n_shared": 193,
+      "spearman_rho": 0.745,
+      "p_value": 0.0
+    },
+    {
+      "wave_pair": "W5\u2192W6",
+      "n_shared": 262,
+      "spearman_rho": 0.675,
+      "p_value": 0.0
+    },
+    {
+      "wave_pair": "W6\u2192W7",
+      "n_shared": 571,
+      "spearman_rho": 0.63,
+      "p_value": 0.0
+    }
+  ]
+}
