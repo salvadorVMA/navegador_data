@@ -1,0 +1,546 @@
+{
+  "countries": [
+    "AND",
+    "ARG",
+    "ARM",
+    "AUS",
+    "BGD",
+    "BOL",
+    "BRA",
+    "CAN",
+    "CHL",
+    "CHN",
+    "COL",
+    "CYP",
+    "CZE",
+    "DEU",
+    "ECU",
+    "EGY",
+    "ETH",
+    "GBR",
+    "GRC",
+    "GTM",
+    "HKG",
+    "IDN",
+    "IND",
+    "IRN",
+    "IRQ",
+    "JOR",
+    "JPN",
+    "KAZ",
+    "KEN",
+    "KGZ",
+    "KOR",
+    "LBN",
+    "LBY",
+    "MAC",
+    "MAR",
+    "MDV",
+    "MEX",
+    "MMR",
+    "MNG",
+    "MYS",
+    "NGA",
+    "NIC",
+    "NIR",
+    "NLD",
+    "NZL",
+    "PAK",
+    "PER",
+    "PHL",
+    "PRI",
+    "ROU",
+    "RUS",
+    "SGP",
+    "SRB",
+    "SVK",
+    "THA",
+    "TJK",
+    "TUN",
+    "TUR",
+    "TWN",
+    "UKR",
+    "URY",
+    "USA",
+    "UZB",
+    "VEN",
+    "VNM",
+    "ZWE"
+  ],
+  "n_constructs": 55,
+  "construct_index": [
+    "acceptance_of_state_surveillance|WVS_H",
+    "authoritarian_governance_tolerance|WVS_E",
+    "autocracy_support|WVS_E",
+    "basic_needs_deprivation|WVS_H",
+    "child_qualities_autonomy_self_expression|WVS_A",
+    "child_qualities_conformity_tradition|WVS_A",
+    "child_qualities_prosocial_diligence|WVS_A",
+    "civic_dishonesty_tolerance|WVS_F",
+    "confidence_in_civil_society_organizations|WVS_E",
+    "confidence_in_domestic_institutions|WVS_E",
+    "confidence_in_international_organizations|WVS_E",
+    "crime_victimization|WVS_H",
+    "democratic_system_evaluation|WVS_E",
+    "democratic_values_importance|WVS_E",
+    "economic_ideology|WVS_E",
+    "electoral_integrity|WVS_E",
+    "existential_threat_worry|WVS_H",
+    "familial_duty_obligations|WVS_D",
+    "female_income_threat_to_marriage|WVS_D",
+    "freedom_security_tradeoff_perception|WVS_H",
+    "gender_role_traditionalism|WVS_D",
+    "immigrant_origin_status|WVS_G",
+    "importance_of_life_domains|WVS_A",
+    "institutional_threat_perception|WVS_H",
+    "international_organization_knowledge|WVS_E",
+    "job_scarcity_gender_discrimination|WVS_C",
+    "job_scarcity_nativist_preference|WVS_C",
+    "life_autonomy_morality_permissiveness|WVS_F",
+    "multilevel_place_attachment|WVS_G",
+    "neighborhood_disorder_and_crime|WVS_H",
+    "offline_political_participation|WVS_E",
+    "online_political_participation|WVS_E",
+    "outgroup_trust|WVS_G",
+    "perceived_corruption|WVS_E",
+    "perceived_negative_effects_of_immigration|WVS_G",
+    "perceived_positive_effects_of_immigration|WVS_G",
+    "political_information_sources|WVS_E",
+    "postmaterialist_values|WVS_E",
+    "precautionary_security_behaviors|WVS_H",
+    "religion_versus_secularism_orientation|WVS_F",
+    "religious_belief|WVS_F",
+    "religious_exclusivism|WVS_F",
+    "religious_practice_and_self_identification|WVS_F",
+    "science_skepticism|WVS_I",
+    "science_technology_optimism|WVS_E",
+    "sexual_and_reproductive_morality_permissiveness|WVS_F",
+    "social_intolerance_outgroups|WVS_A",
+    "societal_change_attitudes|WVS_E",
+    "socioeconomic_insecurity_worry|WVS_H",
+    "subjective_wellbeing|WVS_A",
+    "violence_tolerance|WVS_F",
+    "voluntary_association_active_membership|WVS_A",
+    "voluntary_association_belonging|WVS_A",
+    "voting_participation|WVS_E",
+    "work_ethic|WVS_C"
+  ],
+  "cultural_zones": {
+    "Latin America": [
+      "ARG",
+      "BOL",
+      "BRA",
+      "CHL",
+      "COL",
+      "ECU",
+      "GTM",
+      "MEX",
+      "NIC",
+      "PER",
+      "PRI",
+      "URY",
+      "VEN"
+    ],
+    "English-speaking": [
+      "AUS",
+      "CAN",
+      "GBR",
+      "NIR",
+      "NZL",
+      "USA"
+    ],
+    "Protestant Europe": [
+      "DEU",
+      "NLD"
+    ],
+    "Catholic Europe": [
+      "AND",
+      "CYP",
+      "GRC"
+    ],
+    "Orthodox/ex-Communist": [
+      "ARM",
+      "CZE",
+      "KAZ",
+      "KGZ",
+      "MNG",
+      "ROU",
+      "RUS",
+      "SRB",
+      "SVK",
+      "TJK",
+      "UKR",
+      "UZB"
+    ],
+    "Confucian": [
+      "CHN",
+      "HKG",
+      "JPN",
+      "KOR",
+      "MAC",
+      "SGP",
+      "TWN",
+      "VNM"
+    ],
+    "South/Southeast Asian": [
+      "BGD",
+      "IDN",
+      "IND",
+      "MMR",
+      "MYS",
+      "PAK",
+      "PHL",
+      "THA"
+    ],
+    "African-Islamic": [
+      "EGY",
+      "ETH",
+      "IRN",
+      "IRQ",
+      "JOR",
+      "KEN",
+      "LBN",
+      "LBY",
+      "MAR",
+      "MDV",
+      "NGA",
+      "TUN",
+      "TUR",
+      "ZWE"
+    ]
+  },
+  "country_zone": {
+    "AND": "Catholic Europe",
+    "ARG": "Latin America",
+    "ARM": "Orthodox/ex-Communist",
+    "AUS": "English-speaking",
+    "BGD": "South/Southeast Asian",
+    "BOL": "Latin America",
+    "BRA": "Latin America",
+    "CAN": "English-speaking",
+    "CHL": "Latin America",
+    "CHN": "Confucian",
+    "COL": "Latin America",
+    "CYP": "Catholic Europe",
+    "CZE": "Orthodox/ex-Communist",
+    "DEU": "Protestant Europe",
+    "ECU": "Latin America",
+    "EGY": "African-Islamic",
+    "ETH": "African-Islamic",
+    "GBR": "English-speaking",
+    "GRC": "Catholic Europe",
+    "GTM": "Latin America",
+    "HKG": "Confucian",
+    "IDN": "South/Southeast Asian",
+    "IND": "South/Southeast Asian",
+    "IRN": "African-Islamic",
+    "IRQ": "African-Islamic",
+    "JOR": "African-Islamic",
+    "JPN": "Confucian",
+    "KAZ": "Orthodox/ex-Communist",
+    "KEN": "African-Islamic",
+    "KGZ": "Orthodox/ex-Communist",
+    "KOR": "Confucian",
+    "LBN": "African-Islamic",
+    "LBY": "African-Islamic",
+    "MAC": "Confucian",
+    "MAR": "African-Islamic",
+    "MDV": "African-Islamic",
+    "MEX": "Latin America",
+    "MMR": "South/Southeast Asian",
+    "MNG": "Orthodox/ex-Communist",
+    "MYS": "South/Southeast Asian",
+    "NGA": "African-Islamic",
+    "NIC": "Latin America",
+    "NIR": "English-speaking",
+    "NLD": "Protestant Europe",
+    "NZL": "English-speaking",
+    "PAK": "South/Southeast Asian",
+    "PER": "Latin America",
+    "PHL": "South/Southeast Asian",
+    "PRI": "Latin America",
+    "ROU": "Orthodox/ex-Communist",
+    "RUS": "Orthodox/ex-Communist",
+    "SGP": "Confucian",
+    "SRB": "Orthodox/ex-Communist",
+    "SVK": "Orthodox/ex-Communist",
+    "THA": "South/Southeast Asian",
+    "TJK": "Orthodox/ex-Communist",
+    "TUN": "African-Islamic",
+    "TUR": "African-Islamic",
+    "TWN": "Confucian",
+    "UKR": "Orthodox/ex-Communist",
+    "URY": "Latin America",
+    "USA": "English-speaking",
+    "UZB": "Orthodox/ex-Communist",
+    "VEN": "Latin America",
+    "VNM": "Confucian",
+    "ZWE": "African-Islamic"
+  },
+  "files": {
+    "AND": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/AND.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/AND_distance.csv"
+    },
+    "ARG": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ARG.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ARG_distance.csv"
+    },
+    "ARM": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ARM.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ARM_distance.csv"
+    },
+    "AUS": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/AUS.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/AUS_distance.csv"
+    },
+    "BGD": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/BGD.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/BGD_distance.csv"
+    },
+    "BOL": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/BOL.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/BOL_distance.csv"
+    },
+    "BRA": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/BRA.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/BRA_distance.csv"
+    },
+    "CAN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CAN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CAN_distance.csv"
+    },
+    "CHL": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CHL.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CHL_distance.csv"
+    },
+    "CHN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CHN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CHN_distance.csv"
+    },
+    "COL": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/COL.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/COL_distance.csv"
+    },
+    "CYP": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CYP.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CYP_distance.csv"
+    },
+    "CZE": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CZE.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/CZE_distance.csv"
+    },
+    "DEU": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/DEU.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/DEU_distance.csv"
+    },
+    "ECU": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ECU.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ECU_distance.csv"
+    },
+    "EGY": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/EGY.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/EGY_distance.csv"
+    },
+    "ETH": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ETH.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ETH_distance.csv"
+    },
+    "GBR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/GBR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/GBR_distance.csv"
+    },
+    "GRC": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/GRC.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/GRC_distance.csv"
+    },
+    "GTM": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/GTM.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/GTM_distance.csv"
+    },
+    "HKG": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/HKG.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/HKG_distance.csv"
+    },
+    "IDN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IDN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IDN_distance.csv"
+    },
+    "IND": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IND.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IND_distance.csv"
+    },
+    "IRN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IRN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IRN_distance.csv"
+    },
+    "IRQ": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IRQ.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/IRQ_distance.csv"
+    },
+    "JOR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/JOR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/JOR_distance.csv"
+    },
+    "JPN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/JPN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/JPN_distance.csv"
+    },
+    "KAZ": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KAZ.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KAZ_distance.csv"
+    },
+    "KEN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KEN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KEN_distance.csv"
+    },
+    "KGZ": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KGZ.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KGZ_distance.csv"
+    },
+    "KOR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KOR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/KOR_distance.csv"
+    },
+    "LBN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/LBN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/LBN_distance.csv"
+    },
+    "LBY": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/LBY.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/LBY_distance.csv"
+    },
+    "MAC": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MAC.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MAC_distance.csv"
+    },
+    "MAR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MAR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MAR_distance.csv"
+    },
+    "MDV": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MDV.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MDV_distance.csv"
+    },
+    "MEX": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MEX.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MEX_distance.csv"
+    },
+    "MMR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MMR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MMR_distance.csv"
+    },
+    "MNG": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MNG.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MNG_distance.csv"
+    },
+    "MYS": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MYS.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/MYS_distance.csv"
+    },
+    "NGA": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NGA.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NGA_distance.csv"
+    },
+    "NIC": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NIC.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NIC_distance.csv"
+    },
+    "NIR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NIR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NIR_distance.csv"
+    },
+    "NLD": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NLD.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NLD_distance.csv"
+    },
+    "NZL": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NZL.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/NZL_distance.csv"
+    },
+    "PAK": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PAK.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PAK_distance.csv"
+    },
+    "PER": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PER.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PER_distance.csv"
+    },
+    "PHL": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PHL.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PHL_distance.csv"
+    },
+    "PRI": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PRI.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/PRI_distance.csv"
+    },
+    "ROU": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ROU.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ROU_distance.csv"
+    },
+    "RUS": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/RUS.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/RUS_distance.csv"
+    },
+    "SGP": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/SGP.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/SGP_distance.csv"
+    },
+    "SRB": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/SRB.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/SRB_distance.csv"
+    },
+    "SVK": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/SVK.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/SVK_distance.csv"
+    },
+    "THA": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/THA.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/THA_distance.csv"
+    },
+    "TJK": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TJK.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TJK_distance.csv"
+    },
+    "TUN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TUN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TUN_distance.csv"
+    },
+    "TUR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TUR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TUR_distance.csv"
+    },
+    "TWN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TWN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/TWN_distance.csv"
+    },
+    "UKR": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/UKR.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/UKR_distance.csv"
+    },
+    "URY": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/URY.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/URY_distance.csv"
+    },
+    "USA": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/USA.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/USA_distance.csv"
+    },
+    "UZB": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/UZB.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/UZB_distance.csv"
+    },
+    "VEN": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/VEN.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/VEN_distance.csv"
+    },
+    "VNM": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/VNM.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/VNM_distance.csv"
+    },
+    "ZWE": {
+      "weight": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ZWE.csv",
+      "distance": "/Users/salvadorVMA/Google Drive/01 Proyectos/2025/navegador/data/tda/allwave/matrices/W7/ZWE_distance.csv"
+    }
+  }
+}
