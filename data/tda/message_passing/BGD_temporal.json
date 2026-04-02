@@ -1,0 +1,43 @@
+{
+  "country": "BGD",
+  "zone": "South/Southeast Asian",
+  "waves": [
+    3,
+    4,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 51,
+  "n_temporal_core": 16,
+  "alpha_star": 0.0871523338560289,
+  "alpha_raw": 0.0871523338560289,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.04467571590036946,
+    "W4_to_W7": 0.11971812202351992
+  },
+  "n_observations": 32,
+  "equilibrium_distances": {
+    "W3": 7.275387529285112,
+    "W4": 8.978856893546874,
+    "W7": 14.959698132685322
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "institutional_threat_perception|WVS_H",
+      "velocity": 1.5800945032978273
+    },
+    {
+      "construct": "familial_duty_obligations|WVS_D",
+      "velocity": -1.217333707889146
+    },
+    {
+      "construct": "science_skepticism|WVS_I",
+      "velocity": -0.963664349978214
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 2.165804747781868,
+    "W4_W7": 2.135166634746265
+  }
+}

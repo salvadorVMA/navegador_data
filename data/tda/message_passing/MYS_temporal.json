@@ -1,0 +1,43 @@
+{
+  "country": "MYS",
+  "zone": "South/Southeast Asian",
+  "waves": [
+    5,
+    6,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 54,
+  "n_temporal_core": 26,
+  "alpha_star": 0.23914637636844965,
+  "alpha_raw": 0.23914637636844965,
+  "per_transition_alpha": {
+    "W5_to_W6": 0.0,
+    "W6_to_W7": 0.48443363178834387
+  },
+  "n_observations": 52,
+  "equilibrium_distances": {
+    "W5": 10.122413087103343,
+    "W6": 11.943475652456373,
+    "W7": 12.12697555836374
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": 2.7297517399965363
+    },
+    {
+      "construct": "voting_participation|WVS_E",
+      "velocity": 1.6009421942518136
+    },
+    {
+      "construct": "autocracy_support|WVS_E",
+      "velocity": -1.005353954039751
+    }
+  ],
+  "residual_rmse": {
+    "W5_W6": 2.384338667301885,
+    "W6_W7": 2.4699700785608396
+  }
+}

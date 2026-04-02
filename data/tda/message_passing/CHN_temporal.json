@@ -1,0 +1,47 @@
+{
+  "country": "CHN",
+  "zone": "Confucian",
+  "waves": [
+    3,
+    5,
+    6,
+    7
+  ],
+  "n_waves": 4,
+  "n_constructs": 48,
+  "n_temporal_core": 16,
+  "alpha_star": 0.0796537374080456,
+  "alpha_raw": 0.0796537374080456,
+  "per_transition_alpha": {
+    "W3_to_W5": 0.06671967173045042,
+    "W5_to_W6": 0.012383910207462408,
+    "W6_to_W7": 0.17433643717008884
+  },
+  "n_observations": 48,
+  "equilibrium_distances": {
+    "W3": 5.684378640616184,
+    "W5": 8.931376061660284,
+    "W6": 12.847524791382515,
+    "W7": 13.573528676642132
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 2.636637605281644
+    },
+    {
+      "construct": "social_intolerance_outgroups|WVS_A",
+      "velocity": -2.5146425600929567
+    },
+    {
+      "construct": "child_qualities_autonomy_self_expression|WVS_A",
+      "velocity": -1.7692598653363545
+    }
+  ],
+  "residual_rmse": {
+    "W3_W5": 1.7247803191948523,
+    "W5_W6": 2.0865428696905113,
+    "W6_W7": 2.0706084793231603
+  }
+}

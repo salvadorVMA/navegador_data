@@ -1,0 +1,43 @@
+{
+  "country": "PRI",
+  "zone": "Latin America",
+  "waves": [
+    3,
+    4,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 53,
+  "n_temporal_core": 21,
+  "alpha_star": 0.0853217029210211,
+  "alpha_raw": 0.0853217029210211,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.01942730583303123,
+    "W4_to_W7": 0.15162422994029193
+  },
+  "n_observations": 42,
+  "equilibrium_distances": {
+    "W3": 9.319487075663696,
+    "W4": 9.566828127433062,
+    "W7": 13.897269783020747
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": 2.415741799773822
+    },
+    {
+      "construct": "child_qualities_conformity_tradition|WVS_A",
+      "velocity": 1.4536449573107046
+    },
+    {
+      "construct": "religious_practice_and_self_identification|WVS_F",
+      "velocity": -1.2753857998871645
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 2.437047945863084,
+    "W4_W7": 2.412734583992
+  }
+}

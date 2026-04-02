@@ -1,0 +1,51 @@
+{
+  "country": "MEX",
+  "zone": "Latin America",
+  "waves": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "n_waves": 5,
+  "n_constructs": 52,
+  "n_temporal_core": 20,
+  "alpha_star": 0.11176312993216378,
+  "alpha_raw": 0.11176312993216378,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.015390267797061572,
+    "W4_to_W5": 0.15111431006251166,
+    "W5_to_W6": 0.0,
+    "W6_to_W7": 0.34935643789743576
+  },
+  "n_observations": 80,
+  "equilibrium_distances": {
+    "W3": 7.638633052186937,
+    "W4": 8.245920813575237,
+    "W5": 8.581186231901315,
+    "W6": 11.509975347460365,
+    "W7": 11.894172093396847
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 1.8949343290778202
+    },
+    {
+      "construct": "social_intolerance_outgroups|WVS_A",
+      "velocity": -1.3397928955743308
+    },
+    {
+      "construct": "religion_versus_secularism_orientation|WVS_F",
+      "velocity": -1.0890448173824074
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 1.9964753066160505,
+    "W4_W5": 1.880106094857215,
+    "W5_W6": 2.2409671010277084,
+    "W6_W7": 1.9087410314238866
+  }
+}

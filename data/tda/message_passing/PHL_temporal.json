@@ -1,0 +1,43 @@
+{
+  "country": "PHL",
+  "zone": "South/Southeast Asian",
+  "waves": [
+    4,
+    6,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 54,
+  "n_temporal_core": 22,
+  "alpha_star": 0.18269593564901357,
+  "alpha_raw": 0.18269593564901357,
+  "per_transition_alpha": {
+    "W4_to_W6": 0.1697001949237323,
+    "W6_to_W7": 0.20157353134980438
+  },
+  "n_observations": 44,
+  "equilibrium_distances": {
+    "W4": 7.526265272301222,
+    "W6": 10.918306705265065,
+    "W7": 12.308563299157575
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 2.476200155280956
+    },
+    {
+      "construct": "religion_versus_secularism_orientation|WVS_F",
+      "velocity": -1.7494346096295372
+    },
+    {
+      "construct": "social_intolerance_outgroups|WVS_A",
+      "velocity": -1.7323132250292392
+    }
+  ],
+  "residual_rmse": {
+    "W4_W6": 1.5406113689791883,
+    "W6_W7": 1.7887641850927622
+  }
+}

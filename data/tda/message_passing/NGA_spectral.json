@@ -1,0 +1,967 @@
+{
+  "country": "NGA",
+  "n_constructs": 55,
+  "eigenvalue_summary": {
+    "min": 0.0,
+    "max": 1.4613304566065402,
+    "fiedler": 0.627929231724505,
+    "n_near_zero": 6,
+    "all_eigenvalues": [
+      0.0,
+      0.0,
+      0.0,
+      5.798077199712459e-16,
+      1.1925965583185386e-15,
+      2.373993192938536e-15,
+      0.627929231724505,
+      0.7928905238805496,
+      0.8255415082132352,
+      0.8627049578951937,
+      0.9139981311075659,
+      0.9218241175854109,
+      0.9469491319102727,
+      0.975634178273577,
+      0.9794224155970036,
+      0.9812738006540197,
+      0.9873556258287675,
+      0.9909678198690433,
+      0.9915368756583197,
+      0.9917734915654358,
+      0.9957401214629041,
+      0.9968760050264609,
+      0.9973832038483309,
+      0.9992012496777146,
+      0.9994461933728843,
+      1.0007979974072678,
+      1.0017489320614752,
+      1.0061614908185044,
+      1.008652544802613,
+      1.0101542842471436,
+      1.012013245454444,
+      1.016622214229467,
+      1.0206344863886916,
+      1.022774441258504,
+      1.0232145598610685,
+      1.025758108960651,
+      1.0297694127234993,
+      1.0326897717482184,
+      1.0375600774934222,
+      1.0429013400990483,
+      1.0470702917662087,
+      1.0509705117912485,
+      1.0527788873218098,
+      1.0599308330043158,
+      1.0638763300233587,
+      1.0691928913290312,
+      1.0838449044545277,
+      1.0868590787666874,
+      1.100725247160464,
+      1.1084451921532674,
+      1.1348027005981234,
+      1.159674466306781,
+      1.2011126403906534,
+      1.2494840776217715,
+      1.4613304566065402
+    ]
+  },
+  "fiedler_partition": {
+    "fiedler_value": 0.627929231724505,
+    "fiedler_index": 6,
+    "positive_group": [
+      "authoritarian_governance_tolerance|WVS_E",
+      "child_qualities_prosocial_diligence|WVS_A",
+      "crime_victimization|WVS_H",
+      "economic_ideology|WVS_E",
+      "electoral_integrity|WVS_E",
+      "existential_threat_worry|WVS_H",
+      "freedom_security_tradeoff_perception|WVS_H",
+      "gender_role_traditionalism|WVS_D",
+      "institutional_threat_perception|WVS_H",
+      "international_organization_knowledge|WVS_E",
+      "job_scarcity_gender_discrimination|WVS_C",
+      "job_scarcity_nativist_preference|WVS_C",
+      "neighborhood_disorder_and_crime|WVS_H",
+      "offline_political_participation|WVS_E",
+      "online_political_participation|WVS_E",
+      "outgroup_trust|WVS_G",
+      "perceived_corruption|WVS_E",
+      "perceived_negative_effects_of_immigration|WVS_G",
+      "perceived_positive_effects_of_immigration|WVS_G",
+      "political_information_sources|WVS_E",
+      "precautionary_security_behaviors|WVS_H",
+      "religion_versus_secularism_orientation|WVS_F",
+      "science_skepticism|WVS_I",
+      "sexual_and_reproductive_morality_permissiveness|WVS_F",
+      "social_intolerance_outgroups|WVS_A",
+      "societal_change_attitudes|WVS_E",
+      "voluntary_association_active_membership|WVS_A",
+      "voluntary_association_belonging|WVS_A",
+      "voting_participation|WVS_E"
+    ],
+    "negative_group": [
+      "acceptance_of_state_surveillance|WVS_H",
+      "autocracy_support|WVS_E",
+      "basic_needs_deprivation|WVS_H",
+      "child_qualities_autonomy_self_expression|WVS_A",
+      "child_qualities_conformity_tradition|WVS_A",
+      "civic_dishonesty_tolerance|WVS_F",
+      "confidence_in_civil_society_organizations|WVS_E",
+      "confidence_in_domestic_institutions|WVS_E",
+      "confidence_in_international_organizations|WVS_E",
+      "democratic_system_evaluation|WVS_E",
+      "democratic_values_importance|WVS_E",
+      "familial_duty_obligations|WVS_D",
+      "female_income_threat_to_marriage|WVS_D",
+      "immigrant_origin_status|WVS_G",
+      "importance_of_life_domains|WVS_A",
+      "life_autonomy_morality_permissiveness|WVS_F",
+      "multilevel_place_attachment|WVS_G",
+      "postmaterialist_values|WVS_E",
+      "religious_belief|WVS_F",
+      "religious_exclusivism|WVS_F",
+      "religious_practice_and_self_identification|WVS_F",
+      "science_technology_optimism|WVS_E",
+      "socioeconomic_insecurity_worry|WVS_H",
+      "subjective_wellbeing|WVS_A",
+      "violence_tolerance|WVS_F",
+      "work_ethic|WVS_C"
+    ],
+    "ranked_by_abs_loading": [
+      {
+        "construct": "importance_of_life_domains|WVS_A",
+        "loading": -0.29980563476569355,
+        "abs_loading": 0.29980563476569355,
+        "group": "negative"
+      },
+      {
+        "construct": "immigrant_origin_status|WVS_G",
+        "loading": -0.29774771559463103,
+        "abs_loading": 0.29774771559463103,
+        "group": "negative"
+      },
+      {
+        "construct": "socioeconomic_insecurity_worry|WVS_H",
+        "loading": -0.24925494912091187,
+        "abs_loading": 0.24925494912091187,
+        "group": "negative"
+      },
+      {
+        "construct": "work_ethic|WVS_C",
+        "loading": -0.2358414183967338,
+        "abs_loading": 0.2358414183967338,
+        "group": "negative"
+      },
+      {
+        "construct": "online_political_participation|WVS_E",
+        "loading": 0.21706902291944907,
+        "abs_loading": 0.21706902291944907,
+        "group": "positive"
+      },
+      {
+        "construct": "familial_duty_obligations|WVS_D",
+        "loading": -0.2133669953618086,
+        "abs_loading": 0.2133669953618086,
+        "group": "negative"
+      },
+      {
+        "construct": "basic_needs_deprivation|WVS_H",
+        "loading": -0.19341883000369756,
+        "abs_loading": 0.19341883000369756,
+        "group": "negative"
+      },
+      {
+        "construct": "confidence_in_international_organizations|WVS_E",
+        "loading": -0.18995650227456817,
+        "abs_loading": 0.18995650227456817,
+        "group": "negative"
+      },
+      {
+        "construct": "multilevel_place_attachment|WVS_G",
+        "loading": -0.18119970460646803,
+        "abs_loading": 0.18119970460646803,
+        "group": "negative"
+      },
+      {
+        "construct": "crime_victimization|WVS_H",
+        "loading": 0.1757559520344765,
+        "abs_loading": 0.1757559520344765,
+        "group": "positive"
+      },
+      {
+        "construct": "science_technology_optimism|WVS_E",
+        "loading": -0.17280657219813686,
+        "abs_loading": 0.17280657219813686,
+        "group": "negative"
+      },
+      {
+        "construct": "religion_versus_secularism_orientation|WVS_F",
+        "loading": 0.17230913290818897,
+        "abs_loading": 0.17230913290818897,
+        "group": "positive"
+      },
+      {
+        "construct": "voluntary_association_belonging|WVS_A",
+        "loading": 0.16904659262599342,
+        "abs_loading": 0.16904659262599342,
+        "group": "positive"
+      },
+      {
+        "construct": "postmaterialist_values|WVS_E",
+        "loading": -0.16011048944115477,
+        "abs_loading": 0.16011048944115477,
+        "group": "negative"
+      },
+      {
+        "construct": "precautionary_security_behaviors|WVS_H",
+        "loading": 0.15465840031928585,
+        "abs_loading": 0.15465840031928585,
+        "group": "positive"
+      },
+      {
+        "construct": "voluntary_association_active_membership|WVS_A",
+        "loading": 0.15457101368688744,
+        "abs_loading": 0.15457101368688744,
+        "group": "positive"
+      },
+      {
+        "construct": "science_skepticism|WVS_I",
+        "loading": 0.14873637681290847,
+        "abs_loading": 0.14873637681290847,
+        "group": "positive"
+      },
+      {
+        "construct": "economic_ideology|WVS_E",
+        "loading": 0.1449049876563699,
+        "abs_loading": 0.1449049876563699,
+        "group": "positive"
+      },
+      {
+        "construct": "subjective_wellbeing|WVS_A",
+        "loading": -0.14110082448432804,
+        "abs_loading": 0.14110082448432804,
+        "group": "negative"
+      },
+      {
+        "construct": "political_information_sources|WVS_E",
+        "loading": 0.13463596695074798,
+        "abs_loading": 0.13463596695074798,
+        "group": "positive"
+      },
+      {
+        "construct": "social_intolerance_outgroups|WVS_A",
+        "loading": 0.13351312124270429,
+        "abs_loading": 0.13351312124270429,
+        "group": "positive"
+      },
+      {
+        "construct": "religious_exclusivism|WVS_F",
+        "loading": -0.13163012146684464,
+        "abs_loading": 0.13163012146684464,
+        "group": "negative"
+      },
+      {
+        "construct": "confidence_in_civil_society_organizations|WVS_E",
+        "loading": -0.13121417556709747,
+        "abs_loading": 0.13121417556709747,
+        "group": "negative"
+      },
+      {
+        "construct": "neighborhood_disorder_and_crime|WVS_H",
+        "loading": 0.13057776603003904,
+        "abs_loading": 0.13057776603003904,
+        "group": "positive"
+      },
+      {
+        "construct": "international_organization_knowledge|WVS_E",
+        "loading": 0.12590694108212683,
+        "abs_loading": 0.12590694108212683,
+        "group": "positive"
+      },
+      {
+        "construct": "child_qualities_autonomy_self_expression|WVS_A",
+        "loading": -0.11938871240360079,
+        "abs_loading": 0.11938871240360079,
+        "group": "negative"
+      },
+      {
+        "construct": "sexual_and_reproductive_morality_permissiveness|WVS_F",
+        "loading": 0.11856776908557363,
+        "abs_loading": 0.11856776908557363,
+        "group": "positive"
+      },
+      {
+        "construct": "civic_dishonesty_tolerance|WVS_F",
+        "loading": -0.11217955573474059,
+        "abs_loading": 0.11217955573474059,
+        "group": "negative"
+      },
+      {
+        "construct": "life_autonomy_morality_permissiveness|WVS_F",
+        "loading": -0.11115305636589266,
+        "abs_loading": 0.11115305636589266,
+        "group": "negative"
+      },
+      {
+        "construct": "perceived_negative_effects_of_immigration|WVS_G",
+        "loading": 0.11009189492040164,
+        "abs_loading": 0.11009189492040164,
+        "group": "positive"
+      },
+      {
+        "construct": "outgroup_trust|WVS_G",
+        "loading": 0.10929138630109529,
+        "abs_loading": 0.10929138630109529,
+        "group": "positive"
+      },
+      {
+        "construct": "perceived_positive_effects_of_immigration|WVS_G",
+        "loading": 0.10711895645415025,
+        "abs_loading": 0.10711895645415025,
+        "group": "positive"
+      },
+      {
+        "construct": "democratic_values_importance|WVS_E",
+        "loading": -0.100430726368094,
+        "abs_loading": 0.100430726368094,
+        "group": "negative"
+      },
+      {
+        "construct": "institutional_threat_perception|WVS_H",
+        "loading": 0.0817284864181234,
+        "abs_loading": 0.0817284864181234,
+        "group": "positive"
+      },
+      {
+        "construct": "acceptance_of_state_surveillance|WVS_H",
+        "loading": -0.08087835496773146,
+        "abs_loading": 0.08087835496773146,
+        "group": "negative"
+      },
+      {
+        "construct": "societal_change_attitudes|WVS_E",
+        "loading": 0.07136138891348008,
+        "abs_loading": 0.07136138891348008,
+        "group": "positive"
+      },
+      {
+        "construct": "authoritarian_governance_tolerance|WVS_E",
+        "loading": 0.06462798010286501,
+        "abs_loading": 0.06462798010286501,
+        "group": "positive"
+      },
+      {
+        "construct": "gender_role_traditionalism|WVS_D",
+        "loading": 0.0634587281049745,
+        "abs_loading": 0.0634587281049745,
+        "group": "positive"
+      },
+      {
+        "construct": "autocracy_support|WVS_E",
+        "loading": -0.056656870816858974,
+        "abs_loading": 0.056656870816858974,
+        "group": "negative"
+      },
+      {
+        "construct": "offline_political_participation|WVS_E",
+        "loading": 0.054172719245820476,
+        "abs_loading": 0.054172719245820476,
+        "group": "positive"
+      },
+      {
+        "construct": "freedom_security_tradeoff_perception|WVS_H",
+        "loading": 0.05199805103892491,
+        "abs_loading": 0.05199805103892491,
+        "group": "positive"
+      },
+      {
+        "construct": "religious_practice_and_self_identification|WVS_F",
+        "loading": -0.04936128043558934,
+        "abs_loading": 0.04936128043558934,
+        "group": "negative"
+      },
+      {
+        "construct": "electoral_integrity|WVS_E",
+        "loading": 0.04681749710728998,
+        "abs_loading": 0.04681749710728998,
+        "group": "positive"
+      },
+      {
+        "construct": "religious_belief|WVS_F",
+        "loading": -0.04384731155912387,
+        "abs_loading": 0.04384731155912387,
+        "group": "negative"
+      },
+      {
+        "construct": "confidence_in_domestic_institutions|WVS_E",
+        "loading": -0.042334456920131276,
+        "abs_loading": 0.042334456920131276,
+        "group": "negative"
+      },
+      {
+        "construct": "democratic_system_evaluation|WVS_E",
+        "loading": -0.03472710047461886,
+        "abs_loading": 0.03472710047461886,
+        "group": "negative"
+      },
+      {
+        "construct": "violence_tolerance|WVS_F",
+        "loading": -0.033990042303553306,
+        "abs_loading": 0.033990042303553306,
+        "group": "negative"
+      },
+      {
+        "construct": "child_qualities_conformity_tradition|WVS_A",
+        "loading": -0.027014731016923307,
+        "abs_loading": 0.027014731016923307,
+        "group": "negative"
+      },
+      {
+        "construct": "child_qualities_prosocial_diligence|WVS_A",
+        "loading": 0.01275862107820925,
+        "abs_loading": 0.01275862107820925,
+        "group": "positive"
+      },
+      {
+        "construct": "existential_threat_worry|WVS_H",
+        "loading": 0.0026580804781589575,
+        "abs_loading": 0.0026580804781589575,
+        "group": "positive"
+      },
+      {
+        "construct": "female_income_threat_to_marriage|WVS_D",
+        "loading": -3.015073332755786e-22,
+        "abs_loading": 3.015073332755786e-22,
+        "group": "negative"
+      },
+      {
+        "construct": "job_scarcity_nativist_preference|WVS_C",
+        "loading": 0.0,
+        "abs_loading": 0.0,
+        "group": "positive"
+      },
+      {
+        "construct": "perceived_corruption|WVS_E",
+        "loading": 0.0,
+        "abs_loading": 0.0,
+        "group": "positive"
+      },
+      {
+        "construct": "voting_participation|WVS_E",
+        "loading": 0.0,
+        "abs_loading": 0.0,
+        "group": "positive"
+      },
+      {
+        "construct": "job_scarcity_gender_discrimination|WVS_C",
+        "loading": 0.0,
+        "abs_loading": 0.0,
+        "group": "positive"
+      }
+    ]
+  },
+  "diffusion_map_3d": {
+    "acceptance_of_state_surveillance|WVS_H": [
+      -0.04316443980485171,
+      0.015983048880145307,
+      0.04437369250645322
+    ],
+    "authoritarian_governance_tolerance|WVS_E": [
+      0.03449168270017691,
+      -0.06302192819707036,
+      0.03182303902912982
+    ],
+    "autocracy_support|WVS_E": [
+      -0.03023753501021738,
+      0.026550395093251244,
+      0.09923471047093141
+    ],
+    "basic_needs_deprivation|WVS_H": [
+      -0.1032268206759451,
+      -0.08754839483584548,
+      -0.04680546290423608
+    ],
+    "child_qualities_autonomy_self_expression|WVS_A": [
+      -0.0637172565141816,
+      0.050198398130704265,
+      0.12037074488720781
+    ],
+    "child_qualities_conformity_tradition|WVS_A": [
+      -0.014417648965405924,
+      -0.15738898636864534,
+      -0.0030736917114819484
+    ],
+    "child_qualities_prosocial_diligence|WVS_A": [
+      0.006809222711601875,
+      -0.12406152995987,
+      -0.008716116843287228
+    ],
+    "civic_dishonesty_tolerance|WVS_F": [
+      -0.05986975974943021,
+      0.002320193134839473,
+      0.11224096860628248
+    ],
+    "confidence_in_civil_society_organizations|WVS_E": [
+      -0.07002845674926177,
+      -0.0876570076856235,
+      0.014291247619723554
+    ],
+    "confidence_in_domestic_institutions|WVS_E": [
+      -0.022593722611311283,
+      -0.12952164375390893,
+      0.018130136660367325
+    ],
+    "confidence_in_international_organizations|WVS_E": [
+      -0.10137899084671204,
+      -0.01242668515966519,
+      -0.126929816346
+    ],
+    "crime_victimization|WVS_H": [
+      0.09380021657170651,
+      -0.053300349320775826,
+      0.020774493021018508
+    ],
+    "democratic_system_evaluation|WVS_E": [
+      -0.018533708291072176,
+      0.044122907267736766,
+      0.0773258700598986
+    ],
+    "democratic_values_importance|WVS_E": [
+      -0.05359945865123868,
+      0.027896145315140904,
+      -0.01205983636080844
+    ],
+    "economic_ideology|WVS_E": [
+      0.07733518590495135,
+      -0.014602982831700894,
+      0.0024158215150930766
+    ],
+    "electoral_integrity|WVS_E": [
+      0.024986302410672286,
+      -0.054564917438657684,
+      -0.0004320019231202843
+    ],
+    "existential_threat_worry|WVS_H": [
+      0.0014186064348331532,
+      0.07579099318700268,
+      -0.10416063971833961
+    ],
+    "familial_duty_obligations|WVS_D": [
+      -0.11387307310233225,
+      0.05553662077020668,
+      0.012099979662524038
+    ],
+    "female_income_threat_to_marriage|WVS_D": [
+      -1.609132028351406e-22,
+      1.2265981421858992e-20,
+      -7.123171662828866e-20
+    ],
+    "freedom_security_tradeoff_perception|WVS_H": [
+      0.02775114237838752,
+      0.07806604588167806,
+      0.06799053446351558
+    ],
+    "gender_role_traditionalism|WVS_D": [
+      0.03386765779883237,
+      -0.16243736779513995,
+      0.024334981965495207
+    ],
+    "immigrant_origin_status|WVS_G": [
+      -0.15890671060191872,
+      0.0852788356404077,
+      0.13007111929723758
+    ],
+    "importance_of_life_domains|WVS_A": [
+      -0.16000501345708953,
+      0.030485604505027457,
+      -0.08962776779498532
+    ],
+    "institutional_threat_perception|WVS_H": [
+      0.043618151404590536,
+      0.018097974101919816,
+      -0.04431706185999998
+    ],
+    "international_organization_knowledge|WVS_E": [
+      0.06719600790002209,
+      0.06567480660321118,
+      -0.11089095234754018
+    ],
+    "job_scarcity_gender_discrimination|WVS_C": [
+      0.0,
+      -5.848875723771568e-27,
+      -3.849471990842524e-25
+    ],
+    "job_scarcity_nativist_preference|WVS_C": [
+      0.0,
+      7.31109465471446e-28,
+      3.990996696388205e-25
+    ],
+    "life_autonomy_morality_permissiveness|WVS_F": [
+      -0.05932192132919982,
+      -0.03877210790579289,
+      -0.05532280585252286
+    ],
+    "multilevel_place_attachment|WVS_G": [
+      -0.09670552455305682,
+      0.03008784662731757,
+      -0.027166999875384443
+    ],
+    "neighborhood_disorder_and_crime|WVS_H": [
+      0.06968880764086247,
+      0.03914985158980252,
+      -0.06277641986865458
+    ],
+    "offline_political_participation|WVS_E": [
+      0.02891175370572621,
+      0.07185684410759058,
+      0.09455487235552044
+    ],
+    "online_political_participation|WVS_E": [
+      0.11584882972759286,
+      0.06427002100841041,
+      -0.0144340473785473
+    ],
+    "outgroup_trust|WVS_G": [
+      0.058328355801309184,
+      -0.000719418190490078,
+      -0.06066271551566578
+    ],
+    "perceived_corruption|WVS_E": [
+      0.0,
+      0.0,
+      8.637982516215883e-32
+    ],
+    "perceived_negative_effects_of_immigration|WVS_G": [
+      0.05875558390362531,
+      -0.07026554724965743,
+      0.04976140487769112
+    ],
+    "perceived_positive_effects_of_immigration|WVS_G": [
+      0.05716893907731504,
+      -0.07205807621142263,
+      0.025190645893011926
+    ],
+    "political_information_sources|WVS_E": [
+      0.07185465250043983,
+      0.02411826522583458,
+      0.0217958015172165
+    ],
+    "postmaterialist_values|WVS_E": [
+      -0.08545029861655108,
+      -0.0072182620065697305,
+      -0.06130676396939404
+    ],
+    "precautionary_security_behaviors|WVS_H": [
+      0.08254054145339548,
+      -0.021685003582118792,
+      -0.011285795841065668
+    ],
+    "religion_versus_secularism_orientation|WVS_F": [
+      0.0919606636189516,
+      0.01304182539350907,
+      0.018309682900391845
+    ],
+    "religious_belief|WVS_F": [
+      -0.023401126805231154,
+      -0.11245679283698508,
+      0.0173477390377009
+    ],
+    "religious_exclusivism|WVS_F": [
+      -0.07025044533642917,
+      0.019368221894994653,
+      -0.12953019150538464
+    ],
+    "religious_practice_and_self_identification|WVS_F": [
+      -0.026343908934627566,
+      0.012453806954057735,
+      -0.0003254964072325086
+    ],
+    "science_skepticism|WVS_I": [
+      0.07937998227454064,
+      -0.008805452389161342,
+      0.006406532341952853
+    ],
+    "science_technology_optimism|WVS_E": [
+      -0.09222614488765557,
+      0.01962432471875898,
+      0.06703349975362737
+    ],
+    "sexual_and_reproductive_morality_permissiveness|WVS_F": [
+      0.06327912249861815,
+      0.0616222519960295,
+      -0.03319784847828183
+    ],
+    "social_intolerance_outgroups|WVS_A": [
+      0.07125539444191076,
+      0.056754025416398915,
+      -0.07645090305461906
+    ],
+    "societal_change_attitudes|WVS_E": [
+      0.03808527482260834,
+      0.012095084538858929,
+      -0.07460429792089245
+    ],
+    "socioeconomic_insecurity_worry|WVS_H": [
+      -0.1330263239365284,
+      -0.024767817340797194,
+      -0.019496900421654067
+    ],
+    "subjective_wellbeing|WVS_A": [
+      -0.07530491992942616,
+      -0.031150053370516982,
+      0.044593806024742985
+    ],
+    "violence_tolerance|WVS_F": [
+      -0.018140343427625997,
+      -0.10192865389235552,
+      -0.015222663838746119
+    ],
+    "voluntary_association_active_membership|WVS_A": [
+      0.08249390357314415,
+      0.03722234429257257,
+      0.027176037668126866
+    ],
+    "voluntary_association_belonging|WVS_A": [
+      0.0902194595146159,
+      0.027535989916299162,
+      0.06499813600185717
+    ],
+    "voting_participation|WVS_E": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "work_ethic|WVS_C": [
+      -0.1258675786857711,
+      0.04919996956441023,
+      -0.030892196975273505
+    ]
+  },
+  "scale_sweep": {
+    "source_construct": "importance_of_life_domains|WVS_A",
+    "source_index": 22,
+    "t_values": [
+      0.01,
+      0.1,
+      0.5,
+      1.0,
+      5.0,
+      10.0
+    ],
+    "results": {
+      "0.01": {
+        "source_retention": 0.9900524393005806,
+        "top_5": [
+          {
+            "construct": "immigrant_origin_status|WVS_G",
+            "heat": 0.0008543128652461535
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.0006626134804050513
+          },
+          {
+            "construct": "multilevel_place_attachment|WVS_G",
+            "heat": 0.0005986270090656332
+          },
+          {
+            "construct": "socioeconomic_insecurity_worry|WVS_H",
+            "heat": 0.0005881906182011578
+          },
+          {
+            "construct": "work_ethic|WVS_C",
+            "heat": 0.0005814092721109406
+          }
+        ]
+      },
+      "0.1": {
+        "source_retention": 0.9050798466126118,
+        "top_5": [
+          {
+            "construct": "immigrant_origin_status|WVS_G",
+            "heat": 0.007986489898149816
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.006177025857646092
+          },
+          {
+            "construct": "multilevel_place_attachment|WVS_G",
+            "heat": 0.00559002696171331
+          },
+          {
+            "construct": "socioeconomic_insecurity_worry|WVS_H",
+            "heat": 0.0055114184175574345
+          },
+          {
+            "construct": "work_ethic|WVS_C",
+            "heat": 0.005460557150780122
+          }
+        ]
+      },
+      "0.5": {
+        "source_retention": 0.6109552821910463,
+        "top_5": [
+          {
+            "construct": "immigrant_origin_status|WVS_G",
+            "heat": 0.029897705184473686
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.022814068888494833
+          },
+          {
+            "construct": "multilevel_place_attachment|WVS_G",
+            "heat": 0.020797610772325923
+          },
+          {
+            "construct": "work_ethic|WVS_C",
+            "heat": 0.020796553162137982
+          },
+          {
+            "construct": "socioeconomic_insecurity_worry|WVS_H",
+            "heat": 0.020796434341491348
+          }
+        ]
+      },
+      "1.0": {
+        "source_retention": 0.37999586498707627,
+        "top_5": [
+          {
+            "construct": "immigrant_origin_status|WVS_G",
+            "heat": 0.04267602472960974
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.03195207675921213
+          },
+          {
+            "construct": "work_ethic|WVS_C",
+            "heat": 0.03009936190675601
+          },
+          {
+            "construct": "socioeconomic_insecurity_worry|WVS_H",
+            "heat": 0.02981881193398674
+          },
+          {
+            "construct": "multilevel_place_attachment|WVS_G",
+            "heat": 0.029380967787026216
+          }
+        ]
+      },
+      "5.0": {
+        "source_retention": 0.03645986553402969,
+        "top_5": [
+          {
+            "construct": "immigrant_origin_status|WVS_G",
+            "heat": 0.03908770786050869
+          },
+          {
+            "construct": "voluntary_association_belonging|WVS_A",
+            "heat": 0.03457139362877452
+          },
+          {
+            "construct": "neighborhood_disorder_and_crime|WVS_H",
+            "heat": 0.03326241631975179
+          },
+          {
+            "construct": "offline_political_participation|WVS_E",
+            "heat": 0.03288175432083411
+          },
+          {
+            "construct": "political_information_sources|WVS_E",
+            "heat": 0.03210991230668281
+          }
+        ]
+      },
+      "10.0": {
+        "source_retention": 0.02801468246465255,
+        "top_5": [
+          {
+            "construct": "voluntary_association_belonging|WVS_A",
+            "heat": 0.036878959804592194
+          },
+          {
+            "construct": "immigrant_origin_status|WVS_G",
+            "heat": 0.03611221591055546
+          },
+          {
+            "construct": "neighborhood_disorder_and_crime|WVS_H",
+            "heat": 0.03432900227615566
+          },
+          {
+            "construct": "offline_political_participation|WVS_E",
+            "heat": 0.033904385773164535
+          },
+          {
+            "construct": "online_political_participation|WVS_E",
+            "heat": 0.033727049510287946
+          }
+        ]
+      }
+    }
+  },
+  "construct_labels": [
+    "acceptance_of_state_surveillance|WVS_H",
+    "authoritarian_governance_tolerance|WVS_E",
+    "autocracy_support|WVS_E",
+    "basic_needs_deprivation|WVS_H",
+    "child_qualities_autonomy_self_expression|WVS_A",
+    "child_qualities_conformity_tradition|WVS_A",
+    "child_qualities_prosocial_diligence|WVS_A",
+    "civic_dishonesty_tolerance|WVS_F",
+    "confidence_in_civil_society_organizations|WVS_E",
+    "confidence_in_domestic_institutions|WVS_E",
+    "confidence_in_international_organizations|WVS_E",
+    "crime_victimization|WVS_H",
+    "democratic_system_evaluation|WVS_E",
+    "democratic_values_importance|WVS_E",
+    "economic_ideology|WVS_E",
+    "electoral_integrity|WVS_E",
+    "existential_threat_worry|WVS_H",
+    "familial_duty_obligations|WVS_D",
+    "female_income_threat_to_marriage|WVS_D",
+    "freedom_security_tradeoff_perception|WVS_H",
+    "gender_role_traditionalism|WVS_D",
+    "immigrant_origin_status|WVS_G",
+    "importance_of_life_domains|WVS_A",
+    "institutional_threat_perception|WVS_H",
+    "international_organization_knowledge|WVS_E",
+    "job_scarcity_gender_discrimination|WVS_C",
+    "job_scarcity_nativist_preference|WVS_C",
+    "life_autonomy_morality_permissiveness|WVS_F",
+    "multilevel_place_attachment|WVS_G",
+    "neighborhood_disorder_and_crime|WVS_H",
+    "offline_political_participation|WVS_E",
+    "online_political_participation|WVS_E",
+    "outgroup_trust|WVS_G",
+    "perceived_corruption|WVS_E",
+    "perceived_negative_effects_of_immigration|WVS_G",
+    "perceived_positive_effects_of_immigration|WVS_G",
+    "political_information_sources|WVS_E",
+    "postmaterialist_values|WVS_E",
+    "precautionary_security_behaviors|WVS_H",
+    "religion_versus_secularism_orientation|WVS_F",
+    "religious_belief|WVS_F",
+    "religious_exclusivism|WVS_F",
+    "religious_practice_and_self_identification|WVS_F",
+    "science_skepticism|WVS_I",
+    "science_technology_optimism|WVS_E",
+    "sexual_and_reproductive_morality_permissiveness|WVS_F",
+    "social_intolerance_outgroups|WVS_A",
+    "societal_change_attitudes|WVS_E",
+    "socioeconomic_insecurity_worry|WVS_H",
+    "subjective_wellbeing|WVS_A",
+    "violence_tolerance|WVS_F",
+    "voluntary_association_active_membership|WVS_A",
+    "voluntary_association_belonging|WVS_A",
+    "voting_participation|WVS_E",
+    "work_ethic|WVS_C"
+  ],
+  "fiedler_validation": {
+    "status": "match",
+    "computed": 0.627929231724505,
+    "reference": 0.627929,
+    "absolute_difference": 2.3172450502872977e-07,
+    "relative_difference": 3.690297868528604e-07
+  }
+}

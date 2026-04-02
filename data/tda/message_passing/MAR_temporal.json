@@ -1,0 +1,43 @@
+{
+  "country": "MAR",
+  "zone": "African-Islamic",
+  "waves": [
+    4,
+    5,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 53,
+  "n_temporal_core": 19,
+  "alpha_star": 0.2988242062544296,
+  "alpha_raw": 0.2988242062544296,
+  "per_transition_alpha": {
+    "W4_to_W5": 0.37903634470565134,
+    "W5_to_W7": 0.21939686216457865
+  },
+  "n_observations": 38,
+  "equilibrium_distances": {
+    "W4": 10.41175323262192,
+    "W5": 10.140500412503718,
+    "W7": 11.63104528011869
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "subjective_wellbeing|WVS_A",
+      "velocity": 0.8714782438126566
+    },
+    {
+      "construct": "female_income_threat_to_marriage|WVS_D",
+      "velocity": -0.8164870772556392
+    },
+    {
+      "construct": "gender_role_traditionalism|WVS_D",
+      "velocity": -0.774545557169366
+    }
+  ],
+  "residual_rmse": {
+    "W4_W5": 2.0289893268138375,
+    "W5_W7": 2.5114878811758956
+  }
+}

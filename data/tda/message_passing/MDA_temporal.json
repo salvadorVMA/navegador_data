@@ -1,0 +1,43 @@
+{
+  "country": "MDA",
+  "zone": "Orthodox/ex-Communist",
+  "waves": [
+    3,
+    4,
+    5
+  ],
+  "n_waves": 3,
+  "n_constructs": 29,
+  "n_temporal_core": 23,
+  "alpha_star": 0.14474181783476625,
+  "alpha_raw": 0.14474181783476625,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.08592877621354171,
+    "W4_to_W5": 0.21485526595572388
+  },
+  "n_observations": 46,
+  "equilibrium_distances": {
+    "W3": 8.50320363180685,
+    "W4": 7.5238764075200555,
+    "W5": 9.361695904073926
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": -1.1316864243003315
+    },
+    {
+      "construct": "child_qualities_conformity_tradition|WVS_A",
+      "velocity": 0.6233036300923952
+    },
+    {
+      "construct": "economic_ideology|WVS_E",
+      "velocity": 0.4986247914353466
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 1.7822881529139412,
+    "W4_W5": 1.7232252467330713
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "country": "SWE",
+  "zone": "Protestant Europe",
+  "waves": [
+    4,
+    5,
+    6
+  ],
+  "n_waves": 3,
+  "n_constructs": 44,
+  "n_temporal_core": 21,
+  "alpha_star": 0.12574671032528056,
+  "alpha_raw": 0.12574671032528056,
+  "per_transition_alpha": {
+    "W4_to_W5": 0.19796726965303593,
+    "W5_to_W6": 0.0389363047639249
+  },
+  "n_observations": 42,
+  "equilibrium_distances": {
+    "W4": 8.4064969754047,
+    "W5": 8.832856191187995,
+    "W6": 13.546971652714099
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "voting_participation|WVS_E",
+      "velocity": -5.085477825418368
+    },
+    {
+      "construct": "civic_dishonesty_tolerance|WVS_F",
+      "velocity": -4.76007050803317
+    },
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": -2.254670424566249
+    }
+  ],
+  "residual_rmse": {
+    "W4_W5": 1.7419789039148086,
+    "W5_W6": 1.850606577208248
+  }
+}

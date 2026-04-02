@@ -1,0 +1,43 @@
+{
+  "country": "ARG",
+  "zone": "Latin America",
+  "waves": [
+    5,
+    6,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 50,
+  "n_temporal_core": 25,
+  "alpha_star": 0.30741545044841734,
+  "alpha_raw": 0.30741545044841734,
+  "per_transition_alpha": {
+    "W5_to_W6": 0.2583885545590865,
+    "W6_to_W7": 0.38543997191330576
+  },
+  "n_observations": 50,
+  "equilibrium_distances": {
+    "W5": 9.763028680238204,
+    "W6": 10.527898877286201,
+    "W7": 11.367020876107892
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "religious_exclusivism|WVS_F",
+      "velocity": -1.508798237675204
+    },
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 1.3370473428919631
+    },
+    {
+      "construct": "gender_role_traditionalism|WVS_D",
+      "velocity": -1.2312131836364577
+    }
+  ],
+  "residual_rmse": {
+    "W5_W6": 1.6061262866991193,
+    "W6_W7": 1.7767132021966698
+  }
+}

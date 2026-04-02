@@ -1,0 +1,43 @@
+{
+  "country": "THA",
+  "zone": "South/Southeast Asian",
+  "waves": [
+    5,
+    6,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 54,
+  "n_temporal_core": 29,
+  "alpha_star": 0.3297173990312465,
+  "alpha_raw": 0.3297173990312465,
+  "per_transition_alpha": {
+    "W5_to_W6": 0.1876600220109958,
+    "W6_to_W7": 0.5044734440704055
+  },
+  "n_observations": 58,
+  "equilibrium_distances": {
+    "W5": 9.950741887001387,
+    "W6": 12.430609828978257,
+    "W7": 12.826488566709964
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": -3.555619119043593
+    },
+    {
+      "construct": "job_scarcity_gender_discrimination|WVS_C",
+      "velocity": 2.4333194140990084
+    },
+    {
+      "construct": "freedom_security_tradeoff_perception|WVS_H",
+      "velocity": 2.10226567174076
+    }
+  ],
+  "residual_rmse": {
+    "W5_W6": 1.9892754659079697,
+    "W6_W7": 2.207283097630721
+  }
+}

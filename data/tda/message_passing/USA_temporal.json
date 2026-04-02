@@ -1,0 +1,47 @@
+{
+  "country": "USA",
+  "zone": "English-speaking",
+  "waves": [
+    3,
+    4,
+    5,
+    7
+  ],
+  "n_waves": 4,
+  "n_constructs": 53,
+  "n_temporal_core": 19,
+  "alpha_star": 0.21177391769519402,
+  "alpha_raw": 0.21177391769519402,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.09582530916473778,
+    "W4_to_W5": 0.1771883449197591,
+    "W5_to_W7": 0.40836299776528584
+  },
+  "n_observations": 57,
+  "equilibrium_distances": {
+    "W3": 7.897630682245394,
+    "W4": 7.268577214357135,
+    "W5": 10.042416464917586,
+    "W7": 12.22688057064284
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "civic_dishonesty_tolerance|WVS_F",
+      "velocity": -4.160233047458076
+    },
+    {
+      "construct": "voting_participation|WVS_E",
+      "velocity": -3.5373012764690746
+    },
+    {
+      "construct": "violence_tolerance|WVS_F",
+      "velocity": -3.3165340702466803
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 1.992774940332208,
+    "W4_W5": 1.8455474334813367,
+    "W5_W7": 1.957278291822944
+  }
+}

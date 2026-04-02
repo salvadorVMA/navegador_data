@@ -1,0 +1,43 @@
+{
+  "country": "PAK",
+  "zone": "South/Southeast Asian",
+  "waves": [
+    3,
+    4,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 53,
+  "n_temporal_core": 10,
+  "alpha_star": 0.31851386388185826,
+  "alpha_raw": 0.31851386388185826,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.17604935642646066,
+    "W4_to_W7": 0.41700800720118547
+  },
+  "n_observations": 20,
+  "equilibrium_distances": {
+    "W3": 5.962711599994925,
+    "W4": 8.782896540481527,
+    "W7": 14.775345061758166
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": -2.732246072427539
+    },
+    {
+      "construct": "institutional_threat_perception|WVS_H",
+      "velocity": 0.6860666044018878
+    },
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 0.6658214706554461
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 1.995521497732272,
+    "W4_W7": 2.0611943776236017
+  }
+}

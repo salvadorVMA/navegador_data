@@ -1,0 +1,43 @@
+{
+  "country": "RUS",
+  "zone": "Orthodox/ex-Communist",
+  "waves": [
+    3,
+    6,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 52,
+  "n_temporal_core": 21,
+  "alpha_star": 0.3838203489345641,
+  "alpha_raw": 0.3838203489345641,
+  "per_transition_alpha": {
+    "W3_to_W6": 0.3835938217279202,
+    "W6_to_W7": 0.3843395068739207
+  },
+  "n_observations": 42,
+  "equilibrium_distances": {
+    "W3": 7.900807860978343,
+    "W6": 11.339797010902574,
+    "W7": 13.94235941764036
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "socioeconomic_insecurity_worry|WVS_H",
+      "velocity": 1.669824407156169
+    },
+    {
+      "construct": "subjective_wellbeing|WVS_A",
+      "velocity": -1.5266930357446196
+    },
+    {
+      "construct": "sexual_and_reproductive_morality_permissiveness|WVS_F",
+      "velocity": -1.456546838126796
+    }
+  ],
+  "residual_rmse": {
+    "W3_W6": 1.7668966102998258,
+    "W6_W7": 2.389556583042037
+  }
+}

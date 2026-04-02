@@ -1,0 +1,51 @@
+{
+  "country": "CHL",
+  "zone": "Latin America",
+  "waves": [
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "n_waves": 5,
+  "n_constructs": 54,
+  "n_temporal_core": 21,
+  "alpha_star": 0.20731624106842683,
+  "alpha_raw": 0.20731624106842683,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.06321023217198807,
+    "W4_to_W5": 0.26359087747933907,
+    "W5_to_W6": 0.299420891997337,
+    "W6_to_W7": 0.16523901841617084
+  },
+  "n_observations": 84,
+  "equilibrium_distances": {
+    "W3": 7.134200232305229,
+    "W4": 7.089019859731859,
+    "W5": 9.592305181090868,
+    "W6": 10.53791557787148,
+    "W7": 12.22573433787447
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "voting_participation|WVS_E",
+      "velocity": 1.4982406056222328
+    },
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 1.2787908837313402
+    },
+    {
+      "construct": "job_scarcity_gender_discrimination|WVS_C",
+      "velocity": -1.1208996787126009
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 1.8415420181018498,
+    "W4_W5": 1.7347335087812217,
+    "W5_W6": 1.8518800885981948,
+    "W6_W7": 2.1897341470345846
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "country": "CAN",
+  "zone": "English-speaking",
+  "waves": [
+    4,
+    5,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 53,
+  "n_temporal_core": 23,
+  "alpha_star": 0.2000719270586084,
+  "alpha_raw": 0.2000719270586084,
+  "per_transition_alpha": {
+    "W4_to_W5": 0.08087381573798127,
+    "W5_to_W7": 0.33973711040668053
+  },
+  "n_observations": 46,
+  "equilibrium_distances": {
+    "W4": 7.390583729584908,
+    "W5": 8.784984789308542,
+    "W7": 13.725491682341032
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "violence_tolerance|WVS_F",
+      "velocity": -5.5106035123195625
+    },
+    {
+      "construct": "civic_dishonesty_tolerance|WVS_F",
+      "velocity": -4.719578669321388
+    },
+    {
+      "construct": "crime_victimization|WVS_H",
+      "velocity": -3.415094083682971
+    }
+  ],
+  "residual_rmse": {
+    "W4_W5": 1.7805334156196857,
+    "W5_W7": 2.423248362289287
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "country": "VNM",
+  "zone": "Confucian",
+  "waves": [
+    4,
+    5,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 53,
+  "n_temporal_core": 22,
+  "alpha_star": 0.3976001954047453,
+  "alpha_raw": 0.3976001954047453,
+  "per_transition_alpha": {
+    "W4_to_W5": 0.37873195826029354,
+    "W5_to_W7": 0.40762303394650873
+  },
+  "n_observations": 44,
+  "equilibrium_distances": {
+    "W4": 7.0161037015146865,
+    "W5": 11.419819347737036,
+    "W7": 14.323927732539076
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": -6.7126138167968055
+    },
+    {
+      "construct": "crime_victimization|WVS_H",
+      "velocity": -2.7974332125654677
+    },
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 2.7244102587551953
+    }
+  ],
+  "residual_rmse": {
+    "W4_W5": 1.8003155358366483,
+    "W5_W7": 2.3213117313869085
+  }
+}

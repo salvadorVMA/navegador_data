@@ -1,0 +1,47 @@
+{
+  "country": "SRB",
+  "zone": "Orthodox/ex-Communist",
+  "waves": [
+    3,
+    4,
+    5,
+    7
+  ],
+  "n_waves": 4,
+  "n_constructs": 54,
+  "n_temporal_core": 21,
+  "alpha_star": 0.19901381453564068,
+  "alpha_raw": 0.19901381453564068,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.034755287195875194,
+    "W4_to_W5": 0.2726235886359646,
+    "W5_to_W7": 0.32762361576564814
+  },
+  "n_observations": 63,
+  "equilibrium_distances": {
+    "W3": 8.424215070075078,
+    "W4": 9.055302817119532,
+    "W5": 8.124951246087171,
+    "W7": 14.49394586251533
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "perceived_negative_effects_of_immigration|WVS_G",
+      "velocity": 3.091753945372341
+    },
+    {
+      "construct": "immigrant_origin_status|WVS_G",
+      "velocity": -2.9464698149989386
+    },
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 2.8562518693101597
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 2.0656462622890333,
+    "W4_W5": 1.9367828088882564,
+    "W5_W7": 1.8434717341591955
+  }
+}

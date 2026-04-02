@@ -1,0 +1,47 @@
+{
+  "country": "AUS",
+  "zone": "English-speaking",
+  "waves": [
+    3,
+    5,
+    6,
+    7
+  ],
+  "n_waves": 4,
+  "n_constructs": 52,
+  "n_temporal_core": 22,
+  "alpha_star": 0.08647059976270635,
+  "alpha_raw": 0.08647059976270635,
+  "per_transition_alpha": {
+    "W3_to_W5": 0.19059461040180495,
+    "W5_to_W6": 0.003708461376734874,
+    "W6_to_W7": 0.020818901346377754
+  },
+  "n_observations": 66,
+  "equilibrium_distances": {
+    "W3": 7.451270901051682,
+    "W5": 7.939546770814362,
+    "W6": 11.942646814394559,
+    "W7": 12.934015253213234
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "perceived_positive_effects_of_immigration|WVS_G",
+      "velocity": -3.4188381451676304
+    },
+    {
+      "construct": "online_political_participation|WVS_E",
+      "velocity": 2.7381644208610765
+    },
+    {
+      "construct": "voluntary_association_belonging|WVS_A",
+      "velocity": 2.5646605287593256
+    }
+  ],
+  "residual_rmse": {
+    "W3_W5": 1.9208014272772178,
+    "W5_W6": 1.6916428073663292,
+    "W6_W7": 2.3960232171811087
+  }
+}

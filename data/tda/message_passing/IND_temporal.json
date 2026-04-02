@@ -1,0 +1,55 @@
+{
+  "country": "IND",
+  "zone": "South/Southeast Asian",
+  "waves": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "n_waves": 6,
+  "n_constructs": 54,
+  "n_temporal_core": 17,
+  "alpha_star": 0.3452205724743629,
+  "alpha_raw": 0.3452205724743629,
+  "per_transition_alpha": {
+    "W2_to_W3": 0.2640088249351123,
+    "W3_to_W4": 0.2629037386511875,
+    "W4_to_W5": 0.13943710944994123,
+    "W5_to_W6": 0.0,
+    "W6_to_W7": 0.6843593441569782
+  },
+  "n_observations": 85,
+  "equilibrium_distances": {
+    "W2": 8.127869671835757,
+    "W3": 7.171329346115485,
+    "W4": 6.903233274581857,
+    "W5": 8.820237352986563,
+    "W6": 12.793986388129031,
+    "W7": 12.028953883386906
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "perceived_negative_effects_of_immigration|WVS_G",
+      "velocity": 0.9619078208125351
+    },
+    {
+      "construct": "international_organization_knowledge|WVS_E",
+      "velocity": 0.9191788372177306
+    },
+    {
+      "construct": "science_skepticism|WVS_I",
+      "velocity": 0.7590661697968318
+    }
+  ],
+  "residual_rmse": {
+    "W2_W3": 1.9239057776711657,
+    "W3_W4": 1.6746392682931337,
+    "W4_W5": 1.4539892368545113,
+    "W5_W6": 2.328712344511746,
+    "W6_W7": 1.7476023400235763
+  }
+}

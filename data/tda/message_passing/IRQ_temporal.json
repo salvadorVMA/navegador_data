@@ -1,0 +1,43 @@
+{
+  "country": "IRQ",
+  "zone": "African-Islamic",
+  "waves": [
+    5,
+    6,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 52,
+  "n_temporal_core": 15,
+  "alpha_star": 0.11746781716858573,
+  "alpha_raw": 0.11746781716858573,
+  "per_transition_alpha": {
+    "W5_to_W6": 0.2544606865724231,
+    "W6_to_W7": 0.008662180678593917
+  },
+  "n_observations": 30,
+  "equilibrium_distances": {
+    "W5": 7.841399939960524,
+    "W6": 12.33859710465564,
+    "W7": 14.502194312335854
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "neighborhood_disorder_and_crime|WVS_H",
+      "velocity": 1.1543843382171295
+    },
+    {
+      "construct": "religious_practice_and_self_identification|WVS_F",
+      "velocity": 1.0680370853453922
+    },
+    {
+      "construct": "freedom_security_tradeoff_perception|WVS_H",
+      "velocity": 0.6879930895626114
+    }
+  ],
+  "residual_rmse": {
+    "W5_W6": 2.6542074742322863,
+    "W6_W7": 2.3646499677543384
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "country": "VEN",
+  "zone": "Latin America",
+  "waves": [
+    3,
+    4,
+    7
+  ],
+  "n_waves": 3,
+  "n_constructs": 51,
+  "n_temporal_core": 21,
+  "alpha_star": 0.1503385824772753,
+  "alpha_raw": 0.1503385824772753,
+  "per_transition_alpha": {
+    "W3_to_W4": 0.0,
+    "W4_to_W7": 0.3003658904991627
+  },
+  "n_observations": 42,
+  "equilibrium_distances": {
+    "W3": 8.323450813764962,
+    "W4": 8.976753117783854,
+    "W7": 12.948931902230047
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "civic_dishonesty_tolerance|WVS_F",
+      "velocity": -0.506962505727711
+    },
+    {
+      "construct": "social_intolerance_outgroups|WVS_A",
+      "velocity": 0.33337395984291734
+    },
+    {
+      "construct": "familial_duty_obligations|WVS_D",
+      "velocity": -0.33268696178848495
+    }
+  ],
+  "residual_rmse": {
+    "W3_W4": 2.5743282856352727,
+    "W4_W7": 2.687302869447676
+  }
+}

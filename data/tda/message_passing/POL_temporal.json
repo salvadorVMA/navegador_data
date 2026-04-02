@@ -1,0 +1,43 @@
+{
+  "country": "POL",
+  "zone": "Catholic Europe",
+  "waves": [
+    3,
+    5,
+    6
+  ],
+  "n_waves": 3,
+  "n_constructs": 43,
+  "n_temporal_core": 20,
+  "alpha_star": 0.039068901679170244,
+  "alpha_raw": 0.039068901679170244,
+  "per_transition_alpha": {
+    "W3_to_W5": 0.016912858382364206,
+    "W5_to_W6": 0.06998226169579536
+  },
+  "n_observations": 40,
+  "equilibrium_distances": {
+    "W3": 8.43854795200806,
+    "W5": 10.776832425898926,
+    "W6": 12.554018419985889
+  },
+  "eq_distance_trend": "increasing",
+  "top_velocity_last_wave": [
+    {
+      "construct": "basic_needs_deprivation|WVS_H",
+      "velocity": -2.2672010204351385
+    },
+    {
+      "construct": "crime_victimization|WVS_H",
+      "velocity": 1.8435093187253724
+    },
+    {
+      "construct": "social_intolerance_outgroups|WVS_A",
+      "velocity": -1.3355476490071974
+    }
+  ],
+  "residual_rmse": {
+    "W3_W5": 2.134714091539295,
+    "W5_W6": 1.885422569151713
+  }
+}
