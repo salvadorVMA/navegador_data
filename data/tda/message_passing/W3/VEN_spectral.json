@@ -1,0 +1,533 @@
+{
+  "country": "VEN",
+  "n_constructs": 24,
+  "eigenvalue_summary": {
+    "min": 0.0,
+    "max": 1.4822122053637679,
+    "fiedler": 0.7259470531039734,
+    "n_near_zero": 3,
+    "all_eigenvalues": [
+      0.0,
+      0.0,
+      1.4704025634089834e-15,
+      0.7259470531039734,
+      0.7587644564096582,
+      0.8446964805522145,
+      0.9314140883587347,
+      0.9634881844587105,
+      0.9775359255839944,
+      0.9878220456860951,
+      0.9992827069938082,
+      1.0036439549477623,
+      1.003845996147511,
+      1.014122061594432,
+      1.0510737273450315,
+      1.0565478641758377,
+      1.0685707947403738,
+      1.0983333562111275,
+      1.117874200982578,
+      1.134519427705194,
+      1.1712531799446042,
+      1.2701588868927676,
+      1.3388934028018253,
+      1.4822122053637679
+    ]
+  },
+  "fiedler_partition": {
+    "fiedler_value": 0.7259470531039734,
+    "fiedler_index": 3,
+    "positive_group": [
+      "child_qualities_autonomy_self_expression|WVS_A",
+      "child_qualities_conformity_tradition|WVS_A",
+      "civic_dishonesty_tolerance|WVS_F",
+      "confidence_in_civil_society_organizations|WVS_E",
+      "confidence_in_international_organizations|WVS_E",
+      "democratic_system_evaluation|WVS_E",
+      "economic_ideology|WVS_E",
+      "gender_role_traditionalism|WVS_D",
+      "importance_of_life_domains|WVS_A",
+      "offline_political_participation|WVS_E",
+      "postmaterialist_values|WVS_E",
+      "religious_belief|WVS_F",
+      "religious_practice_and_self_identification|WVS_F",
+      "societal_change_attitudes|WVS_E",
+      "subjective_wellbeing|WVS_A",
+      "voluntary_association_active_membership|WVS_A"
+    ],
+    "negative_group": [
+      "autocracy_support|WVS_E",
+      "child_qualities_prosocial_diligence|WVS_A",
+      "confidence_in_domestic_institutions|WVS_E",
+      "job_scarcity_gender_discrimination|WVS_C",
+      "job_scarcity_nativist_preference|WVS_C",
+      "life_autonomy_morality_permissiveness|WVS_F",
+      "sexual_and_reproductive_morality_permissiveness|WVS_F",
+      "social_intolerance_outgroups|WVS_A"
+    ],
+    "ranked_by_abs_loading": [
+      {
+        "construct": "religious_practice_and_self_identification|WVS_F",
+        "loading": 0.48957137495333103,
+        "abs_loading": 0.48957137495333103,
+        "group": "positive"
+      },
+      {
+        "construct": "sexual_and_reproductive_morality_permissiveness|WVS_F",
+        "loading": -0.32483831587547646,
+        "abs_loading": 0.32483831587547646,
+        "group": "negative"
+      },
+      {
+        "construct": "child_qualities_prosocial_diligence|WVS_A",
+        "loading": -0.30949963471053793,
+        "abs_loading": 0.30949963471053793,
+        "group": "negative"
+      },
+      {
+        "construct": "job_scarcity_nativist_preference|WVS_C",
+        "loading": -0.28906062449214365,
+        "abs_loading": 0.28906062449214365,
+        "group": "negative"
+      },
+      {
+        "construct": "confidence_in_domestic_institutions|WVS_E",
+        "loading": -0.2527875671456451,
+        "abs_loading": 0.2527875671456451,
+        "group": "negative"
+      },
+      {
+        "construct": "subjective_wellbeing|WVS_A",
+        "loading": 0.24652857529179634,
+        "abs_loading": 0.24652857529179634,
+        "group": "positive"
+      },
+      {
+        "construct": "child_qualities_conformity_tradition|WVS_A",
+        "loading": 0.24506849319513432,
+        "abs_loading": 0.24506849319513432,
+        "group": "positive"
+      },
+      {
+        "construct": "gender_role_traditionalism|WVS_D",
+        "loading": 0.22034903809486242,
+        "abs_loading": 0.22034903809486242,
+        "group": "positive"
+      },
+      {
+        "construct": "societal_change_attitudes|WVS_E",
+        "loading": 0.19584055632139313,
+        "abs_loading": 0.19584055632139313,
+        "group": "positive"
+      },
+      {
+        "construct": "job_scarcity_gender_discrimination|WVS_C",
+        "loading": -0.1835194996807106,
+        "abs_loading": 0.1835194996807106,
+        "group": "negative"
+      },
+      {
+        "construct": "economic_ideology|WVS_E",
+        "loading": 0.16076141426837331,
+        "abs_loading": 0.16076141426837331,
+        "group": "positive"
+      },
+      {
+        "construct": "offline_political_participation|WVS_E",
+        "loading": 0.16041208905222737,
+        "abs_loading": 0.16041208905222737,
+        "group": "positive"
+      },
+      {
+        "construct": "autocracy_support|WVS_E",
+        "loading": -0.15630908570342616,
+        "abs_loading": 0.15630908570342616,
+        "group": "negative"
+      },
+      {
+        "construct": "importance_of_life_domains|WVS_A",
+        "loading": 0.1544154216245237,
+        "abs_loading": 0.1544154216245237,
+        "group": "positive"
+      },
+      {
+        "construct": "life_autonomy_morality_permissiveness|WVS_F",
+        "loading": -0.15093459915070637,
+        "abs_loading": 0.15093459915070637,
+        "group": "negative"
+      },
+      {
+        "construct": "postmaterialist_values|WVS_E",
+        "loading": 0.14087772055815986,
+        "abs_loading": 0.14087772055815986,
+        "group": "positive"
+      },
+      {
+        "construct": "confidence_in_international_organizations|WVS_E",
+        "loading": 0.10832884361788635,
+        "abs_loading": 0.10832884361788635,
+        "group": "positive"
+      },
+      {
+        "construct": "social_intolerance_outgroups|WVS_A",
+        "loading": -0.07764839145695207,
+        "abs_loading": 0.07764839145695207,
+        "group": "negative"
+      },
+      {
+        "construct": "child_qualities_autonomy_self_expression|WVS_A",
+        "loading": 0.0667664859214242,
+        "abs_loading": 0.0667664859214242,
+        "group": "positive"
+      },
+      {
+        "construct": "confidence_in_civil_society_organizations|WVS_E",
+        "loading": 0.06272770113705495,
+        "abs_loading": 0.06272770113705495,
+        "group": "positive"
+      },
+      {
+        "construct": "civic_dishonesty_tolerance|WVS_F",
+        "loading": 0.030752930667421064,
+        "abs_loading": 0.030752930667421064,
+        "group": "positive"
+      },
+      {
+        "construct": "religious_belief|WVS_F",
+        "loading": 0.023396376984169465,
+        "abs_loading": 0.023396376984169465,
+        "group": "positive"
+      },
+      {
+        "construct": "democratic_system_evaluation|WVS_E",
+        "loading": 0.0,
+        "abs_loading": 0.0,
+        "group": "positive"
+      },
+      {
+        "construct": "voluntary_association_active_membership|WVS_A",
+        "loading": 0.0,
+        "abs_loading": 0.0,
+        "group": "positive"
+      }
+    ]
+  },
+  "diffusion_map_3d": {
+    "autocracy_support|WVS_E": [
+      -0.07563266847513513,
+      -0.1257616204916515,
+      -0.04962348233126535
+    ],
+    "child_qualities_autonomy_self_expression|WVS_A": [
+      0.03230603948721176,
+      0.10498862692652093,
+      0.023632305233154675
+    ],
+    "child_qualities_conformity_tradition|WVS_A": [
+      0.11858033726008946,
+      -0.11979024585760496,
+      0.0801526989165196
+    ],
+    "child_qualities_prosocial_diligence|WVS_A": [
+      -0.14975638274573086,
+      -0.10291345105951173,
+      -0.051186255921080275
+    ],
+    "civic_dishonesty_tolerance|WVS_F": [
+      0.014880300779322458,
+      0.10654231943060656,
+      -0.0776493650642443
+    ],
+    "confidence_in_civil_society_organizations|WVS_E": [
+      0.030351808424673315,
+      0.11215042352835752,
+      0.10132063160156513
+    ],
+    "confidence_in_domestic_institutions|WVS_E": [
+      -0.12231533550671561,
+      0.03885281044927488,
+      0.059945431391125084
+    ],
+    "confidence_in_international_organizations|WVS_E": [
+      0.052416655620337795,
+      -0.14690907395973749,
+      0.07338513841615897
+    ],
+    "democratic_system_evaluation|WVS_E": [
+      0.0,
+      2.5992797157735144e-17,
+      -4.7704924123335195e-17
+    ],
+    "economic_ideology|WVS_E": [
+      0.077786999356028,
+      -0.04300341076741723,
+      -0.04669545651598771
+    ],
+    "gender_role_traditionalism|WVS_D": [
+      0.10661943080304483,
+      0.06604938367292379,
+      0.14910679108490568
+    ],
+    "importance_of_life_domains|WVS_A": [
+      0.07471638861310173,
+      -0.11518427564575759,
+      0.07816197974677645
+    ],
+    "job_scarcity_gender_discrimination|WVS_C": [
+      -0.08879886550171032,
+      0.1421278555566242,
+      0.016314140978984804
+    ],
+    "job_scarcity_nativist_preference|WVS_C": [
+      -0.13986663848133954,
+      -0.19922339166120082,
+      -0.04018080481895528
+    ],
+    "life_autonomy_morality_permissiveness|WVS_F": [
+      -0.07303213660050578,
+      0.010637974014615284,
+      2.1784624603971263e-05
+    ],
+    "offline_political_participation|WVS_E": [
+      0.07761797272431382,
+      0.1307544653135681,
+      -0.12396996957374004
+    ],
+    "postmaterialist_values|WVS_E": [
+      0.06816595392749127,
+      -0.05312203899885165,
+      0.013103396579353995
+    ],
+    "religious_belief|WVS_F": [
+      0.011320713802397887,
+      -0.03658176508836773,
+      -0.15451493522109372
+    ],
+    "religious_practice_and_self_identification|WVS_F": [
+      0.23688699431724553,
+      -0.08828274488804812,
+      0.07045147536253553
+    ],
+    "sexual_and_reproductive_morality_permissiveness|WVS_F": [
+      -0.1571782506568178,
+      -0.0062102348970918455,
+      0.05262440192275253
+    ],
+    "social_intolerance_outgroups|WVS_A": [
+      -0.03757142473364518,
+      0.10476332868340325,
+      0.06667946081693897
+    ],
+    "societal_change_attitudes|WVS_E": [
+      0.09476060718789867,
+      0.028510595578911103,
+      -0.1228161656024273
+    ],
+    "subjective_wellbeing|WVS_A": [
+      0.1192868214971788,
+      -0.009618809438031388,
+      -0.21956984284491715
+    ],
+    "voluntary_association_active_membership|WVS_A": [
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "scale_sweep": {
+    "source_construct": "religious_practice_and_self_identification|WVS_F",
+    "source_index": 18,
+    "t_values": [
+      0.01,
+      0.1,
+      0.5,
+      1.0,
+      5.0,
+      10.0
+    ],
+    "results": {
+      "0.01": {
+        "source_retention": 0.9900554127284986,
+        "top_5": [
+          {
+            "construct": "child_qualities_conformity_tradition|WVS_A",
+            "heat": 0.001380196141276065
+          },
+          {
+            "construct": "gender_role_traditionalism|WVS_D",
+            "heat": 0.0012587469094350566
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.0011212809774070595
+          },
+          {
+            "construct": "offline_political_participation|WVS_E",
+            "heat": 0.0010043860535693299
+          },
+          {
+            "construct": "importance_of_life_domains|WVS_A",
+            "heat": 0.0009953772091096393
+          }
+        ]
+      },
+      "0.1": {
+        "source_retention": 0.9053536248760893,
+        "top_5": [
+          {
+            "construct": "child_qualities_conformity_tradition|WVS_A",
+            "heat": 0.012782143173894062
+          },
+          {
+            "construct": "gender_role_traditionalism|WVS_D",
+            "heat": 0.011762548509424405
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.01039693141278154
+          },
+          {
+            "construct": "offline_political_participation|WVS_E",
+            "heat": 0.00933418420467293
+          },
+          {
+            "construct": "importance_of_life_domains|WVS_A",
+            "heat": 0.009232989430900113
+          }
+        ]
+      },
+      "0.5": {
+        "source_retention": 0.6157351849276173,
+        "top_5": [
+          {
+            "construct": "child_qualities_conformity_tradition|WVS_A",
+            "heat": 0.04586799055868785
+          },
+          {
+            "construct": "gender_role_traditionalism|WVS_D",
+            "heat": 0.04400896232145081
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.03760976290799506
+          },
+          {
+            "construct": "offline_political_participation|WVS_E",
+            "heat": 0.03436381276845524
+          },
+          {
+            "construct": "importance_of_life_domains|WVS_A",
+            "heat": 0.03338590309786373
+          }
+        ]
+      },
+      "1.0": {
+        "source_retention": 0.392445052101617,
+        "top_5": [
+          {
+            "construct": "gender_role_traditionalism|WVS_D",
+            "heat": 0.062963469869016
+          },
+          {
+            "construct": "child_qualities_conformity_tradition|WVS_A",
+            "heat": 0.06206610931890575
+          },
+          {
+            "construct": "confidence_in_international_organizations|WVS_E",
+            "heat": 0.051695766528274914
+          },
+          {
+            "construct": "offline_political_participation|WVS_E",
+            "heat": 0.049023758254975666
+          },
+          {
+            "construct": "importance_of_life_domains|WVS_A",
+            "heat": 0.04566247856279269
+          }
+        ]
+      },
+      "5.0": {
+        "source_retention": 0.06254027383245378,
+        "top_5": [
+          {
+            "construct": "job_scarcity_gender_discrimination|WVS_C",
+            "heat": 0.0721726204813403
+          },
+          {
+            "construct": "job_scarcity_nativist_preference|WVS_C",
+            "heat": 0.0668687601300724
+          },
+          {
+            "construct": "sexual_and_reproductive_morality_permissiveness|WVS_F",
+            "heat": 0.06292184591041189
+          },
+          {
+            "construct": "gender_role_traditionalism|WVS_D",
+            "heat": 0.06276325720573013
+          },
+          {
+            "construct": "life_autonomy_morality_permissiveness|WVS_F",
+            "heat": 0.05878683673390895
+          }
+        ]
+      },
+      "10.0": {
+        "source_retention": 0.0532729722737612,
+        "top_5": [
+          {
+            "construct": "job_scarcity_gender_discrimination|WVS_C",
+            "heat": 0.07559528654704484
+          },
+          {
+            "construct": "job_scarcity_nativist_preference|WVS_C",
+            "heat": 0.0691335239007389
+          },
+          {
+            "construct": "sexual_and_reproductive_morality_permissiveness|WVS_F",
+            "heat": 0.06639334596935703
+          },
+          {
+            "construct": "life_autonomy_morality_permissiveness|WVS_F",
+            "heat": 0.06109441635423874
+          },
+          {
+            "construct": "gender_role_traditionalism|WVS_D",
+            "heat": 0.06033999716615171
+          }
+        ]
+      }
+    }
+  },
+  "construct_labels": [
+    "autocracy_support|WVS_E",
+    "child_qualities_autonomy_self_expression|WVS_A",
+    "child_qualities_conformity_tradition|WVS_A",
+    "child_qualities_prosocial_diligence|WVS_A",
+    "civic_dishonesty_tolerance|WVS_F",
+    "confidence_in_civil_society_organizations|WVS_E",
+    "confidence_in_domestic_institutions|WVS_E",
+    "confidence_in_international_organizations|WVS_E",
+    "democratic_system_evaluation|WVS_E",
+    "economic_ideology|WVS_E",
+    "gender_role_traditionalism|WVS_D",
+    "importance_of_life_domains|WVS_A",
+    "job_scarcity_gender_discrimination|WVS_C",
+    "job_scarcity_nativist_preference|WVS_C",
+    "life_autonomy_morality_permissiveness|WVS_F",
+    "offline_political_participation|WVS_E",
+    "postmaterialist_values|WVS_E",
+    "religious_belief|WVS_F",
+    "religious_practice_and_self_identification|WVS_F",
+    "sexual_and_reproductive_morality_permissiveness|WVS_F",
+    "social_intolerance_outgroups|WVS_A",
+    "societal_change_attitudes|WVS_E",
+    "subjective_wellbeing|WVS_A",
+    "voluntary_association_active_membership|WVS_A"
+  ],
+  "fiedler_validation": {
+    "status": "match",
+    "computed": 0.7259470531039734,
+    "reference": 0.718753,
+    "absolute_difference": 0.0071940531039734745,
+    "relative_difference": 0.010009075585038914
+  }
+}
